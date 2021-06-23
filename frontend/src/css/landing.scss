@@ -1,0 +1,979 @@
+@import "../css/variable";
+.lullu {
+  .checkout_modal {
+    height: 900px;
+    width: 905px;
+    background-color: white;
+    margin-top: -4050px !important;
+    z-index: 100;
+    position: absolute;
+
+    .checout__title {
+      font-family: "HomepageBaukasten-Book";
+      color: #ff6606;
+      margin-top: 35px;
+      font-weight: bolder;
+      font-size: 30px;
+    }
+    .numberinng__div {
+      margin-top: 30px;
+      margin-left: 100px;
+      .numbering {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: gray;
+        color: black;
+        font-size: 18px;
+        padding-left: 9px;
+        padding-top: -5px;
+      }
+      .number1 {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 20px;
+        color: gray;
+        margin-left: 10px;
+        margin-top: 3px;
+      }
+      .activa {
+        color: black;
+      }
+      .activa2 {
+        background-color: #ff6606;
+        color: white;
+      }
+    }
+    .numberinng__div2 {
+      margin-top: 30px;
+      margin-left: 10px;
+      .numbering {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: gray;
+        color: black;
+        font-size: 18px;
+        padding-left: 9px;
+        padding-top: -5px;
+      }
+      .number1 {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 20px;
+        color: gray;
+        margin-left: 10px;
+        margin-top: 3px;
+      }
+      .activa {
+        color: black;
+      }
+      .activa2 {
+        background-color: #ff6606;
+        color: white;
+      }
+    }
+
+    .lines {
+      border-bottom: 2px solid #767474;
+      width: 40px;
+      height: 2px;
+      margin-top: 43px;
+      margin-left: 10px;
+    }
+    .contAINE {
+      margin-top: 6px;
+    }
+    .form__container {
+      margin-left: 100px;
+      width: 80%;
+
+      margin-top: 20px;
+      height: 580px;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    }
+    .form__title {
+      font-family: "HomepageBaukasten-Book";
+      font-weight: bold;
+      font-size: 23px;
+      margin-top: 40px;
+      margin-left: 40px;
+      position: absolute;
+      color: black;
+    }
+    .form_ok {
+      color: white;
+      background-color: #ff6606;
+      padding: 8px 25px 8px 25px;
+      position: absolute;
+      margin-left: 540px;
+      border-radius: 10px;
+      font-size: 20px;
+      margin-top: 32px;
+    }
+    .actual__form {
+      width: 300px;
+      margin-top: 110px;
+      margin-left: 40px;
+      .lablee {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 17px;
+        margin-bottom: 3px;
+        color: black;
+      }
+      input {
+        margin-bottom: 40px;
+        background-color: #f4f5f7;
+        font-family: "RegencieLight";
+      }
+    }
+    .emailo {
+      margin-left: 40px;
+      margin-right: 40px;
+      .lablee {
+        color: black;
+        font-family: "HomepageBaukasten-Book";
+        font-size: 17px;
+        margin-bottom: 3px;
+      }
+      input {
+        margin-bottom: 40px;
+        background-color: #f4f5f7;
+        font-family: "RegencieLight";
+      }
+    }
+    .below__buttons {
+      width: 80%;
+      margin-left: 100px;
+      height: 100px;
+
+      display: flex;
+
+      .REGISTRARME {
+        font-family: "HomepageBaukasten-Book";
+        color: white;
+        background-color: #ff6606;
+        padding: 12px 40px 12px 40px;
+        border-radius: 10px;
+        position: absolute;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 100px;
+      }
+      .REGISTRARME2 {
+        font-family: "HomepageBaukasten-Book";
+        color: #ff6606;
+        background-color: white;
+        padding: 12px 40px 12px 40px;
+        border-radius: 10px;
+        position: absolute;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 250px;
+        border: 1px solid #ff6606;
+      }
+      .REGISTRARME3 {
+        font-family: "HomepageBaukasten-Book";
+        color: white;
+        background-color: #ff6606;
+        padding: 12px 40px 12px 40px;
+        border-radius: 10px;
+        position: absolute;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 250px;
+      }
+    }
+  }
+  .confirmation__model {
+    height: auto;
+    width: 250px;
+    background-color: white;
+    margin-top: -4050px !important;
+    z-index: 100;
+    position: absolute;
+    padding-bottom: 20px;
+    border: 1px solid #cecece;
+    padding-bottom: 20px;
+    .confirmed {
+      margin-top: 0px;
+      font-size: 50px;
+      color: #00ff38;
+    }
+    .text__div {
+      width: 70%;
+      height: auto;
+      font-family: "HomepageBaukasten-Book";
+      font-weight: bolder;
+    }
+    .ver {
+      font-family: "HomepageBaukasten-Book";
+      color: #ff6606;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+    .button__div {
+      width: 60%;
+    }
+    .button__text {
+      font-family: "HomepageBaukasten-Book";
+      font-size: 20px;
+      color: white;
+      background-color: #ff6606;
+      padding: 10px 10px 10px 10px;
+      border-radius: 10px;
+    }
+  }
+  .intnrest {
+    height: auto;
+    width: 450px;
+    background-color: white;
+    margin-top: -4050px !important;
+    z-index: 100;
+    position: absolute;
+    padding-bottom: 20px;
+    border: 1px solid #cecece;
+    padding-bottom: 20px;
+    .interest__header {
+      font-family: "Roboto";
+      font-size: 25px;
+      margin-top: 20px;
+    }
+    .image__div {
+      width: 250px;
+      height: 270px;
+      margin-top: 10px;
+    }
+    .hot__image {
+      width: 100%;
+      height: 100%;
+    }
+    .hot__name {
+      font-family: "HomepageBaukasten-Book";
+      margin-top: 20px;
+      font-size: 25px;
+      color: #616161;
+    }
+    .hot__price {
+      font-family: "RegencieLight";
+      font-size: 30px;
+      color: #222222;
+    }
+    .but__div {
+      width: 35%;
+    }
+    .but {
+      font-family: "Roboto";
+      color: white;
+      background-color: #ff6606;
+      font-size: 22px;
+      padding: 10px 10px 10px 10px;
+      padding-left: 20px;
+      border-radius: 10px;
+    }
+    .but__2 {
+      font-family: "Roboto";
+      font-size: 25px;
+      margin-top: 5px;
+      color: #ff6606;
+    }
+  }
+}
+.active {
+  display: block;
+}
+
+.landing {
+  height: -523px;
+  background: linear-gradient(to right, pink, white);
+  margin-top: 70px;
+  &__slider {
+    padding-top: 30px;
+  }
+  .slide {
+    z-index: -1;
+  }
+  .swiper-button-next {
+    width: 48px;
+    height: 48px;
+    top: 500px !important;
+    right: 16%;
+    border-radius: 50%;
+    background-color: #ff6606;
+    display: none;
+  }
+  .swiper-button-prev {
+    width: 48px;
+    height: 48px;
+    top: 500px !important;
+    left: 76%;
+    border-radius: 50%;
+    background-color: #ff6606;
+    display: none;
+  }
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    color: white;
+    font-size: 15px;
+  }
+  .swiper-pagination-bullet {
+    background-color: white;
+    opacity: 1;
+    width: 11px;
+    height: 11px;
+    margin: 0px 12px !important;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: $primary;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      border: 1px solid $primary;
+      width: 27px;
+      height: 27px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+    }
+  }
+}
+
+.blurred-box {
+  position: relative;
+  left: 180px;
+  width: 473px;
+  height: 440px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: opacity(0.1);
+  border-radius: 2px;
+  margin-top: -583px;
+
+  z-index: 100 !important;
+  > div {
+    padding: 30px 50px;
+    height: 100%;
+    > h2:nth-child(1) {
+      font-size: 50px;
+      max-width: 268px;
+      line-height: 60px;
+      color: black;
+      text-decoration: none;
+    }
+
+    > h2:nth-child(2) {
+      color: $primary;
+      font-size: 50px;
+    }
+    > p {
+      font-size: 18px;
+      font-weight: normal;
+      font-family: "Regencie";
+      color: gray;
+      font-style: normal;
+      margin-bottom: 50px;
+      line-height: 24px;
+    }
+    .batta {
+      background: linear-gradient(180deg, #ff6606 0%, #ff7e2e 100%);
+      // padding: 20px 80px;
+      border: none;
+      width: 352px;
+      height: 70px;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+      border-radius: 10px;
+      text-transform: uppercase;
+    }
+    .batta:hover {
+      background: linear-gradient(180deg, #ff6606 0%, #ff7e2e 100%);
+      // padding: 20px 80px;
+      border: none;
+      width: 352px;
+      height: 70px;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+      border-radius: 10px;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+  }
+}
+
+.container {
+  position: relative;
+  margin-top: 100px;
+  > ::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 60%;
+    height: 583px;
+    top: 0px;
+    left: 0px;
+    background-color: #ffe4d3;
+  }
+}
+.blurred-container {
+  position: absolute;
+  right: 60px;
+  bottom: -160px;
+}
+.blurred-box-2 {
+  width: 294px;
+  height: 148px;
+  position: relative;
+  border-radius: 2px;
+  z-index: 100 !important;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+
+  > div {
+    padding: 28px 24px;
+    // padding: 24px 28px;
+    > h3 {
+      font-size: 22px;
+    }
+    > p {
+      font-size: 18px;
+      font-weight: 400;
+      font-family: "Regencie";
+      color: gray;
+      font-style: normal;
+    }
+    > div {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      > h3 {
+        font-size: 23px;
+      }
+    }
+  }
+}
+.sl-1 {
+  width: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.sl-2 {
+  width: 100px;
+  margin-left: 200px;
+}
+.sl-3 {
+  width: 100px;
+  margin-left: 400px;
+}
+
+@media (max-width: "1299px") and (min-width: "768px") {
+  .lullu {
+    .checkout_modal {
+      height: 900px;
+      width: 905px;
+      background-color: white;
+      margin-top: -5050px !important;
+      z-index: 100;
+      position: absolute;
+
+      .checout__title {
+        font-family: "HomepageBaukasten-Book";
+        color: #ff6606;
+        margin-top: 35px;
+        font-weight: bolder;
+        font-size: 30px;
+      }
+      .numberinng__div {
+        margin-top: 30px;
+        margin-left: 100px;
+        .numbering {
+          width: 28px;
+          height: 28px;
+          border-radius: 50%;
+          background-color: gray;
+          color: black;
+          font-size: 18px;
+          padding-left: 9px;
+          padding-top: -5px;
+        }
+        .number1 {
+          font-family: "HomepageBaukasten-Book";
+          font-size: 20px;
+          color: gray;
+          margin-left: 10px;
+          margin-top: 3px;
+        }
+        .activa {
+          color: black;
+        }
+        .activa2 {
+          background-color: #ff6606;
+          color: white;
+        }
+      }
+      .numberinng__div2 {
+        margin-top: 30px;
+        margin-left: 10px;
+        .numbering {
+          width: 28px;
+          height: 28px;
+          border-radius: 50%;
+          background-color: gray;
+          color: black;
+          font-size: 18px;
+          padding-left: 9px;
+          padding-top: -5px;
+        }
+        .number1 {
+          font-family: "HomepageBaukasten-Book";
+          font-size: 20px;
+          color: gray;
+          margin-left: 10px;
+          margin-top: 3px;
+        }
+        .activa {
+          color: black;
+        }
+        .activa2 {
+          background-color: #ff6606;
+          color: white;
+        }
+      }
+
+      .lines {
+        border-bottom: 2px solid #767474;
+        width: 40px;
+        height: 2px;
+        margin-top: 43px;
+        margin-left: 10px;
+      }
+      .contAINE {
+        margin-top: 6px;
+      }
+      .form__container {
+        margin-left: 100px;
+        width: 80%;
+
+        margin-top: 20px;
+        height: 580px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+          rgba(17, 17, 26, 0.05) 0px 8px 32px;
+      }
+      .form__title {
+        font-family: "HomepageBaukasten-Book";
+        font-weight: bold;
+        font-size: 23px;
+        margin-top: 40px;
+        margin-left: 40px;
+        position: absolute;
+        color: black;
+      }
+      .form_ok {
+        color: white;
+        background-color: #ff6606;
+        padding: 8px 25px 8px 25px;
+        position: absolute;
+        margin-left: 540px;
+        border-radius: 10px;
+        font-size: 20px;
+        margin-top: 32px;
+      }
+      .actual__form {
+        width: 300px;
+        margin-top: 110px;
+        margin-left: 40px;
+        .lablee {
+          font-family: "HomepageBaukasten-Book";
+          font-size: 17px;
+          margin-bottom: 3px;
+          color: black;
+        }
+        input {
+          margin-bottom: 40px;
+          background-color: #f4f5f7;
+          font-family: "RegencieLight";
+        }
+      }
+      .emailo {
+        margin-left: 40px;
+        margin-right: 40px;
+        .lablee {
+          color: black;
+          font-family: "HomepageBaukasten-Book";
+          font-size: 17px;
+          margin-bottom: 3px;
+        }
+        input {
+          margin-bottom: 40px;
+          background-color: #f4f5f7;
+          font-family: "RegencieLight";
+        }
+      }
+      .below__buttons {
+        width: 80%;
+        margin-left: 100px;
+        height: 100px;
+
+        display: flex;
+
+        .REGISTRARME {
+          font-family: "HomepageBaukasten-Book";
+          color: white;
+          background-color: #ff6606;
+          padding: 12px 40px 12px 40px;
+          border-radius: 10px;
+          position: absolute;
+          font-size: 20px;
+          margin-top: 20px;
+          margin-left: 100px;
+        }
+        .REGISTRARME2 {
+          font-family: "HomepageBaukasten-Book";
+          color: #ff6606;
+          background-color: white;
+          padding: 12px 40px 12px 40px;
+          border-radius: 10px;
+          position: absolute;
+          font-size: 20px;
+          margin-top: 20px;
+          margin-left: 250px;
+          border: 1px solid #ff6606;
+        }
+        .REGISTRARME3 {
+          font-family: "HomepageBaukasten-Book";
+          color: white;
+          background-color: #ff6606;
+          padding: 12px 40px 12px 40px;
+          border-radius: 10px;
+          position: absolute;
+          font-size: 20px;
+          margin-top: 20px;
+          margin-left: 250px;
+        }
+      }
+    }
+    .confirmation__model {
+      height: auto;
+      width: 250px;
+      background-color: white;
+      margin-top: -5050px !important;
+      z-index: 100;
+      position: absolute;
+      padding-bottom: 20px;
+      border: 1px solid #cecece;
+      padding-bottom: 20px;
+      .confirmed {
+        margin-top: 0px;
+        font-size: 50px;
+        color: #00ff38;
+      }
+      .text__div {
+        width: 70%;
+        height: auto;
+        font-family: "HomepageBaukasten-Book";
+        font-weight: bolder;
+      }
+      .ver {
+        font-family: "HomepageBaukasten-Book";
+        color: #ff6606;
+        font-size: 14px;
+        margin-top: 20px;
+      }
+      .button__div {
+        width: 60%;
+      }
+      .button__text {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 20px;
+        color: white;
+        background-color: #ff6606;
+        padding: 10px 10px 10px 10px;
+        border-radius: 10px;
+      }
+    }
+    .intnrest {
+      height: auto;
+      width: 450px;
+      background-color: white;
+      margin-top: -5050px !important;
+      z-index: 100;
+      position: absolute;
+      padding-bottom: 20px;
+      border: 1px solid #cecece;
+      padding-bottom: 20px;
+      .interest__header {
+        font-family: "Roboto";
+        font-size: 25px;
+        margin-top: 20px;
+      }
+      .image__div {
+        width: 250px;
+        height: 270px;
+        margin-top: 10px;
+      }
+      .hot__image {
+        width: 100%;
+        height: 100%;
+      }
+      .hot__name {
+        font-family: "HomepageBaukasten-Book";
+        margin-top: 20px;
+        font-size: 25px;
+        color: #616161;
+      }
+      .hot__price {
+        font-family: "RegencieLight";
+        font-size: 30px;
+        color: #222222;
+      }
+      .but__div {
+        width: 35%;
+      }
+      .but {
+        font-family: "Roboto";
+        color: white;
+        background-color: #ff6606;
+        font-size: 22px;
+        padding: 10px 10px 10px 10px;
+        padding-left: 20px;
+        border-radius: 10px;
+      }
+      .but__2 {
+        font-family: "Roboto";
+        font-size: 25px;
+        margin-top: 5px;
+        color: #ff6606;
+      }
+    }
+  }
+  .active {
+    display: block;
+  }
+  .blurred-box {
+    position: relative;
+    left: 50px;
+    width: 420px;
+    height: 320px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(15px);
+    border-radius: 2px;
+    margin-top: -583px;
+
+    z-index: 100 !important;
+    > div {
+      padding: 30px 50px;
+      height: 100%;
+      > h2:nth-child(1) {
+        font-size: 35px;
+        max-width: 268px;
+        line-height: 30px;
+      }
+      > h2:nth-child(2) {
+        color: $primary;
+        font-size: 35px;
+      }
+      > p {
+        font-size: 16px;
+        font-weight: normal;
+        font-family: "Regencie";
+        color: gray;
+        font-style: normal;
+        margin-bottom: 50px;
+        line-height: 24px;
+      }
+      > button {
+        background: linear-gradient(180deg, #ff6606 0%, #ff7e2e 100%);
+        // padding: 20px 80px;
+        border: none;
+        width: 300px !important;
+        height: 70px;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 10px;
+        text-transform: uppercase;
+        margin-top: -30px;
+      }
+    }
+  }
+  .swiper-button-next {
+    width: 48px;
+    height: 48px;
+    top: 500px !important;
+    right: 10% !important;
+    border-radius: 50%;
+    background-color: #ff6606;
+  }
+  .swiper-button-prev {
+    width: 48px;
+    height: 48px;
+    top: 500px !important;
+    left: 76%;
+    border-radius: 50%;
+    background-color: #ff6606;
+  }
+}
+@media (max-width: 767px) {
+  .landing {
+    height: 300px !important;
+    background: linear-gradient(to right, pink, white);
+    margin-top: 0px;
+    &__slider {
+      padding-top: 10px;
+    }
+    .slide {
+      z-index: -1;
+    }
+    .swiper-button-next {
+      width: 38px;
+      height: 38px;
+      top: 260px !important;
+      right: 1%;
+      border-radius: 50%;
+      background-color: #ff6606;
+    }
+    .swiper-button-prev {
+      width: 38px;
+      height: 38px;
+      top: 260px !important;
+      left: 73%;
+      border-radius: 50%;
+      background-color: #ff6606;
+    }
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+      color: white;
+      font-size: 15px;
+    }
+    .swiper-pagination-bullet {
+      background-color: white;
+      opacity: 1;
+      width: 11px;
+      height: 11px;
+      margin: 0px 12px !important;
+    }
+    .swiper-pagination-bullet-active {
+      background-color: $primary;
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        border: 1px solid $primary;
+        width: 27px;
+        height: 27px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .blurred-box {
+    position: relative;
+    left: 40px;
+    width: 200px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.8);
+    padding-left: 10px;
+    border-radius: 2px;
+    margin-top: -583px;
+    margin-top: -300px;
+
+    z-index: 100 !important;
+    > div {
+      padding: 0px 0px;
+      height: 100%;
+      > h2:nth-child(1) {
+        font-size: 15px;
+        max-width: 170px;
+        line-height: 45px;
+        color: black;
+        text-decoration: none;
+      }
+
+      > h2:nth-child(2) {
+        color: $primary;
+        font-size: 20px;
+        margin-top: -20px;
+      }
+      > p {
+        font-size: 12px;
+        font-weight: normal;
+        font-family: "Regencie";
+        color: gray;
+        font-style: normal;
+        margin-bottom: 50px;
+        line-height: 24px;
+      }
+      .batta {
+        background: linear-gradient(180deg, #ff6606 0%, #ff7e2e 100%);
+        // padding: 20px 80px;
+        border: none;
+        width: 100px;
+        height: 25px;
+        color: white;
+        font-size: 8px;
+        cursor: pointer;
+        border-radius: 5px;
+        text-transform: uppercase;
+        margin-top: -95px;
+        margin-left: 30px;
+      }
+      .batta:hover {
+        background: linear-gradient(180deg, #ff6606 0%, #ff7e2e 100%);
+        // padding: 20px 80px;
+        border: none;
+        width: 352px;
+        height: 70px;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+    }
+  }
+  .blurred-container {
+    position: absolute;
+    right: 10px;
+    margin-top: -300px !important;
+  }
+  .blurred-box-2 {
+    width: 200px;
+    height: 95px;
+    margin-top: -300px;
+    position: relative;
+    border-radius: 2px;
+    z-index: 100 !important;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(0px);
+
+    > div {
+      padding: 0px 0px;
+      padding-left: 10px;
+      // padding: 24px 28px;
+      > h3 {
+        font-size: 18px;
+      }
+      > p {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Regencie";
+        color: gray;
+        font-style: normal;
+      }
+      > div {
+        display: flex;
+        justify-content: space-between;
+        margin-top: -15px;
+        > h3 {
+          font-size: 23px;
+        }
+      }
+    }
+  }
+}

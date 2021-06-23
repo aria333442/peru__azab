@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "RegencieLight";
+  src: url("../font/RegencieLight.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "HomepageBaukasten-Book";
+  src: url("../font/HomepageBaukasten-Book.ttf");
+  font-style: normal;
+}
+.met__main {
+  background-color: #fff5ee;
+  margin-top: 100px !important;
+  padding: 40px;
+  padding-left: 140px;
+  height: auto;
+  .methead {
+    width: 70%;
+    height: 100%;
+    background-color: #fff5ee;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-family: "HomepageBaukasten-Book";
+  }
+  .fi__rst {
+    margin-top: 50px !important;
+    display: flex !important;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100px;
+    box-shadow: none;
+    margin-left: 0px;
+  }
+  .se__c {
+    display: flex;
+    width: 100%;
+    margin-left: 0px;
+    font-family: "HomepageBaukasten-Book";
+  }
+  .met__heandig {
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 0px;
+  }
+  .met__span {
+    color: #ff6606;
+  }
+  .metpara {
+    width: 65%;
+    font-size: 18px;
+  }
+  .in__dic {
+    margin-top: 50px !important;
+    padding-left: 0px !important;
+    font-size: 20px !important;
+    display: flex;
+    font-family: "Roboto";
+  }
+  .pa__go {
+    margin-left: 20px;
+    background-color: #fff5ee;
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 1025px) and (min-width: 768px) {
+  .met__main {
+    background-color: #fff5ee;
+    padding: 40px;
+    padding-left: 80px;
+  }
+  .methead {
+    width: 70%;
+    height: 100%;
+
+    margin-top: 0px;
+  }
+  .first {
+    margin-top: 50px;
+    display: flex;
+
+    width: 100%;
+    height: 100px;
+  }
+  .sec {
+    display: flex;
+
+    width: 100%;
+  }
+  .metheandig {
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .metspan {
+    color: #ff6606;
+  }
+  .metpara {
+    width: 65%;
+    font-size: 18px;
+  }
+  .indic {
+    margin-top: 50px;
+    padding-left: 20px;
+    font-size: 16px;
+    display: flex;
+  }
+  .pago {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .met__main {
+    background-color: #fff5ee;
+    margin-top: 70px !important;
+    padding: 20px;
+    padding-left: 30px;
+  }
+  .met__head {
+    width: 70%;
+    height: 100%;
+
+    margin-top: 0px;
+  }
+  .fi__rst {
+    margin-top: 50px;
+    display: flex;
+
+    width: 100%;
+    height: 60px;
+  }
+  .se__c {
+    display: flex;
+
+    width: 100%;
+  }
+  .met__heandig {
+    font-weight: bold;
+    font-size: 25px !important;
+  }
+  .met__span {
+    color: #ff6606;
+  }
+  .metpara {
+    width: 65%;
+    font-size: 14px !important;
+  }
+  .in__dic {
+    margin-top: 50px;
+
+    font-size: 16px;
+    display: flex;
+  }
+  .pa__go {
+    margin-left: 20px;
+  }
+}

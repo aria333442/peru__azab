@@ -1,0 +1,920 @@
+@font-face {
+  font-family: "RegencieLight";
+  src: url("../font/RegencieLight.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "HomepageBaukasten-Book";
+  src: url("../font/HomepageBaukasten-Book.ttf");
+  font-style: normal;
+}
+.prig {
+  font-size: 25px;
+  margin-top: 5px;
+  margin-left: 3px;
+  font-family: "HomepageBaukasten-Book";
+}
+.misdatos {
+  display: flex;
+  justify-content: space-around;
+}
+.misdato {
+  margin-top: 100px;
+  display: flex;
+  height: auto !important;
+  border: none;
+  width: 70%;
+  border: 1px solid #cecece;
+}
+.misdatosleft {
+  background-color: #f4f5f7;
+  height: 100%;
+  width: 30%;
+  border: none;
+}
+.picon {
+  background-color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  width: 20%;
+  margin-left: 15px;
+  margin-top: 0px;
+  color: #ff6606;
+}
+.picon2 {
+  background-color: #f4f5f7;
+  font-weight: bolder;
+  font-size: 30px;
+  width: 20%;
+  margin-left: 15px;
+  margin-top: 0px;
+}
+.btn1 {
+  border: none;
+  width: 75%;
+  height: 45px;
+  background: transparent;
+  color: #616161;
+  font-family: "RegencieLight";
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.shoshaa {
+  position: absolute;
+  z-index: 100;
+  color: #ff6606;
+  font-size: 25px;
+  margin-top: 100px;
+}
+.shoshaa:hover {
+  position: absolute;
+  z-index: 100;
+  color: white;
+  font-size: 25px;
+  margin-top: 100px;
+  cursor: pointer;
+}
+.btn2 {
+  border: none;
+  width: 75%;
+  height: 35px;
+  background: transparent;
+  color: #ff6606;
+  font-family: "RegencieLight";
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.phtag {
+  background-color: whitesmoke;
+}
+.miscom {
+  background-color: #f4f5f7;
+  display: flex;
+}
+.leftf {
+  width: 100%;
+  height: 150px;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+}
+.but {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background: transparent;
+}
+.butt {
+  color: white;
+  margin-top: 8px;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 10px;
+  background-color: #ff7e2e;
+  padding: 5px 20px;
+}
+.buttt {
+  margin-top: -50px;
+  color: white;
+  margin-top: 8px;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 10px;
+  background-color: #ff7e2e;
+  padding: 5px 20px;
+}
+.uspp {
+  margin-top: 5px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 1px solid #ff6606;
+}
+.lefts {
+  border: none;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.leftt {
+  display: flex;
+  justify-content: space-around;
+  border: none;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.misp {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "RegencieLight";
+}
+.miscomp {
+  background-color: white;
+  display: flex;
+}
+.misdatosright {
+  height: 100%;
+  width: 65%;
+  border: none;
+  padding-left: 30px;
+}
+.mishead {
+  margin-left: 10px;
+  font-weight: bolder;
+  font-size: 24px;
+  margin-top: 10px;
+  font-family: "HomepageBaukasten-Book";
+}
+.pright {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: normal;
+  font-size: 24px;
+  font-family: "HomepageBaukasten-Book";
+}
+
+.editar {
+  display: flex;
+}
+.edil {
+  display: flex;
+  border: none;
+  width: 50%;
+  height: 50px;
+}
+.edir {
+  display: flex;
+  border: none;
+  width: 50%;
+  height: 50px;
+  justify-content: right;
+}
+.usua {
+  display: flex;
+  border: none;
+  width: 50%;
+  height: 50px;
+}
+.emai {
+  display: flex;
+  border: none;
+  width: 50%;
+  height: 50px;
+  justify-content: right;
+}
+
+.inr {
+  width: 50%;
+  height: 50px;
+  border: none;
+}
+.inl {
+  width: 50%;
+  height: 50px;
+  border: none;
+
+  margin-left: 0px;
+}
+
+.usu {
+  margin-left: 25px;
+  font-weight: normal;
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: "HomepageBaukasten-Book";
+}
+.ema {
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: 18px;
+  margin-left: 0px;
+  font-family: "HomepageBaukasten-Book";
+}
+
+.inputright {
+  height: 65%;
+  width: 70%;
+  border: none;
+  margin-left: 25px;
+  background-color: #f4f5f7;
+  font-family: "RegencieLight";
+}
+.inputleft {
+  height: 65%;
+  width: 70%;
+  border: none;
+  background-color: #f4f5f7;
+  font-family: "RegencieLight";
+}
+.inputleftt {
+  height: 65%;
+  width: 85%;
+  margin-top: 10px;
+  margin-left: 25px;
+  border: none;
+  background-color: #f4f5f7;
+  font-family: "RegencieLight";
+}
+.akela {
+  display: block;
+  border: none;
+  width: 50%;
+  height: 80px;
+}
+.contra {
+  font-weight: normal;
+  font-size: 18px;
+  margin-left: 25px;
+  font-family: "HomepageBaukasten-Book";
+}
+.contrass {
+  height: 30px;
+  border: none;
+  width: 50%;
+  float: left;
+}
+.contras {
+  height: 50%;
+  border: none;
+  width: 100%;
+  float: left;
+}
+.contrasin {
+  width: 100%;
+  border: none;
+  float: left;
+  height: 50%;
+  margin-top: 0px;
+}
+.camb {
+  width: 100%;
+  height: 40px;
+  border: none;
+  margin-top: 20px;
+}
+.cambp {
+  font-size: 25px;
+  margin-left: 3px;
+  font-weight: normal;
+  font-family: "HomepageBaukasten-Book";
+}
+.lasin {
+  width: 100%;
+  height: 50px;
+  border: none;
+}
+.edla {
+  width: 100%;
+  border: none;
+  height: 50px;
+  margin-top: 30px;
+  display: flex;
+}
+.lain {
+  height: 100%;
+  width: 60%;
+  border: none;
+}
+.labt {
+  height: 100%;
+  width: 40%;
+  border: none;
+}
+.inputright::placeholder {
+  font-size: 12px;
+}
+.inputleft::placeholder {
+  font-size: 12px;
+}
+.personales {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+@media (max-width: "1025px") and (min-width: "768px") {
+  .prig {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 3px;
+    font-family: "HomepageBaukasten-Book";
+  }
+  .misdatos {
+    display: flex;
+    justify-content: space-around;
+  }
+  .misdato {
+    margin-top: 100px;
+    display: flex;
+    height: auto !important;
+    border: none;
+    width: 90%;
+    border: 1px solid #cecece;
+  }
+  .misdatosleft {
+    background-color: #f4f5f7;
+    height: 100%;
+    width: 30%;
+    border: none;
+  }
+  .picon {
+    background-color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 20%;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .picon2 {
+    background-color: #f4f5f7;
+    font-weight: bolder;
+    font-size: 30px;
+    width: 20%;
+    margin-left: 15px;
+    margin-top: 0px;
+  }
+  .btn1 {
+    border: none;
+    width: 75%;
+    height: 45px;
+    margin-top: 15px;
+  }
+  .btn2 {
+    border: none;
+    width: 75%;
+    height: 35px;
+  }
+  .phtag {
+    background-color: whitesmoke;
+  }
+  .miscom {
+    background-color: #f4f5f7;
+    display: flex;
+  }
+  .leftf {
+    width: 100%;
+    height: 100px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  .but {
+    width: 100%;
+    height: 50px;
+    border: none;
+  }
+  .butt {
+    color: white;
+    margin-top: 8px;
+    font-size: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: #ff7e2e;
+    padding: 8px 20px;
+  }
+  .buttt {
+    margin-top: -50px;
+    color: white;
+    margin-top: 8px;
+    font-size: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: #ff7e2e;
+    padding: 8px 20px;
+  }
+  .uspp {
+    margin-top: 5px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+  .lefts {
+    border: none;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .leftt {
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    height: 30px;
+    width: 100%;
+  }
+  .misp {
+    font-size: 14px;
+    font-weight: normal;
+  }
+  .miscomp {
+    background-color: white;
+    display: flex;
+  }
+  .misdatosright {
+    height: 100%;
+    width: 70%;
+    border: none;
+  }
+  .mishead {
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .pright {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 16px;
+  }
+
+  .editar {
+    display: flex;
+  }
+  .edil {
+    display: flex;
+    border: none;
+    width: 50%;
+    height: 50px;
+  }
+  .edir {
+    display: flex;
+    border: none;
+    width: 50%;
+    height: 50px;
+    justify-content: right;
+  }
+  .usua {
+    display: flex;
+    border: none;
+    width: 50%;
+    height: 50px;
+  }
+  .emai {
+    display: flex;
+    border: none;
+    width: 50%;
+    height: 50px;
+    justify-content: right;
+  }
+
+  .inr {
+    width: 50%;
+    height: 50px;
+    border: none;
+  }
+  .inl {
+    width: 50%;
+    height: 50px;
+    border: none;
+
+    margin-left: 0px;
+  }
+
+  .usu {
+    margin-left: 25px;
+    font-weight: bolder;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .ema {
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 14px;
+    margin-left: 0px;
+  }
+
+  .inputright {
+    height: 65%;
+    width: 70%;
+    border: none;
+    margin-left: 25px;
+    background-color: #f4f5f7;
+  }
+  .inputleft {
+    height: 65%;
+    width: 70%;
+    border: none;
+    background-color: #f4f5f7;
+  }
+  .inputleftt {
+    height: 65%;
+    width: 85%;
+    margin-top: 10px;
+    margin-left: 25px;
+    border: none;
+    background-color: #f4f5f7;
+  }
+  .akela {
+    display: block;
+    border: none;
+    width: 50%;
+    height: 80px;
+  }
+  .contra {
+    font-weight: bolder;
+    font-size: 14px;
+    margin-left: 25px;
+  }
+  .contrass {
+    height: 30px;
+    border: none;
+    width: 50%;
+    float: left;
+  }
+  .contras {
+    height: 50%;
+    border: none;
+    width: 100%;
+    float: left;
+  }
+  .contrasin {
+    width: 100%;
+    border: none;
+    float: left;
+    height: 50%;
+    margin-top: 0px;
+  }
+  .camb {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+  }
+  .cambp {
+    font-size: 20px;
+    margin-left: 25px;
+    font-weight: bold;
+  }
+  .lasin {
+    width: 100%;
+    height: 50px;
+    border: none;
+  }
+  .edla {
+    width: 100%;
+    border: none;
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+  }
+  .lain {
+    height: 100%;
+    width: 60%;
+    border: none;
+  }
+  .labt {
+    height: 100%;
+    width: 40%;
+    border: none;
+  }
+  .inputright::placeholder {
+    font-size: 14px;
+  }
+  .inputleft::placeholder {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: "767px") {
+  .prig {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 3px;
+    font-family: "HomepageBaukasten-Book";
+  }
+  .misdatos {
+    display: flex;
+    justify-content: space-around;
+  }
+  .misdato {
+    margin-top: 100px;
+    display: flex;
+    height: auto !important;
+    border: none;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .misdatosleft {
+    background-color: #f4f5f7;
+    height: 100%;
+    width: 30%;
+    border: none;
+  }
+  .picon {
+    background-color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    width: 20%;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .picon2 {
+    background-color: #f4f5f7;
+    font-weight: bolder;
+    font-size: 15px;
+    width: 20%;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .btn1 {
+    border: none;
+    width: 80%;
+    height: 20px;
+    font-size: 10px;
+    margin-top: 5px;
+  }
+  .btn2 {
+    border: none;
+    width: 80%;
+    height: 20px;
+    font-size: 10px;
+    margin-top: 5px;
+  }
+  .phtag {
+    background-color: whitesmoke;
+  }
+  .miscom {
+    background-color: #f4f5f7;
+    display: flex;
+  }
+  .leftf {
+    width: 100%;
+    height: 70px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  .but {
+    width: 100%;
+    height: 30px;
+    border: none;
+  }
+  .butt {
+    color: white;
+    margin-top: 8px;
+    font-size: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #ff7e2e;
+    padding: 3px 20px;
+  }
+  .buttt {
+    color: white;
+    margin-top: 0px;
+    font-size: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 0px;
+    background-color: #ff7e2e;
+    padding: 3px 20px;
+  }
+  .uspp {
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .lefts {
+    border: none;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .leftt {
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    height: 20px;
+    width: 100%;
+  }
+  .misp {
+    font-size: 8px;
+    font-weight: normal;
+  }
+  .miscomp {
+    background-color: white;
+    display: flex;
+  }
+  .misdatosright {
+    height: 100%;
+    width: 70%;
+    border: none;
+    padding-left: 5px;
+  }
+  .mishead {
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .pright {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 10px;
+  }
+
+  .editar {
+    display: flex;
+    margin-top: 15px;
+  }
+  .edil {
+    display: flex;
+    border: none;
+    width: 70%;
+    height: 30px;
+  }
+  .edir {
+    display: flex;
+    border: none;
+    width: 50%;
+    height: 50px;
+    justify-content: right;
+  }
+  .usua {
+    display: flex;
+    border: none;
+    width: 50%;
+    height: 30px;
+    margin-top: 0px;
+  }
+  .emai {
+    margin-top: 0px;
+    display: flex;
+    border: none;
+    width: 50%;
+    height: 30px;
+    justify-content: right;
+  }
+
+  .inr {
+    width: 50%;
+    height: 30px;
+    border: none;
+    margin-top: -20px;
+  }
+  .inl {
+    margin-top: -20px;
+    width: 50%;
+    height: 30px;
+    border: none;
+
+    margin-left: 0px;
+  }
+
+  .usu {
+    margin-left: 3px;
+    font-weight: bolder;
+    font-size: 8px;
+    margin-top: 9px;
+  }
+  .ema {
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 8px;
+    margin-left: 0px;
+  }
+
+  .inputright {
+    height: 65%;
+    width: 90%;
+    border: none;
+    margin-left: 3px;
+    background-color: #f4f5f7;
+  }
+  .inputleft {
+    height: 65%;
+    width: 90%;
+    border: none;
+    background-color: #f4f5f7;
+  }
+  .inputleftt {
+    height: 65%;
+    width: 85%;
+    margin-top: 0px;
+    margin-left: 3px;
+    border: none;
+    background-color: #f4f5f7;
+  }
+  .akela {
+    border: none;
+    width: 70%;
+    height: 50px;
+  }
+  .contra {
+    font-weight: bolder;
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  .contrass {
+    height: 30px;
+    border: none;
+    width: 50%;
+    float: left;
+  }
+  .contras {
+    height: 50%;
+    border: none;
+    width: 100%;
+    float: left;
+  }
+  .contrasin {
+    width: 100%;
+    border: none;
+    float: left;
+    height: 50%;
+    margin-top: 0px;
+  }
+  .camb {
+    width: 70%;
+    height: 30px;
+    border: none;
+    margin-top: 20px;
+  }
+  .cambp {
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  .lasin {
+    width: 100%;
+    height: 50px;
+    border: none;
+  }
+  .edla {
+    width: 100%;
+    border: none;
+    height: 30px;
+    margin-top: 30px;
+    display: flex;
+  }
+  .lain {
+    height: 100%;
+    width: 60%;
+    border: none;
+  }
+  .labt {
+    height: 100%;
+    width: 40%;
+    border: none;
+  }
+  .inputright::placeholder {
+    font-size: 10px;
+  }
+  .inputleft::placeholder {
+    font-size: 10px;
+  }
+  .inputleftt::placeholder {
+    font-size: 8px;
+  }
+}

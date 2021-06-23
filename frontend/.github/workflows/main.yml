@@ -1,0 +1,31 @@
+name: Let's deploy to TEST 📢📢 👩‍💻
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  deploy-production:
+    name: Deploy Project to PRODUCTION 💻 🔥🔥🔥
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: Install SSH key 💻 🥱
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          known_hosts: ${{ secrets.SSH_KNOWN_HOSTS }}
+      - run: npm i
+      - run: npm run build
+        env:
+          CI: ''
+          REACT_APP_API_URL: ${{secrets.REACT_APP_API_URL_DEVELOPMENT}}
+          API_URL: ${{secrets.API_URL_DEVELOPMENT}}
+      - run: rsync -avz --delete build/ ${{ secrets.USER }}@${{ secrets.HOST }}:${{ secrets.DEVELOPMENT_FOLDER }}

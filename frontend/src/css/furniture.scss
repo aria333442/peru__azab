@@ -1,0 +1,429 @@
+.image1 {
+  > img {
+    filter: blur(0px);
+  }
+  .ecto {
+    z-index: 1;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 75px;
+    font-size: 30px;
+    color: white;
+
+    display: none;
+  }
+  > p:nth-child(3) {
+    margin-top: -60px;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    margin-left: 50px;
+    display: none;
+  }
+  > p:nth-child(4) {
+    margin-top: -25px;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    margin-left: 50px;
+    display: none;
+  }
+}
+.image1:hover {
+  > img {
+    filter: blur(2px);
+  }
+  .ecto {
+    z-index: 1;
+    border: none;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+  }
+  > p:nth-child(3) {
+    margin-top: -60px;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    margin-left: 20px;
+    display: block;
+  }
+  > p:nth-child(4) {
+    margin-top: -25px;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    margin-left: 20px;
+    display: block;
+  }
+}
+.image2 {
+  > p {
+    z-index: 1;
+    position: absolute;
+    margin-top: -310px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    display: none;
+  }
+}
+.image2:hover {
+  > p {
+    z-index: 1;
+    position: absolute;
+    margin-top: -310px;
+    margin-left: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+  }
+  > img {
+    filter: blur(2px);
+  }
+  > p:nth-child(3) {
+    margin-top: -60px;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    margin-left: 10px;
+    display: block;
+  }
+  > p:nth-child(4) {
+    margin-top: -25px;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    margin-left: 10px;
+    display: block;
+  }
+}
+.image3 {
+  > p {
+    z-index: 1;
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    display: none;
+  }
+}
+.image3:hover {
+  > p {
+    z-index: 1;
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    color: white;
+  }
+  > img {
+    filter: blur(2px);
+  }
+  > p:nth-child(3) {
+    margin-top: -70px;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    margin-left: 20px;
+    display: block;
+    font-size: 20px;
+  }
+  > p:nth-child(4) {
+    margin-top: -35px;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    margin-left: 20px;
+    display: block;
+    font-size: 20px;
+  }
+}
+.image4 {
+  > p {
+    z-index: 1;
+    position: absolute;
+    margin-top: -380px;
+    margin-left: 70px;
+    font-size: 25px;
+    font-weight: bold;
+    display: none;
+  }
+}
+.image4:hover {
+  > p {
+    z-index: 1;
+    position: absolute;
+    margin-top: -380px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    color: white;
+  }
+  > img {
+    filter: blur(2px);
+  }
+  > p:nth-child(3) {
+    margin-top: -70px;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    margin-left: 20px;
+    display: block;
+    font-size: 20px;
+  }
+  > p:nth-child(4) {
+    margin-top: -35px;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    margin-left: 20px;
+    display: block;
+    font-size: 20px;
+  }
+}
+.image5 {
+  > p {
+    z-index: 1;
+    position: absolute;
+    margin-top: -380px;
+    margin-left: 70px;
+    font-size: 25px;
+    font-weight: bold;
+    display: none;
+  }
+}
+.image5:hover {
+  > p {
+    z-index: 1;
+    position: absolute;
+    margin-top: -330px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    color: white;
+  }
+  > img {
+    filter: blur(2px);
+  }
+  > p:nth-child(3) {
+    margin-top: -70px;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    margin-left: 20px;
+    display: block;
+    font-size: 20px;
+  }
+  > p:nth-child(4) {
+    margin-top: -35px;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    margin-left: 20px;
+    display: block;
+    font-size: 20px;
+  }
+}
+.image6 {
+  > p {
+    z-index: 1;
+    position: absolute;
+    margin-top: -380px;
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    display: none;
+  }
+}
+.image6:hover {
+  > p {
+    z-index: 1;
+    position: absolute;
+    margin-top: -410px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    color: white;
+  }
+  > img {
+    filter: blur(2px);
+  }
+  > p:nth-child(3) {
+    margin-top: -70px;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    margin-left: 20px;
+    display: block;
+    font-size: 20px;
+  }
+  > p:nth-child(4) {
+    margin-top: -35px;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    margin-left: 20px;
+    display: block;
+    font-size: 20px;
+  }
+}
+.image7 {
+  > p {
+    z-index: 1;
+    position: absolute;
+    margin-top: -380px;
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    display: none;
+  }
+}
+.image7:hover {
+  > p {
+    z-index: 1;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    color: white;
+  }
+  > img {
+    filter: blur(2px);
+  }
+  > p:nth-child(3) {
+    margin-top: -70px;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    margin-left: 20px;
+    display: block;
+    font-size: 20px;
+  }
+  > p:nth-child(4) {
+    margin-top: -35px;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    margin-left: 20px;
+    display: block;
+    font-size: 20px;
+  }
+}
+.image8 {
+  > p {
+    z-index: 1;
+    position: absolute;
+    margin-top: -380px;
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    display: none;
+  }
+}
+.image8:hover {
+  > p {
+    z-index: 1;
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+  }
+  > img {
+    filter: blur(2px);
+  }
+  > p:nth-child(3) {
+    margin-top: -70px;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    margin-left: 20px;
+    display: block;
+    font-size: 20px;
+  }
+  > p:nth-child(4) {
+    margin-top: -35px;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    margin-left: 20px;
+    display: block;
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .sollawq {
+    .slick-next,
+    .slick-prev {
+      display: none !important;
+    }
+  }
+}

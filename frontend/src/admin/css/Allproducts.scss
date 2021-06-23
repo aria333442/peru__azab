@@ -1,0 +1,365 @@
+.alprdmain {
+  background-color: #f7f8fc;
+  height: 2500px !important;
+  display: flex;
+  margin-left: 0px;
+  border: none;
+  margin-top: 0px;
+}
+.alprdleft {
+  width: 20%;
+  height: auto;
+  background-color: #363740;
+}
+
+.alprdright {
+  margin-left: 50px;
+  display: block;
+  width: 70%;
+  height: 100%;
+}
+.rreew {
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.alprdhead {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  margin-top: 10px;
+  border: none;
+}
+.alprdtab {
+  width: 75%;
+  height: 100%;
+  font-family: "Roboto";
+  display: flex;
+}
+.alprdta {
+  font-size: 30px;
+  font-weight: bold;
+  height: 100%;
+  width: 80%;
+}
+.icon {
+  font-size: 25px;
+  height: 100%;
+  width: 10%;
+}
+.iconr {
+  font-size: 25px;
+  height: 100%;
+  width: 10%;
+}
+.user {
+  display: flex;
+  width: 25%;
+  height: 100%;
+}
+.use {
+  text-align: center;
+  font-size: 18px;
+  width: 50%;
+  height: 100%;
+}
+.dp {
+  width: 50%;
+  height: 100%;
+}
+.alprdfm {
+  width: 95%;
+  height: 70px;
+  margin-top: 50px;
+  margin-left: auto;
+}
+.alprdfmsub {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.alprdfmsubl {
+  width: 20%;
+  height: 100%;
+}
+.alprdapp {
+  width: 100%;
+  height: 50%;
+  font-family: "roboto";
+  font-size: 16px;
+}
+.alprdelmin {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.alprdelminl {
+  width: 60%;
+  height: 100%;
+}
+.alprdelminr {
+  width: 40%;
+  height: 100%;
+}
+.alprdfmsubr {
+  width: 25%;
+  height: 100%;
+
+  display: flex;
+}
+.alprdfmsubrf {
+  width: 30%;
+  height: 100%;
+}
+.alprdfmsubrs {
+  width: 80%;
+  height: 100%;
+
+  font-size: 16px;
+  font-weight: bold;
+}
+.alprdfmsubrsp {
+  margin-top: 15px;
+  font-family: "Roboto";
+  font-size: 18px;
+}
+.alprdfmsublast {
+  width: 40%;
+  height: 100%;
+
+  margin-left: auto;
+  display: flex;
+}
+.alprdordp {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  padding-right: 10px;
+}
+.alprdordpp {
+  font-size: 16px;
+  margin-left: auto;
+  font-family: "Roboto";
+  margin-top: 5px;
+}
+
+.alprdcat {
+  width: 50%;
+  height: 100%;
+}
+.alprdcatbut {
+  width: 90%;
+  height: 90%;
+
+  border-radius: 5px;
+  font-size: 18px;
+  color: black;
+}
+.alprdbus {
+  width: 100%;
+  height: 50px;
+
+  margin-top: 30px;
+  display: flex;
+}
+.alprdbusin {
+  width: 120%;
+  height: 98%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+}
+.shasha {
+  font-size: 30px;
+  color: red;
+  margin-left: 20px;
+  background: transparent;
+}
+.alprdicon {
+  width: 6%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  font-size: 35px;
+}
+.alprdiconn {
+  width: 6%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  font-size: 35px;
+}
+.alprvewslec {
+  margin-top: -10px;
+}
+.alprdshow {
+  width: 100%;
+  height: 350px;
+
+  margin-top: 40px;
+  display: flex;
+}
+.alprdshowl {
+  width: 25%;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+}
+.alprdshowlimg {
+  width: 100%;
+  height: 60%;
+}
+.alprdshowlp {
+  width: 100%;
+  height: 10%;
+
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+}
+.alprdshowlpp {
+  width: 100%;
+  height: 10%;
+
+  font-size: 16px;
+  font-weight: normal;
+  color: blue;
+}
+.alprdshowlpc {
+  width: 100%;
+  height: 10%;
+
+  font-size: 16px;
+  font-weight: normal;
+  color: gray;
+}
+.alprdshowlpr {
+  width: 100%;
+  height: 10%;
+
+  font-size: 16px;
+  font-weight: normal;
+  color: red;
+}
+.alprdshowr {
+  width: 25%;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+  margin-left: 30px;
+}
+.alprdshowrimg {
+  width: 100%;
+  height: 60%;
+}
+.alprdshowrp {
+  width: 100%;
+  height: 10%;
+
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+}
+.alprdshowrpp {
+  width: 100%;
+  height: 10%;
+
+  font-size: 16px;
+  font-weight: normal;
+  color: blue;
+}
+.alprdshowrpc {
+  width: 100%;
+  height: 10%;
+
+  font-size: 16px;
+  font-weight: normal;
+  color: gray;
+}
+.alprdshowrpr {
+  width: 100%;
+  height: 10%;
+
+  font-size: 16px;
+  font-weight: normal;
+  color: red;
+}
+.alprdverb {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+
+  margin-top: 50px;
+}
+.alprdverbut {
+  width: 17%;
+  height: 98%;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px 0px #00000033;
+}
+.row__constainer {
+  width: 100%;
+
+  height: auto;
+  margin-top: 40px;
+}
+.soosaq {
+  width: 100%;
+
+  height: 450px;
+  margin-top: 40px;
+}
+.iiner-it {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 95%;
+  height: 100%;
+  background-color: white;
+}
+.imagara {
+  width: 90%;
+  height: 250px;
+}
+.nama {
+  font-family: "Roboto";
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.nam2 {
+  font-family: "Roboto";
+  margin-left: 10px;
+  font-size: 18px;
+  margin-top: 10px;
+  color: blue;
+}
+.nam3 {
+  font-family: "Roboto";
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.nam4 {
+  font-family: "roboto";
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: red;
+}
+.inputa {
+  margin-top: 10px;
+  margin-left: 10px;
+  transform: scale(1.2);
+}

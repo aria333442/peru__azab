@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "RegencieLight";
+  src: url("../font/RegencieLight.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "HomepageBaukasten-Book";
+  src: url("../font/HomepageBaukasten-Book.ttf");
+  font-style: normal;
+}
+.ok__mainsss {
+  border: 1px solid #cecece;
+  width: 70%;
+  height: auto;
+  margin-top: 200px;
+  .ok__confirmed {
+    font-size: 70px;
+    color: #00ff38;
+    font-family: "HomepageBaukasten-Book";
+  }
+  .ok__text {
+    font-family: "HomepageBaukasten-Book";
+    font-weight: bolder;
+  }
+  .ver__sumer {
+    font-family: "HomepageBaukasten-Book";
+    font-size: 14px;
+    color: #ff6606;
+  }
+  .ok__continue {
+    background-color: #ff6606;
+    color: white;
+
+    font-family: "HomepageBaukasten-Book";
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+}
+.mobile__hot {
+  width: 90%;
+  border: 1px solid #cecece;
+  height: auto;
+  margin-top: 200px;
+  .mobile__header {
+    font-family: "HomepageBaukasten-Book";
+    font-weight: bolder;
+    margin-top: 10px;
+  }
+  .mobile__pic {
+    width: 150px;
+    height: 170px;
+
+    > img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .mobile__hot__name {
+    font-family: "HomepageBaukasten-Book";
+    margin-top: 10px;
+  }
+  .mobile__hot__price {
+    font-family: "RegencieLight";
+  }
+  .hot__link {
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-family: "HomepageBaukasten-Book";
+    color: white;
+    background-color: #ff6606;
+  }
+  .mobile__saltar {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ff6606;
+    background-color: white;
+    font-family: "Roboto";
+  }
+}

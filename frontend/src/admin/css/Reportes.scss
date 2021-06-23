@@ -1,0 +1,211 @@
+.repmain {
+  background-color: #f7f8fc;
+  height: 1800px;
+  display: flex;
+  margin-left: 0px;
+  border: none;
+  margin-top: 0px;
+}
+.repleft {
+  width: 20%;
+  height: 100%;
+  background-color: #363740;
+}
+
+.repright {
+  margin-left: 50px;
+  display: block;
+  width: 70%;
+  height: 100%;
+}
+.rephead {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  margin-top: 10px;
+  border: none;
+}
+.reptabb {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  font-size: 20px;
+  font-family: "Roboto";
+}
+.repta {
+  font-size: 30px;
+  font-weight: bold;
+  height: 100%;
+  width: 80%;
+}
+.icon {
+  font-size: 25px;
+  height: 100%;
+  width: 10%;
+}
+.iconr {
+  font-size: 25px;
+  height: 100%;
+  width: 10%;
+}
+.user {
+  display: flex;
+  width: 25%;
+  height: 100%;
+}
+.use {
+  text-align: center;
+  font-size: 18px;
+  width: 50%;
+  height: 100%;
+}
+.dp {
+  width: 50%;
+  height: 100%;
+}
+.repf {
+  width: 95%;
+  height: 70px;
+  display: flex;
+  margin-left: auto;
+  margin-top: 50px;
+}
+.repfl {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.repford {
+  width: 9%;
+  height: 100%;
+}
+.repfcat {
+  width: 20%;
+  height: 100%;
+
+  justify-content: space-around;
+}
+.repfmes {
+  width: 22%;
+  height: 100%;
+
+  justify-content: space-around;
+}
+.repfprd {
+  width: 22%;
+  height: 100%;
+
+  justify-content: space-around;
+}
+.repfrang {
+  width: 22%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-around;
+}
+.repfordp {
+  font-size: 18px;
+  font-family: "roboto";
+}
+.repfcatbt {
+  width: 85%;
+  height: 70%;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  box-shadow: 0px 1px 3px 0px #00000033;
+  font-size: 12px;
+}
+.repfmesbt {
+  width: 85%;
+  height: 70%;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  box-shadow: 0px 1px 3px 0px #00000033;
+  font-size: 12px;
+}
+.repfprdbt {
+  width: 85%;
+  height: 70%;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  box-shadow: 0px 1px 3px 0px #00000033;
+  font-size: 12px;
+}
+.repfrangbt {
+  width: 85%;
+  height: 55%;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  box-shadow: 0px 1px 3px 0px #00000033;
+  font-size: 12px;
+}
+.repfr {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  padding-right: 20px;
+}
+.repfrbt {
+  width: 70%;
+  height: 70%;
+  background-color: green;
+  border: none;
+  margin-left: auto;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 0px 1px 3px 0px #00000033;
+  font-size: 12px;
+}
+.reptabdiv {
+  width: 98%;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+}
+.reptabdivsub {
+  width: 94%;
+  height: 95%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px 0px #00000033;
+  background-color: white;
+}
+.reptab {
+  width: 100%;
+  height: 88%;
+}
+.mestd {
+  font-size: 12px;
+  width: 16%;
+  text-align: center;
+}
+.skutd {
+  font-size: 12px;
+  width: 16%;
+  text-align: center;
+}
+.cattd {
+  font-size: 12px;
+  width: 16%;
+}
+.prdtd {
+  font-size: 12px;
+  width: 16%;
+}
+.montd {
+  font-size: 12px;
+  width: 16%;
+  text-align: center;
+}
+.unitd {
+  font-size: 12px;
+  width: 16%;
+  text-align: center;
+}

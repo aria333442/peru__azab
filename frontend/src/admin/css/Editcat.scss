@@ -1,0 +1,328 @@
+.encatmain {
+  background-color: #f7f8fc;
+  height: auto;
+  display: flex;
+  margin-left: 0px;
+  border: none;
+  margin-top: 0px;
+}
+.encatleft {
+  width: 20%;
+  height: 1300px !important;
+  background-color: #363740;
+}
+
+.encatright {
+  margin-left: 50px;
+  display: block;
+  width: 70%;
+  height: 100%;
+  border: none;
+}
+.encathead {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  margin-top: 10px;
+  border: none;
+}
+.encattab {
+  width: 75%;
+  height: 100%;
+  border: none;
+  display: flex;
+}
+.encatta {
+  font-size: 30px;
+  font-weight: bold;
+  height: 100%;
+  width: 80%;
+  font-family: "Mulish";
+}
+.icon {
+  font-size: 25px;
+  height: 100%;
+  width: 10%;
+  border: none;
+}
+.iconr {
+  font-size: 25px;
+  height: 100%;
+  width: 10%;
+  border: none;
+}
+.user {
+  display: flex;
+  width: 25%;
+  height: 100%;
+  border: none;
+}
+.use {
+  text-align: center;
+  font-size: 18px;
+  width: 50%;
+  height: 100%;
+  border: none;
+}
+.dp {
+  width: 50%;
+  height: 100%;
+  border: none;
+}
+.encatnue {
+  margin-top: 50px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+.encattleft {
+  border: none;
+  width: 12%;
+  height: 100%;
+  margin-top: -20px;
+  .kukka {
+    color: #3751ff;
+    font-size: 50px;
+    margin-top: -22px;
+    margin-left: 35px;
+    background: transparent;
+  }
+}
+.henana {
+  width: 90%;
+}
+.encattright {
+  border: none;
+  width: 80%;
+  height: 100%;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Mulish";
+}
+.encatmini {
+  width: 80%;
+  height: 500px;
+  display: flex;
+  margin-left: 12%;
+}
+.encatminileft {
+  width: 50%;
+  height: 100%;
+  border: none;
+}
+.encatminiright {
+  width: 50%;
+  height: 100%;
+  border: none;
+}
+.encatlefth {
+  width: 100%;
+  height: 30px;
+  border: none;
+  font-size: 12px;
+  font-family: "Roboto";
+  margin-top: 3px;
+}
+.encatgorianum {
+  width: 100%;
+  height: 50px;
+  border: none;
+}
+.encatgorianumin {
+  width: 90%;
+  height: 90%;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+}
+.encatchbx {
+  width: 100%;
+  height: 25px;
+  border: none;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: "Mulish";
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.encattag {
+  margin-top: 20px;
+  width: 100%;
+  height: 25px;
+  font-size: 13px;
+  border: none;
+  font-family: "Roboto";
+}
+.enewcattagin {
+  width: 100%;
+  height: 50px;
+  border: none;
+}
+.encattaginn {
+  width: 90%;
+  height: 90%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+  font-size: 18px;
+}
+.encattaginn2 {
+  width: 90%;
+  height: 90%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+  font-size: 18px;
+  background-color: white;
+}
+.encatslug {
+  margin-top: 20px;
+  width: 100%;
+  height: 25px;
+  font-size: 12px;
+  border: none;
+}
+.encatslugin {
+  width: 100%;
+  height: 50px;
+  border: none;
+}
+.enewcatslugin {
+  width: 90%;
+  height: 90%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+  font-size: 18px;
+}
+.encataggr {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+}
+.addcateggory {
+  background-color: green;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+}
+.addcateggory:hover {
+  cursor: pointer;
+}
+.encathc {
+  width: 100%;
+  height: 25px;
+  border: none;
+  font-size: 18px;
+  font-family: "Mulish";
+  margin-left: 5px;
+  font-weight: bold;
+}
+.encatminrightmin {
+  width: 95%;
+  height: auto;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+  margin-top: 20px;
+  margin-left: 10px;
+  > div:nth-child(1) {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #cecece;
+    padding: 10px;
+    padding-left: 40px;
+    > p:nth-child(1) {
+      font-family: "Roboto";
+      font-size: 20px;
+    }
+    > P:nth-child(2) {
+      font-size: 20px;
+      margin-top: -2px;
+    }
+  }
+}
+.eminsubdiv {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  border: none;
+}
+.encatminnom {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  border: none;
+  font-size: 14px;
+}
+.encatp {
+  margin-top: 10px;
+}
+.encatminf {
+  width: 75%;
+  height: 50px;
+  display: flex;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.encatminfsubf {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 0px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.encatminfsubs {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 0px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.encatmins {
+  width: 75%;
+  height: 50px;
+  display: flex;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.treewich {
+  margin-top: 15px;
+  margin-left: 20px;
+
+  > p {
+    font-size: 18px;
+    font-family: "Mulish";
+    font-weight: bold;
+  }
+}
+.treewich__nechy {
+  margin-top: 8px;
+  margin-left: 30px;
+  > p {
+    font-size: 18px;
+    font-family: "Mulish";
+    font-weight: bold;
+  }
+}
+.MuiTreeItem-root.Mui-selected > .MuiTreeItem-content .MuiTreeItem-label {
+  background-color: white;
+}
+root.Mui-selected:focus > .MuiTreeItem-content .MuiTreeItem-label {
+  background-color: white !important;
+}

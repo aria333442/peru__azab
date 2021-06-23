@@ -1,0 +1,725 @@
+@font-face {
+  font-family: "RegencieLight";
+  src: url("../font/RegencieLight.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "HomepageBaukasten-Book";
+  src: url("../font/HomepageBaukasten-Book.ttf");
+  font-style: normal;
+}
+.reseee1 {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  height: auto;
+  display: none;
+  position: absolute;
+  margin-top: -1000px !important;
+  background-color: white;
+  border: 1px solid #cecece;
+}
+.reseee2 {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  height: auto;
+  display: none;
+  position: absolute;
+  margin-top: -950px !important;
+  background-color: white;
+  border: 1px solid #cecece;
+}
+.active {
+  display: block;
+}
+.resumen {
+  width: 100%;
+  height: auto;
+  border: none;
+  margin-top: 20px;
+
+  padding: 20px;
+  padding-top: 0px;
+}
+.surk {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.headr {
+  width: 98%;
+  height: 100%;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 0px;
+  color: black;
+  display: flex !important;
+  justify-content: space-between;
+  font-family: "HomepageBaukasten-Book";
+}
+.span2 {
+  color: blue;
+}
+.stoe {
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+}
+.resma {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 280px;
+
+  margin-top: 10px;
+}
+.resright {
+  width: 48%;
+  height: 100%;
+}
+.resleft {
+  width: 48%;
+  height: 100%;
+}
+.resnum {
+  width: 100%;
+  height: 40px;
+
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  font-family: "HomepageBaukasten-Book";
+}
+.resdata {
+  width: 100%;
+  height: 40px;
+
+  font-size: 18px;
+  font-weight: normal;
+  color: black;
+  font-family: "RegencieLight";
+}
+.resdaata {
+  width: 100%;
+  height: 50px;
+  font-family: "RegencieLight";
+  font-size: 15px;
+  font-weight: normal;
+  color: black;
+}
+.resmid {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.midleft {
+  width: 48%;
+  height: 100%;
+}
+.midright {
+  width: 48%;
+  height: 100%;
+}
+.midp {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  font-family: "HomepageBaukasten-Book";
+}
+.datacob {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+.cobleft {
+  display: flex;
+  justify-content: space-around;
+  width: 48%;
+  height: 100%;
+}
+.leftl {
+  width: 38%;
+  height: 100%;
+}
+.leftr {
+  width: 58%;
+  height: 100%;
+}
+.cobright {
+  display: flex;
+  justify-content: space-around;
+  width: 48%;
+  height: 100%;
+}
+.artic {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  justify-content: space-around;
+}
+.arct {
+  width: 98%;
+  height: 98%;
+
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0px;
+  color: black;
+  font-family: "HomepageBaukasten-Book";
+}
+.tbldiv {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  border: none;
+}
+.tbl {
+  border: none;
+  box-shadow: 0px 0px 10px 0px #00000017;
+  width: 98%;
+}
+.firsttr {
+  width: 100%;
+  height: 50%;
+  border: none;
+}
+.scetr {
+  width: 100%;
+  height: 50%;
+
+  background-color: #f4f5f7;
+}
+.prod {
+  font-size: 18px;
+  width: 30%;
+  height: 50%;
+  color: black;
+  font-family: "HomepageBaukasten-Book";
+}
+
+.prodd {
+  font-size: 18px;
+  width: 30%;
+  height: 50%;
+  font-weight: bold;
+  color: black;
+  font-family: "RegencieLight";
+}
+.est {
+  font-size: 18px;
+  width: 8%;
+  height: 50%;
+}
+.tableees {
+  width: auto;
+  height: auto;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  border-radius: 0px 0px 10px 10px;
+  .model_table__head {
+    background-color: white;
+
+    height: 50px;
+    > th:nth-child(1) {
+      color: black;
+      font-family: "HomepageBaukasten-Book";
+      font-weight: normal !important;
+
+      width: 250px;
+    }
+    > th:nth-child(2) {
+      color: black;
+
+      width: 100px;
+      font-family: "HomepageBaukasten-Book";
+      font-weight: normal !important;
+    }
+    .loass {
+      color: black;
+      width: 100px;
+
+      font-family: "HomepageBaukasten-Book";
+      font-weight: normal !important;
+    }
+  }
+  .sdl {
+    background-color: #f4f5f7;
+    > td {
+      color: black;
+      margin: 10px !important;
+      height: 50px;
+    }
+  }
+}
+.frew {
+  width: 72%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+  > p:nth-child(1) {
+    color: black;
+    font-size: 20px;
+  }
+  > p:nth-child(2) {
+    color: black;
+    font-weight: bolder;
+    margin-left: 40px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 1025px) and (min-width: 767px) {
+  .res {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+  }
+  .resumen {
+    width: 100%;
+    height: auto;
+    border: none;
+    margin-top: 30px;
+  }
+  .surk {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .headr {
+    width: 98%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+  }
+  .resma {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+
+    margin-top: 10px;
+  }
+  .resright {
+    width: 48%;
+    height: 100%;
+  }
+  .resleft {
+    width: 48%;
+    height: 100%;
+  }
+  .resnum {
+    width: 100%;
+    height: 40px;
+
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .resdata {
+    width: 100%;
+    height: 40px;
+
+    font-size: 12px;
+    font-weight: normal;
+  }
+  .resdaata {
+    width: 100%;
+    height: 50px;
+
+    font-size: 11px;
+    font-weight: normal;
+  }
+  .resmid {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .midleft {
+    width: 48%;
+    height: 100%;
+  }
+  .midright {
+    width: 48%;
+    height: 100%;
+  }
+  .midp {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .datacob {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .cobleft {
+    display: flex;
+    justify-content: space-around;
+    width: 48%;
+    height: 100%;
+  }
+  .leftl {
+    width: 38%;
+    height: 100%;
+  }
+  .leftr {
+    width: 58%;
+    height: 100%;
+  }
+  .cobright {
+    display: flex;
+    justify-content: space-around;
+    width: 48%;
+    height: 100%;
+  }
+  .artic {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-around;
+  }
+  .arct {
+    width: 98%;
+    height: 98%;
+
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+  }
+  .tbldiv {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    border: none;
+  }
+  .tbl {
+    border: none;
+
+    width: 98%;
+  }
+  .firsttr {
+    width: 100%;
+    height: 50%;
+    border: none;
+  }
+  .scetr {
+    width: 100%;
+    height: 50%;
+
+    background-color: #f4f5f7;
+  }
+  .prod {
+    font-size: 12px;
+    width: 30%;
+    height: 50%;
+  }
+  .prodd {
+    font-size: 12px;
+    width: 30%;
+    height: 50%;
+    font-weight: bold;
+  }
+  .est {
+    font-size: 12px;
+    width: 8%;
+    height: 50%;
+  }
+  .tableees {
+    width: auto;
+    height: auto;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    border-radius: 0px 0px 10px 10px;
+    .model_table__head {
+      background-color: white;
+
+      height: 50px;
+      > th:nth-child(1) {
+        color: black;
+        font-family: "HomepageBaukasten-Book";
+        font-weight: normal !important;
+        font-size: 14px;
+        width: 250px;
+      }
+      > th:nth-child(2) {
+        color: black;
+
+        width: 100px;
+        font-family: "HomepageBaukasten-Book";
+        font-weight: normal !important;
+        font-size: 14px;
+      }
+      .loass {
+        color: black;
+        width: 100px;
+
+        font-family: "HomepageBaukasten-Book";
+        font-weight: normal !important;
+        font-size: 14px;
+      }
+    }
+    .sdl {
+      background-color: #f4f5f7;
+      > td {
+        color: black;
+        margin: 10px !important;
+        height: 50px;
+        font-size: 12px;
+      }
+    }
+  }
+  .frew {
+    width: 82%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    > p:nth-child(1) {
+      color: black;
+      font-size: 20px;
+    }
+    > p:nth-child(2) {
+      color: black;
+      font-weight: bolder;
+      margin-left: 40px;
+      font-size: 20px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .reseee {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -900px !important;
+    display: none;
+  }
+  .active {
+    display: block;
+  }
+  .resumen {
+    width: 98%;
+    height: auto;
+    border: none;
+    margin-top: 30px;
+  }
+  .surk {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .headr {
+    width: 98%;
+    height: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0px;
+  }
+  .resma {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+
+    margin-top: 10px;
+  }
+  .resright {
+    width: 48%;
+    height: 100%;
+  }
+  .resleft {
+    width: 48%;
+    height: 100%;
+  }
+  .resnum {
+    width: 100%;
+    height: 40px;
+
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .resdata {
+    width: 100%;
+    height: 30px;
+
+    font-size: 6px;
+    font-weight: normal;
+  }
+  .resdaata {
+    width: 100%;
+    height: 45px;
+
+    font-size: 8px;
+    font-weight: normal;
+  }
+  .resmid {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .midleft {
+    width: 48%;
+    height: 100%;
+  }
+  .midright {
+    width: 48%;
+    height: 100%;
+  }
+  .midp {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .datacob {
+    width: 100%;
+    height: 230px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .cobleft {
+    display: flex;
+    justify-content: space-around;
+    width: 48%;
+    height: 100%;
+  }
+  .leftl {
+    width: 38%;
+    height: 100%;
+  }
+  .leftr {
+    width: 58%;
+    height: 100%;
+  }
+  .cobright {
+    display: flex;
+    justify-content: space-around;
+    width: 48%;
+    height: 100%;
+  }
+  .artic {
+    width: 100%;
+    height: 30px;
+
+    display: flex;
+    justify-content: space-around;
+  }
+  .arct {
+    width: 98%;
+    height: 98%;
+
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0px;
+  }
+  .tbldiv {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+    border: none;
+  }
+  .tbl {
+    border: none;
+
+    width: 98%;
+  }
+  .firsttr {
+    width: 100%;
+    height: 50%;
+    border: none;
+  }
+  .scetr {
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    background-color: #f4f5f7;
+  }
+  .prod {
+    font-size: 10px;
+    width: 25%;
+    height: 50%;
+  }
+  .prodd {
+    font-size: 10px;
+    width: 25%;
+    height: 50%;
+    font-weight: bold;
+  }
+  .est {
+    font-size: 12px;
+    width: 10%;
+    height: 50%;
+  }
+  .tableees {
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    border-radius: 0px 0px 10px 10px;
+    .model_table__head {
+      background-color: white;
+
+      height: 50px;
+      > th:nth-child(1) {
+        color: black;
+        font-family: "HomepageBaukasten-Book";
+        font-weight: normal !important;
+        font-size: 8px;
+        width: 250px;
+      }
+      > th:nth-child(2) {
+        color: black;
+
+        width: 100px;
+        font-family: "HomepageBaukasten-Book";
+        font-weight: normal !important;
+        font-size: 8px;
+      }
+      .loass {
+        color: black;
+        width: 100px;
+
+        font-family: "HomepageBaukasten-Book";
+        font-weight: normal !important;
+        font-size: 8px;
+      }
+    }
+    .sdl {
+      background-color: #f4f5f7;
+      > td {
+        color: black;
+        margin: 10px !important;
+        height: 50px;
+        font-size: 6px;
+      }
+    }
+  }
+  .frew {
+    width: 82%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    > p:nth-child(1) {
+      color: black;
+      font-size: 20px;
+    }
+    > p:nth-child(2) {
+      color: black;
+      font-weight: bolder;
+      margin-left: 40px;
+      font-size: 20px;
+    }
+  }
+}

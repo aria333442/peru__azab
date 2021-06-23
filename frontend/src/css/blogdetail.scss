@@ -1,0 +1,1454 @@
+@font-face {
+  font-family: "RegencieLight";
+  src: url("../font/RegencieLight.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "HomepageBaukasten-Book";
+  src: url("../font/HomepageBaukasten-Book.ttf");
+  font-style: normal;
+}
+.ph {
+  height: 300px;
+  width: 100%;
+
+  margin-top: 100px;
+}
+.phimg {
+  height: 100%;
+  width: 100%;
+}
+.loolo {
+  padding: 20px;
+
+  .mp {
+    font-size: 25px;
+    margin-left: 8px;
+    font-family: "RegencieLight";
+  }
+  .left__arrow {
+    font-size: 25px;
+    margin-top: -3px;
+    margin-left: 75px;
+  }
+  .mainawq {
+    height: auto;
+    width: 90%;
+    margin-left: 50px;
+    background-color: white !important;
+    display: flex;
+    justify-content: space-around;
+    .addp {
+      font-family: "RegencieLight";
+      margin-left: 40px;
+    }
+    .left {
+      width: 60%;
+      height: 100%;
+      background-color: white !important;
+      height: auto;
+      .left__bottom {
+        width: 100%;
+        height: auto;
+      }
+      .bottom__header {
+        font-family: "HomepageBaukasten-Book";
+        margin-top: 100px;
+        font-size: 30px;
+      }
+      .comment__div {
+        width: 55%;
+        height: auto;
+        margin-top: 50px;
+        display: flex;
+      }
+      .image__div {
+        width: 30%;
+        height: 110px;
+        .ii {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .content__div {
+        width: 70%;
+        height: auto;
+        margin-left: 10px;
+        margin-top: 20px;
+      }
+      .name__div {
+        width: 45%;
+
+        margin: 2px;
+        height: 20px;
+        margin-top: 0px;
+        > p {
+          font-family: "RegencieLight";
+          font-weight: bolder;
+          font-size: 17px;
+        }
+      }
+      .date__div {
+        width: 60%;
+
+        margin: 5px;
+        margin-top: 0px;
+        height: 20px;
+        > p {
+          font-family: "RegencieLight";
+          color: #ff6606;
+        }
+      }
+      .content {
+        > p {
+          font-family: "RegencieLight";
+          font-size: 18px;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+
+  .left__smaller {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    padding-bottom: 40px;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+  }
+  .lefthead {
+    width: 100%;
+    height: 50px;
+  }
+  .lefthp {
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: "HomepageBaukasten-Book";
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .adddate {
+    width: 100%;
+    height: 30px;
+  }
+  .lftimg {
+    margin-top: 10px;
+    height: 30%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  .lftimage {
+    height: 100%;
+    width: 50%;
+  }
+  .sofa {
+    height: 100%;
+    width: 100%;
+  }
+  .leftpara {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .lftsbp {
+    height: 90%;
+    width: 90%;
+  }
+  .viva {
+    font-size: 18px;
+    font-family: "RegencieLight";
+  }
+  .right {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: 33%;
+    height: 90%;
+  }
+  .aut {
+    width: 100%;
+    height: 5%;
+  }
+  .rp {
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: "HomepageBaukasten-Book";
+    margin-left: 10px;
+    margin-top: 25px;
+  }
+  .rightph {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .rip {
+    height: 90%;
+    width: 95%;
+  }
+  .rnm {
+    border-radius: 10px;
+    margin-top: 5px;
+    height: 100%;
+    width: 100%;
+  }
+  .user {
+    width: 100%;
+    height: 4%;
+  }
+  .userid {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "HomepageBaukasten-Book";
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+  .userr {
+    width: 100%;
+    height: 6%;
+  }
+  .useradd {
+    font-size: 14px;
+    font-family: "RegencieLight";
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .ulti {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: "HomepageBaukasten-Book";
+    margin-left: 10px;
+  }
+  .prdct {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .prdctleft {
+    width: 45%;
+    height: 110px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .prdctright {
+    width: 60%;
+    height: 90%;
+  }
+  .tbl {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .sugh {
+    width: 100%;
+    height: 30%;
+  }
+  .sh {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "HomepageBaukasten-Book";
+  }
+  .sd {
+    font-size: 10px;
+    font-weight: normal;
+    font-family: "RegencieLight";
+  }
+  .sugdes {
+    height: 35%;
+    width: 100%;
+  }
+  .tags {
+    font-family: "HomepageBaukasten-Book";
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .tages__actal {
+    width: 60%;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+    > div {
+      > p {
+        font-family: "RegencieLight";
+        font-size: 18px;
+      }
+    }
+  }
+  .prdbt {
+    background-color: #ff6606;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 5px;
+    height: 20%;
+    width: 30%;
+    font-size: 10px;
+    margin-left: 5px;
+  }
+  .cmnt {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: start;
+    margin-top: 50px;
+  }
+  .comment {
+    margin-left: 80px;
+    width: 40%;
+    height: 100% !important;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    padding: 10px;
+  }
+  .comentario {
+    height: 10%;
+    width: 100%;
+    display: flex;
+  }
+  .esc {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "HomepageBaukasten-Book";
+    margin-bottom: 30px;
+  }
+  .no {
+    height: 100%;
+    width: 50%;
+  }
+  .em {
+    height: 100%;
+    width: 50%;
+  }
+  .num {
+    font-family: "RegencieLight";
+    font-size: 20px;
+  }
+  .leftin {
+    background-color: #f4f5f7;
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  .rightin {
+    background-color: #f4f5f7;
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  .mens {
+    width: 100%;
+    height: 10%;
+  }
+  .mensin {
+    height: 29%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .mesninn {
+    background-color: #f4f5f7;
+    width: 95%;
+    height: 120px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: -20px;
+  }
+  .cmntbd {
+    margin-top: 30px;
+    height: 12%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .enviar {
+    height: 90%;
+    width: 20%;
+    background-color: #ff6606;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .simi {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+  .post {
+    height: 100%;
+  }
+  .span {
+    color: #ff6606;
+  }
+  .ps {
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: "HomepageBaukasten-Book";
+  }
+  .divs {
+    width: 90% !important;
+    height: 450px;
+
+    display: flex;
+    justify-content: space-around;
+  }
+  .first {
+    height: 100%;
+    width: 28%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    display: block;
+    .png {
+      width: 100%;
+      height: 50%;
+    }
+    .head {
+      width: 100%;
+      height: 50px;
+    }
+    .coffee {
+      height: 100%;
+      width: 100%;
+    }
+    .headhd {
+      margin-left: 10px;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: "HomepageBaukasten-Book";
+    }
+    .desc {
+      font-size: 90%;
+      margin-left: 10px;
+      font-family: "RegencieLight";
+    }
+    .des {
+      width: 100%;
+
+      height: 50px;
+    }
+    .icons {
+      width: 100%;
+      height: 60px;
+
+      display: flex;
+    }
+    .khaba {
+      width: 50%;
+      height: 100%;
+
+      display: flex;
+    }
+    .saja {
+      width: 50%;
+      height: 100%;
+      display: flex;
+    }
+    .but {
+      margin-top: 10px;
+      width: 40%;
+      height: 10%;
+      color: white;
+      background-color: #ff6606;
+      border: none;
+      border-radius: 10px;
+      font-family: "HomepageBaukasten-Book";
+    }
+    .cal {
+      height: 100%;
+      width: 30%;
+    }
+    .cali {
+      font-size: 30px;
+
+      margin-left: 10px;
+    }
+    .date {
+      height: 100%;
+      width: 70%;
+    }
+    .datep {
+      font-size: 14px;
+      margin-top: 18px;
+      margin-left: 10px;
+      font-family: "RegencieLight";
+    }
+  }
+}
+
+@media (max-width: 1025px) and (min-width: 768px) {
+  .ph {
+    height: 300px;
+    width: 100%;
+
+    margin-top: 100px;
+  }
+  .loolo {
+    padding: 0px;
+    .addp {
+      font-family: "RegencieLight";
+      margin-left: 20px;
+      font-size: 15px;
+    }
+    .mp {
+      font-size: 25px;
+      margin-left: 8px;
+      font-family: "RegencieLight";
+    }
+    .left__arrow {
+      font-size: 25px;
+      margin-top: -3px;
+      margin-left: 75px;
+    }
+    .main {
+      height: auto;
+      width: 90%;
+      margin-left: 50px;
+      display: flex;
+      justify-content: space-around;
+    }
+    .left {
+      width: 60%;
+      height: 100%;
+      .left__bottom {
+        width: 100%;
+        height: auto;
+      }
+      .bottom__header {
+        font-family: "HomepageBaukasten-Book";
+        margin-top: 100px;
+        font-size: 25px;
+      }
+      .comment__div {
+        width: 65%;
+        height: auto;
+        margin-top: 50px;
+        display: flex;
+      }
+      .image__div {
+        width: 25%;
+        height: 70px !important;
+        .ii {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .content__div {
+        width: 70%;
+        height: auto;
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+      .name__div {
+        width: 40%;
+
+        margin: 2px;
+        height: 20px;
+        margin-top: 0px;
+        > p {
+          font-family: "RegencieLight";
+          font-weight: bolder;
+          font-size: 12px !important;
+        }
+      }
+      .date__div {
+        width: 60%;
+
+        margin: 5px;
+        margin-top: 0px;
+        height: 20px;
+        > p {
+          font-family: "RegencieLight";
+          color: #ff6606;
+          font-size: 10px !important;
+        }
+      }
+      .content {
+        > p {
+          font-family: "RegencieLight";
+          font-size: 14px !important;
+          margin-top: 10px;
+        }
+      }
+    }
+    .left__smaller {
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.05) 0px 8px 32px;
+      padding-bottom: 40px;
+      width: 100%;
+      height: auto;
+      padding-top: 10px;
+    }
+    .lefthead {
+      width: 100%;
+      height: 50px;
+    }
+    .lefthp {
+      font-weight: bolder;
+      font-size: 20px;
+      font-family: "HomepageBaukasten-Book";
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    .adddate {
+      width: 100%;
+      height: 30px;
+    }
+    .lftimg {
+      margin-top: 10px;
+      height: 30%;
+      width: 100%;
+
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 30px;
+    }
+    .lftimage {
+      height: 100%;
+      width: 50%;
+    }
+    .sofa {
+      height: 100%;
+      width: 100%;
+    }
+    .leftpara {
+      height: 300px;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .lftsbp {
+      height: 90%;
+      width: 90%;
+    }
+    .viva {
+      font-size: 14px;
+      font-family: "RegencieLight";
+    }
+    .right {
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.05) 0px 8px 32px;
+      width: 33%;
+      height: 90%;
+      padding: 0px;
+    }
+    .aut {
+      width: 100%;
+      height: 5%;
+    }
+    .rp {
+      font-size: 20px;
+      font-weight: bolder;
+      font-family: "HomepageBaukasten-Book";
+      margin-left: 10px;
+      margin-top: 25px;
+    }
+    .rightph {
+      width: 100%;
+      height: 20%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .rip {
+      height: 90%;
+      width: 95%;
+    }
+    .rnm {
+      border-radius: 10px;
+      margin-top: 5px;
+      height: 100%;
+      width: 100%;
+    }
+    .user {
+      width: 100%;
+      height: 4%;
+    }
+    .userid {
+      font-size: 18px;
+      font-weight: bolder;
+      font-family: "HomepageBaukasten-Book";
+      margin-left: 10px;
+      margin-top: 15px;
+    }
+    .userr {
+      width: 100%;
+      height: 6%;
+    }
+    .useradd {
+      font-size: 12px;
+      font-family: "RegencieLight";
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .ulti {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 10px;
+      font-family: "HomepageBaukasten-Book";
+      margin-left: 10px;
+    }
+    .prdct {
+      width: 100%;
+      height: 15%;
+      display: flex;
+      margin-bottom: 20px;
+    }
+    .prdctleft {
+      width: 45%;
+      height: 90px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .prdctright {
+      width: 60%;
+      height: 90%;
+    }
+    .tbl {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+    }
+    .sugh {
+      width: 100%;
+      height: 30%;
+    }
+    .sh {
+      font-size: 12px;
+      font-weight: bold;
+      font-family: "HomepageBaukasten-Book";
+    }
+    .sd {
+      font-size: 8px;
+      font-weight: normal;
+      font-family: "RegencieLight";
+    }
+    .sugdes {
+      height: 35%;
+      width: 100%;
+    }
+    .tags {
+      font-family: "HomepageBaukasten-Book";
+      margin-left: 10px;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    .tages__actal {
+      width: 60%;
+      height: 100px;
+      margin-top: 20px;
+      margin-left: 10px;
+      > div {
+        > p {
+          font-family: "RegencieLight";
+          font-size: 10px;
+        }
+      }
+    }
+    .prdbt {
+      margin-top: -10px;
+      background-color: #ff6606;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      margin-top: 5px;
+      height: 20%;
+      width: 50%;
+      font-size: 10px;
+      margin-left: 5px;
+      padding: 5px 5px 5px 5px;
+    }
+    .cmnt {
+      width: 100%;
+      height: 400px;
+      display: flex;
+      justify-content: start;
+      margin-top: 50px;
+    }
+    .comment {
+      margin-left: 80px;
+      width: 40%;
+      height: 100% !important;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.05) 0px 8px 32px;
+      padding: 10px;
+    }
+    .comentario {
+      height: 10%;
+      width: 100%;
+      display: flex;
+    }
+    .esc {
+      font-size: 20px;
+      font-weight: bold;
+      font-family: "HomepageBaukasten-Book";
+      margin-bottom: 30px;
+    }
+    .no {
+      height: 100%;
+      width: 50%;
+    }
+    .em {
+      height: 100%;
+      width: 50%;
+    }
+    .num {
+      font-family: "RegencieLight";
+      font-size: 18px;
+    }
+    .leftin {
+      background-color: #f4f5f7;
+      width: 90%;
+      height: 40px;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    .rightin {
+      background-color: #f4f5f7;
+      width: 90%;
+      height: 40px;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    .mens {
+      width: 100%;
+      height: 10%;
+    }
+    .mensin {
+      height: 29%;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .mesninn {
+      background-color: #f4f5f7;
+      width: 95%;
+      height: 120px;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+      margin-left: -20px;
+    }
+    .cmntbd {
+      margin-top: 30px;
+      height: 12%;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .enviar {
+      height: 90%;
+      width: 30%;
+      background-color: #ff6606;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .simi {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 100px;
+    }
+    .post {
+      height: 100%;
+    }
+    .span {
+      color: #ff6606;
+    }
+    .ps {
+      font-size: 30px;
+      font-weight: bolder;
+      font-family: "HomepageBaukasten-Book";
+    }
+    .divs {
+      width: 90%;
+      height: 450px;
+
+      display: flex;
+      justify-content: space-around;
+    }
+    .first {
+      height: 87%;
+      width: 28%;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    }
+    .png {
+      width: 100%;
+      height: 40%;
+    }
+    .head {
+      width: 100%;
+      height: 40px !important;
+    }
+    .coffee {
+      height: 100%;
+      width: 100%;
+    }
+    .headhd {
+      margin-left: 10px;
+      font-size: 100%;
+      font-weight: bold;
+      font-family: "HomepageBaukasten-Book";
+    }
+    .desc {
+      font-size: 70% !important;
+      margin-left: 10px;
+      font-family: "RegencieLight";
+    }
+    .des {
+      width: 100%;
+
+      height: 40px !important;
+    }
+    .icons {
+      width: 100%;
+      height: 60px;
+
+      display: flex;
+    }
+    .khaba {
+      width: 50%;
+      height: 100%;
+
+      display: flex;
+    }
+    .saja {
+      width: 50%;
+      height: 100%;
+      display: flex;
+    }
+    .but {
+      margin-top: 10px;
+      width: 40%;
+      height: 10%;
+      color: white;
+      background-color: #ff6606;
+      border: none;
+      border-radius: 10px;
+      font-family: "HomepageBaukasten-Book";
+      font-size: 12px;
+    }
+    .cal {
+      height: 100%;
+      width: 30%;
+    }
+    .cali {
+      font-size: 20px !important;
+
+      margin-left: 10px;
+    }
+    .date {
+      height: 100%;
+      width: 70%;
+    }
+    .datep {
+      font-size: 8px !important;
+      margin-top: 15px;
+      margin-left: 10px;
+      font-family: "RegencieLight";
+    }
+  }
+  .phimg {
+    height: 100%;
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .ph {
+    height: 300px;
+    width: 100%;
+    padding: 0px !important;
+    margin-top: 70px;
+  }
+  .loolo {
+    padding: 0px !important;
+    .addp {
+      font-family: "RegencieLight";
+      margin-left: 10px;
+      font-size: 10px;
+    }
+    .mp {
+      font-size: 20px;
+      margin-left: 8px;
+      font-family: "RegencieLight";
+    }
+    .left__arrow {
+      font-size: 20px;
+      margin-top: -3px;
+      margin-left: 10px;
+    }
+    .mainawq {
+      height: auto;
+      width: 100%;
+      margin-left: 0px !important;
+      display: flex;
+      justify-content: space-around;
+      padding: 0px !important;
+    }
+    .left {
+      width: 60% !important;
+      height: 100%;
+      .left__bottom {
+        width: 100%;
+        height: auto;
+      }
+      .bottom__header {
+        font-family: "HomepageBaukasten-Book";
+        margin-top: 100px;
+        font-size: 20px;
+      }
+      .comment__div {
+        width: 85%;
+        height: auto;
+        margin-top: 50px;
+        display: flex;
+      }
+      .image__div {
+        width: 25% !important;
+        height: 50px !important;
+        .ii {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .content__div {
+        width: 70%;
+        height: auto;
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+      .name__div {
+        width: 40% !important;
+
+        margin: 2px !important;
+        height: 10px !important;
+        margin-top: 0px !important;
+        > p {
+          font-family: "RegencieLight";
+          font-weight: bolder;
+          font-size: 6px !important;
+        }
+      }
+      .date__div {
+        width: 60% !important;
+
+        margin: 5px !important;
+        margin-top: 0px !important;
+        height: 10px !important;
+        > p {
+          font-family: "RegencieLight";
+          color: #ff6606;
+          font-size: 6px !important;
+        }
+      }
+      .content {
+        > p {
+          font-family: "RegencieLight";
+          font-size: 6px !important;
+          margin-top: 15px !important;
+        }
+      }
+    }
+    .left__smaller {
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.05) 0px 8px 32px;
+      padding-bottom: 40px;
+      width: 100%;
+      height: auto;
+      padding-top: 10px;
+    }
+    .lefthead {
+      width: 100%;
+      height: 50px;
+    }
+    .lefthp {
+      font-weight: bolder;
+      font-size: 18px;
+      font-family: "HomepageBaukasten-Book";
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    .adddate {
+      width: 100%;
+      height: 30px;
+    }
+    .lftimg {
+      margin-top: 10px;
+      height: 30%;
+      width: 100%;
+
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 30px;
+    }
+    .lftimage {
+      height: 100%;
+      width: 50%;
+    }
+    .sofa {
+      height: 100%;
+      width: 100%;
+    }
+    .leftpara {
+      height: 300px;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .lftsbp {
+      height: 90%;
+      width: 90%;
+    }
+    .viva {
+      font-size: 10px;
+      font-family: "RegencieLight";
+    }
+    .right {
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.05) 0px 8px 32px;
+      width: 33%;
+      height: 90%;
+    }
+    .aut {
+      width: 100%;
+      height: 5%;
+    }
+    .rp {
+      font-size: 16px;
+      font-weight: bolder;
+      font-family: "HomepageBaukasten-Book";
+      margin-left: 10px;
+      margin-top: 25px;
+    }
+    .rightph {
+      width: 100%;
+      height: 20%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .rip {
+      height: 90%;
+      width: 95%;
+    }
+    .rnm {
+      border-radius: 10px;
+      margin-top: 5px;
+      height: 100%;
+      width: 100%;
+    }
+    .user {
+      width: 100%;
+      height: 4%;
+    }
+    .userid {
+      font-size: 14px;
+      font-weight: bolder;
+      font-family: "HomepageBaukasten-Book";
+      margin-left: 10px;
+      margin-top: 15px;
+    }
+    .userr {
+      width: 100%;
+      height: 6%;
+    }
+    .useradd {
+      font-size: 10px;
+      font-family: "RegencieLight";
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .ulti {
+      font-size: 14px;
+      font-weight: bold;
+      margin-top: 10px;
+      font-family: "HomepageBaukasten-Book";
+      margin-left: 10px;
+    }
+    .prdct {
+      width: 100%;
+      height: 15%;
+      display: flex;
+      margin-bottom: 20px;
+    }
+    .prdctleft {
+      width: 45%;
+      height: 50px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .prdctright {
+      width: 60%;
+      height: 90%;
+    }
+    .tbl {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+    }
+    .sugh {
+      width: 100%;
+      height: 30%;
+    }
+    .sh {
+      font-size: 8px;
+      font-weight: bold;
+      font-family: "HomepageBaukasten-Book";
+    }
+    .sd {
+      font-size: 6px;
+      font-weight: normal;
+      font-family: "RegencieLight";
+    }
+    .sugdes {
+      height: 35%;
+      width: 100%;
+    }
+    .tags {
+      font-family: "HomepageBaukasten-Book";
+      margin-left: 10px;
+      margin-top: 20px;
+      font-size: 10px;
+    }
+    .tages__actal {
+      width: 60%;
+      height: 100px;
+      margin-top: 20px;
+      margin-left: 10px;
+      > div {
+        > p {
+          font-family: "RegencieLight";
+          font-size: 6px;
+        }
+      }
+    }
+    .prdbt {
+      margin-top: -10px;
+      background-color: #ff6606;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      margin-top: 5px;
+      height: 20%;
+      width: 80%;
+      font-size: 6px;
+      margin-left: 5px;
+      padding: 5px 5px 5px 5px;
+    }
+    .cmnt {
+      width: 100%;
+      height: 400px;
+      display: flex;
+      justify-content: start;
+      margin-top: 50px;
+    }
+    .comment {
+      margin-left: 10px;
+      width: 70%;
+      height: 100% !important;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.05) 0px 8px 32px;
+      padding: 10px;
+    }
+    .comentario {
+      height: 10%;
+      width: 100%;
+      display: flex;
+    }
+    .esc {
+      font-size: 20px;
+      font-weight: bold;
+      font-family: "HomepageBaukasten-Book";
+      margin-bottom: 30px;
+    }
+    .no {
+      height: 100%;
+      width: 50%;
+    }
+    .em {
+      height: 100%;
+      width: 50%;
+    }
+    .num {
+      font-family: "RegencieLight";
+      font-size: 18px;
+    }
+    .leftin {
+      background-color: #f4f5f7;
+      width: 90%;
+      height: 40px;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    .rightin {
+      background-color: #f4f5f7;
+      width: 90%;
+      height: 40px;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    .mens {
+      width: 100%;
+      height: 10%;
+    }
+    .mensin {
+      height: 29%;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .mesninn {
+      background-color: #f4f5f7;
+      width: 95%;
+      height: 120px;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+      margin-left: -20px;
+    }
+    .cmntbd {
+      margin-top: 30px;
+      height: 12%;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .enviar {
+      height: 90%;
+      width: 30%;
+      background-color: #ff6606;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .simi {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 100px;
+    }
+    .post {
+      height: 100%;
+    }
+    .span {
+      color: #ff6606;
+    }
+    .ps {
+      font-size: 30px;
+      font-weight: bolder;
+      font-family: "HomepageBaukasten-Book";
+    }
+    .divs {
+      width: 95%;
+      height: 450px;
+
+      display: flex;
+      justify-content: space-around;
+    }
+    .first {
+      height: 87%;
+      width: 50%;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    }
+    .png {
+      width: 100%;
+      height: 40%;
+    }
+    .head {
+      width: 100%;
+      height: 50px;
+    }
+    .coffee {
+      height: 100%;
+      width: 100%;
+    }
+    .headhd {
+      margin-left: 10px;
+      font-size: 100%;
+      font-weight: bold;
+      font-family: "HomepageBaukasten-Book";
+    }
+    .desc {
+      font-size: 70% !important;
+      margin-left: 10px;
+      font-family: "RegencieLight";
+    }
+    .des {
+      width: 100%;
+
+      height: 50px;
+    }
+    .icons {
+      width: 100%;
+      height: 60px;
+
+      display: flex;
+    }
+    .khaba {
+      width: 50%;
+      height: 100%;
+
+      display: flex;
+    }
+    .saja {
+      width: 50%;
+      height: 100%;
+      display: flex;
+    }
+    .but {
+      margin-top: -10px !important;
+      width: 50%;
+      height: 10%;
+      color: white;
+      background-color: #ff6606;
+      border: none;
+      border-radius: 10px;
+      font-family: "HomepageBaukasten-Book";
+      font-size: 10px !important;
+    }
+    .cal {
+      height: 100%;
+      width: 30%;
+    }
+    .cali {
+      font-size: 20px !important;
+
+      margin-left: 10px;
+    }
+    .date {
+      height: 100%;
+      width: 70%;
+    }
+    .datep {
+      font-size: 6px !important;
+      margin-top: 15px;
+      margin-left: 10px;
+      font-family: "RegencieLight";
+    }
+  }
+  .phimg {
+    height: 100%;
+    width: 100%;
+  }
+}

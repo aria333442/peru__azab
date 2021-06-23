@@ -1,0 +1,404 @@
+.coreomain{
+    background-color: #F7F8FC;
+    height: 1200px;
+    display: flex;
+    margin-left: 0px;
+    border: none;
+    margin-top: 0px;
+}
+.corleft{
+    width: 20%;
+    height: 100%;
+    border:1px solid black;
+}
+
+.corright{
+    margin-left: 50px;
+    display: block;
+    width: 70%;
+    height: 100%;
+    border:1px solid black;
+}
+.corhead{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    margin-top: 10px;
+    border: none;
+}
+.cortab{
+    width: 75%;
+    height: 100%;
+    border: 1px solid;
+    display: flex;
+}
+.corta{
+    font-size: 30px;
+    font-weight: bold;
+    height: 100%;
+    width: 80%;
+
+}
+.icon{
+    
+    font-size: 25px;
+    height: 100%;
+    width: 10%;
+    border: 1px solid black;
+}
+.iconr{
+    font-size: 25px;
+    height: 100%;
+    width: 10%;
+    border: 1px solid black;
+}
+.user{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    border: 1px solid;
+}
+.use{
+    text-align: center;
+    font-size: 18px;
+    width: 50%;
+    height: 100%;
+    border: black 1px solid;
+}
+.dp{
+    width: 50%;
+    height: 100%;
+    border: black 1px solid;
+    
+}
+.corsearch{
+    width: 100%;
+    height: 60px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around !important;
+    border: none;
+}
+.Buscor{
+    width: 87%;
+    border: none;
+    height: 80%;
+    margin-right: none;
+}
+.corbusin{
+    box-shadow: 0px 1px 3px 0px;
+    width: 50%;
+    height: 90%;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.coreotbl{
+    width: 100%;
+    height: 700px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.crtbl{
+    background-color: white;
+    width: 90%;
+    height: 95%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px 0px;
+}
+.coreotable{
+    height: 90%;
+    width: 100%;
+}
+.coreotdd{
+    border: none;
+    width: 33%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.coreotd{
+    font-size: 14px;
+    font-weight: normal;
+    border: none;
+    width: 33%;
+    text-align: center;
+}
+.coreoan{
+    font-size: 14px;
+}
+.coreotr{
+    border-bottom: black;
+}
+@media (max-width:1025px) and (min-width:768px) {
+    .coreomain{
+        background-color: #F7F8FC;
+        height: 900px;
+        display: flex;
+        margin-left: 0px;
+        border: none;
+        margin-top: 0px;
+    }
+    .corleft{
+        width: 20%;
+        height: 100%;
+        border:1px solid black;
+    }
+    
+    .corright{
+        margin-left: 50px;
+        display: block;
+        width: 70%;
+        height: 100%;
+        border:1px solid black;
+    }
+    .corhead{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        margin-top: 10px;
+        border: none;
+    }
+    .cortab{
+        width: 75%;
+        height: 100%;
+        border: 1px solid;
+        display: flex;
+    }
+    .corta{
+        font-size: 25px;
+        font-weight: bold;
+        height: 100%;
+        width: 80%;
+    
+    }
+    .icon{
+        
+        font-size: 20px;
+        height: 100%;
+        width: 10%;
+        border: 1px solid black;
+    }
+    .iconr{
+        font-size: 20px;
+        height: 100%;
+        width: 10%;
+        border: 1px solid black;
+    }
+    .user{
+        display: flex;
+        width: 25%;
+        height: 100%;
+        border: 1px solid;
+    }
+    .use{
+        text-align: center;
+        font-size: 14px;
+        width: 50%;
+        height: 100%;
+        border: black 1px solid;
+    }
+    .dp{
+        width: 50%;
+        height: 100%;
+        border: black 1px solid;
+        
+    }
+    .corsearch{
+        width: 100%;
+        height: 60px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around !important;
+        border: none;
+    }
+    .Buscor{
+        width: 87%;
+        border: none;
+        height: 80%;
+        margin-right: none;
+    }
+    .corbusin{
+        box-shadow: 0px 1px 3px 0px;
+        width: 50%;
+        height: 90%;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    .coreotbl{
+        width: 100%;
+        height: 700px;
+        margin-top: 0px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .crtbl{
+        background-color: white;
+        width: 90%;
+        height: 95%;
+        border-radius: 5px;
+        box-shadow: 0px 1px 3px 0px;
+    }
+    .coreotable{
+        height: 90%;
+        width: 100%;
+    }
+    .coreotdd{
+        border: none;
+        width: 33%;
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .coreotd{
+        font-size: 14px;
+        font-weight: normal;
+        border: none;
+        width: 33%;
+        text-align: center;
+    }
+    .coreoan{
+        font-size: 14px;
+    }
+    .coreotr{
+        border-bottom: black;
+    }   
+}
+@media (max-width:767px) {
+
+    .coreomain{
+        background-color: #F7F8FC;
+        height: 500px;
+        display: flex;
+        margin-left: 0px;
+        border: none;
+        margin-top: 0px;
+    }
+    .corleft{
+        width: 30%;
+        height: 100%;
+        border:1px solid black;
+    }
+    
+    .corright{
+        margin-left: 0px;
+        display: block;
+        width: 70%;
+        height: 100%;
+        border:1px solid black;
+    }
+    .corhead{
+        width: 100%;
+        height: 30px;
+        display: flex;
+        margin-top: 10px;
+        border: none;
+    }
+    .cortab{
+        width: 70%;
+        height: 100%;
+        border: 1px solid;
+        display: flex;
+    }
+    .corta{
+        font-size: 20px;
+        font-weight: bold;
+        height: 100%;
+        width: 70%;
+    
+    }
+    .icon{
+        
+        font-size: 15px;
+        height: 100%;
+        width: 15%;
+        border: 1px solid black;
+    }
+    .iconr{
+        font-size: 15px;
+        height: 100%;
+        width: 15%;
+        border: 1px solid black;
+    }
+    .user{
+        display: flex;
+        width: 30%;
+        height: 100%;
+        border: 1px solid;
+    }
+    .use{
+        text-align: center;
+        font-size: 10px;
+        width: 60%;
+        height: 100%;
+        border: black 1px solid;
+    }
+    .dp{
+        width: 40%;
+        height: 100%;
+        border: black 1px solid;
+        
+    }
+    .corsearch{
+        width: 100%;
+        height: 30px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around !important;
+        border: none;
+    }
+    .Buscor{
+        width: 95%;
+        border: none;
+        height: 80%;
+        margin-right: none;
+    }
+    .corbusin{
+        box-shadow: 0px 1px 3px 0px;
+        width: 50%;
+        height: 90%;
+        border: none;
+        border-radius: 5px;
+        font-size: 10px;
+    }
+    .coreotbl{
+        width: 100%;
+        height: 400px;
+        margin-top: 0px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .crtbl{
+        background-color: white;
+        width: 95%;
+        height: 95%;
+        border-radius: 5px;
+        box-shadow: 0px 1px 3px 0px;
+    }
+    .coreotable{
+        height: 90%;
+        width: 100%;
+    }
+    .coreotdd{
+        border: none;
+        width: 33%;
+        text-align: center;
+        font-size: 8px;
+        font-weight: bold;
+    }
+    .coreotd{
+        font-size: 8px;
+        font-weight: normal;
+        border: none;
+        width: 33%;
+        text-align: center;
+    }
+    .coreoan{
+        font-size: 8px;
+    }
+    .coreotr{
+        border-bottom: black;
+    }
+}

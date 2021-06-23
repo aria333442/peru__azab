@@ -1,0 +1,404 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  background-color: #222222;
+  height: 336px;
+  width: 100%;
+  .footer__logo {
+    margin-left: 101px;
+    margin-top: 35px;
+    > img {
+      height: 100px;
+      width: 50px;
+    }
+  }
+  .ventii {
+    color: white;
+    font-size: 16px;
+  }
+  .footer__information {
+    margin-left: 80px;
+    margin-top: 35px;
+    width: 200px;
+    height: auto;
+    .footer__header {
+      color: white;
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+        "Helvetica Neue" !important;
+    }
+    .below__header {
+      color: white;
+      margin-top: 30px;
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+        "Helvetica Neue" !important;
+    }
+    .below__header2 {
+      color: white;
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+        "Helvetica Neue" !important;
+      margin-bottom: 20px !important;
+      font-size: 15px;
+      background-color: #222222;
+    }
+
+    .footer__master {
+      margin-top: -20px;
+      font-size: 40px;
+      margin-left: 10px;
+      color: white;
+    }
+    .footer__location {
+      color: white;
+      font-size: 20px;
+      margin-top: -7px;
+      margin-left: -5px;
+      margin-right: 10px;
+    }
+    .Footer__input {
+      height: 40px;
+      border-radius: 5px;
+      border: none;
+      margin-top: 5px;
+    }
+  }
+  .footer__information2 {
+    margin-left: 80px;
+    margin-top: 35px;
+    width: 300px;
+    .footer__header {
+      color: white;
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+        "Helvetica Neue" !important;
+    }
+    .Footer__input {
+      height: 40px;
+      border-radius: 5px;
+      border: none;
+      margin-top: 10px;
+      width: 200px;
+      padding: 10px;
+    }
+    .footer__button {
+      height: 40px;
+      width: 40px;
+      margin-top: 10px;
+      border: none;
+      margin-left: 10px;
+      background-color: #ff6606;
+      border-radius: 5px;
+      .button__icon {
+        color: white;
+        font-size: 30px;
+        margin-top: -9px;
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1299px) {
+  .footer {
+    display: flex;
+    margin-top: 100px;
+    background-color: #222222;
+
+    width: 100%;
+    justify-content: space-around;
+    .footer__logo {
+      margin-top: 35px;
+      > img {
+        height: 100px;
+        width: 50px;
+        margin-left: -40px;
+      }
+    }
+    .footer__information {
+      margin-top: 35px;
+      width: 70px;
+
+      .footer__header {
+        font-size: 20px;
+        color: white;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+          "Helvetica Neue" !important;
+      }
+      .below__header {
+        color: white;
+        margin-top: 30px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+          "Helvetica Neue" !important;
+        font-size: 10px;
+      }
+      .below__header2 {
+        color: white;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+          "Helvetica Neue" !important;
+        font-size: 10px;
+      }
+      .footer__visa {
+        margin-top: -20px;
+        color: blue;
+        font-size: 40px;
+      }
+      .footer__master {
+        margin-top: -20px;
+        font-size: 40px;
+
+        color: white;
+      }
+      .footer__location {
+        color: white;
+        font-size: 20px;
+        margin-top: -7px;
+
+        margin-right: 10px;
+      }
+      .Footer__input {
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        margin-top: 5px;
+      }
+    }
+    .footer__information2 {
+      margin-top: 35px;
+      width: 200px;
+      margin-right: 70px;
+      .footer__header {
+        color: white;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+          "Helvetica Neue" !important;
+      }
+      .Footer__input {
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        margin-top: 10px;
+        width: 130px;
+        padding: 10px;
+      }
+      .footer__button {
+        height: 40px;
+        width: 40px;
+        margin-top: 10px;
+        border: none;
+
+        background-color: #ff6606;
+        border-radius: 5px;
+        .button__icon {
+          color: white;
+          font-size: 30px;
+          margin-top: -9px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .footers {
+    background-color: #222222;
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    height: 180px;
+    > div:nth-child(1) {
+      width: 30%;
+
+      .footer__logos {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        > img {
+          margin-top: 20px;
+          width: 40px;
+          height: 70px;
+        }
+      }
+    }
+    > div:nth-child(2) {
+      width: 70%;
+
+      .footer__informations {
+        margin-left: 40px;
+        margin-top: 20px;
+        .main__0 {
+          width: 120px;
+          display: none;
+          > div {
+            border-bottom: 0.2px solid white;
+            margin-bottom: 10px;
+            > h3 {
+              font-size: 15px;
+              margin-left: 0px;
+              color: white;
+              font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+                "Helvetica Neue" !important;
+              text-align: center;
+            }
+          }
+        }
+        .active0 {
+          display: block !important;
+        }
+        .main__1 {
+          width: 170px;
+          display: none;
+          > div {
+            > h3 {
+              font-size: 17px;
+              margin-left: 0px;
+              color: white;
+              font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+                "Helvetica Neue" !important;
+              text-align: center;
+              margin-left: 40px;
+            }
+            > span {
+              color: #ff6606;
+              margin-top: -3px;
+              margin-left: 10px;
+            }
+          }
+          > p:nth-child(2) {
+            text-align: center;
+            font-size: 11px;
+            color: #f4f5f7 !important;
+          }
+          > p:nth-child(3) {
+            text-align: center;
+            font-size: 11px;
+            color: #f4f5f7 !important;
+            margin-top: -8px;
+          }
+          > p:nth-child(4) {
+            text-align: center;
+            font-size: 11px;
+            color: #f4f5f7 !important;
+            margin-top: -8px;
+          }
+          > p:nth-child(5) {
+            text-align: center;
+            font-size: 11px;
+            color: #f4f5f7 !important;
+            margin-top: -8px;
+          }
+          > p:nth-child(6) {
+            text-align: center;
+            font-size: 11px;
+            color: #f4f5f7 !important;
+            margin-top: -8px;
+          }
+        }
+        .active1 {
+          display: block !important;
+        }
+        .main__2 {
+          width: 140px;
+          display: none;
+          > div {
+            > h3 {
+              font-size: 17px;
+              margin-left: 0px;
+              color: white;
+              font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+                "Helvetica Neue" !important;
+              text-align: center;
+              margin-left: 40px;
+            }
+            > span {
+              color: #ff6606;
+              margin-top: -3px;
+              margin-left: 10px;
+            }
+          }
+          > p:nth-child(2) {
+            text-align: center;
+            font-size: 11px;
+            color: #f4f5f7 !important;
+          }
+          > p:nth-child(3) {
+            text-align: center;
+            font-size: 11px;
+            color: #f4f5f7 !important;
+            margin-top: -8px;
+          }
+          > p:nth-child(4) {
+            text-align: center;
+            font-size: 11px;
+            color: #f4f5f7 !important;
+            margin-top: -8px;
+          }
+        }
+        .active2 {
+          display: block !important;
+        }
+        .main__3 {
+          width: 140px;
+
+          display: none;
+          > div {
+            > h3 {
+              font-size: 17px;
+              margin-left: 0px;
+              color: white;
+              font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+                "Helvetica Neue" !important;
+              text-align: center;
+              margin-left: 40px;
+            }
+            > span {
+              color: #ff6606;
+              margin-top: -3px;
+              margin-left: 10px;
+            }
+          }
+          > p:nth-child(2) {
+            text-align: center;
+            font-size: 11px;
+            color: #f4f5f7 !important;
+          }
+          > div:nth-child(3) {
+            justify-content: center;
+            > p:nth-child(1) {
+              font-size: 11px;
+              color: #f4f5f7 !important;
+              margin-top: -8px;
+            }
+            > p:nth-child(2) {
+              font-size: 11px;
+              color: #f4f5f7 !important;
+              margin-left: 10px;
+              margin-top: -8px;
+            }
+          }
+          > div:nth-child(4) {
+            justify-content: center;
+            > p:nth-child(1) {
+              font-size: 11px;
+              color: #f4f5f7 !important;
+              margin-top: -8px;
+            }
+            > p:nth-child(2) {
+              font-size: 11px;
+              color: #f4f5f7 !important;
+              margin-left: 10px;
+              margin-top: -8px;
+            }
+          }
+          .below__header2s {
+            font-size: 11px;
+            color: #f4f5f7 !important;
+            text-align: center;
+            margin-top: -10px;
+          }
+        }
+        .active3 {
+          display: block !important;
+        }
+      }
+    }
+  }
+  .ventii {
+    color: white !important;
+    font-size: 10px;
+  }
+}

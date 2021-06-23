@@ -1,0 +1,26 @@
+@import "../css/variable";
+.topa{
+    padding: 30px 30px !important;
+    .slick-arrow {
+        background-color: $primary;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        box-shadow: 5px 5px 30px lightgray;
+        opacity: 2 !important;
+        position: absolute;
+        margin-right: 0px;
+        z-index: 200;
+        margin-left: -18px;
+        margin-top: -40px !important;
+        
+      }
+      h4{
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+        font-size: 23px;
+        font-weight: 550;
+        margin-top: 40px;
+        margin-left: 20px;
+        position: relative;
+      }
+    }

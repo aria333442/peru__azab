@@ -1,0 +1,751 @@
+@import "../css/variable";
+.lols {
+  .checkout_modal {
+    height: 900px;
+    width: 905px;
+    background-color: white;
+    margin-top: -2050px !important;
+    z-index: 100;
+    position: absolute;
+
+    .checout__title {
+      font-family: "HomepageBaukasten-Book";
+      color: #ff6606;
+      margin-top: 35px;
+      font-weight: bolder;
+      font-size: 30px;
+    }
+    .numberinng__div {
+      margin-top: 30px;
+      margin-left: 100px;
+      .numbering {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: gray;
+        color: black;
+        font-size: 18px;
+        padding-left: 9px;
+        padding-top: -5px;
+      }
+      .number1 {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 20px;
+        color: gray;
+        margin-left: 10px;
+        margin-top: 3px;
+      }
+      .activa {
+        color: black;
+      }
+      .activa2 {
+        background-color: #ff6606;
+        color: white;
+      }
+    }
+    .numberinng__div2 {
+      margin-top: 30px;
+      margin-left: 10px;
+      .numbering {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: gray;
+        color: black;
+        font-size: 18px;
+        padding-left: 9px;
+        padding-top: -5px;
+      }
+      .number1 {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 20px;
+        color: gray;
+        margin-left: 10px;
+        margin-top: 3px;
+      }
+      .activa {
+        color: black;
+      }
+      .activa2 {
+        background-color: #ff6606;
+        color: white;
+      }
+    }
+
+    .lines {
+      border-bottom: 2px solid #767474;
+      width: 40px;
+      height: 2px;
+      margin-top: 43px;
+      margin-left: 10px;
+    }
+    .contAINE {
+      margin-top: 6px;
+    }
+    .form__container {
+      margin-left: 100px;
+      width: 80%;
+
+      margin-top: 20px;
+      height: 580px;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    }
+    .form__title {
+      font-family: "HomepageBaukasten-Book";
+      font-weight: bold;
+      font-size: 23px;
+      margin-top: 40px;
+      margin-left: 40px;
+      position: absolute;
+      color: black;
+    }
+    .form_ok {
+      color: white;
+      background-color: #ff6606;
+      padding: 8px 25px 8px 25px;
+      position: absolute;
+      margin-left: 540px;
+      border-radius: 10px;
+      font-size: 20px;
+      margin-top: 32px;
+    }
+    .actual__form {
+      width: 300px;
+      margin-top: 110px;
+      margin-left: 40px;
+      .lablee {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 17px;
+        margin-bottom: 3px;
+        color: black;
+      }
+      input {
+        margin-bottom: 40px;
+        background-color: #f4f5f7;
+        font-family: "RegencieLight";
+      }
+    }
+    .emailo {
+      margin-left: 40px;
+      margin-right: 40px;
+      .lablee {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 17px;
+        margin-bottom: 3px;
+        color: black;
+      }
+      input {
+        margin-bottom: 40px;
+        background-color: #f4f5f7;
+        font-family: "RegencieLight";
+      }
+    }
+    .below__buttons {
+      width: 80%;
+      margin-left: 100px;
+      height: 100px;
+
+      display: flex;
+
+      .REGISTRARME {
+        font-family: "HomepageBaukasten-Book";
+        color: white;
+        background-color: #ff6606;
+        padding: 12px 40px 12px 40px;
+        border-radius: 10px;
+        position: absolute;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 100px;
+      }
+      .REGISTRARME2 {
+        font-family: "HomepageBaukasten-Book";
+        color: #ff6606;
+        background-color: white;
+        padding: 12px 40px 12px 40px;
+        border-radius: 10px;
+        position: absolute;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 250px;
+        border: 1px solid #ff6606;
+      }
+      .REGISTRARME3 {
+        font-family: "HomepageBaukasten-Book";
+        color: white;
+        background-color: #ff6606;
+        padding: 12px 40px 12px 40px;
+        border-radius: 10px;
+        position: absolute;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 250px;
+      }
+    }
+  }
+  .confirmation__model {
+    height: auto;
+    width: 250px;
+    background-color: white;
+    margin-top: -2050px !important;
+    z-index: 100;
+    position: absolute;
+    padding-bottom: 20px;
+    border: 1px solid #cecece;
+    padding-bottom: 20px;
+    .confirmed {
+      margin-top: 0px;
+      font-size: 50px;
+      color: #00ff38;
+    }
+    .text__div {
+      width: 70%;
+      height: auto;
+      font-family: "HomepageBaukasten-Book";
+      font-weight: bolder;
+    }
+    .ver {
+      font-family: "HomepageBaukasten-Book";
+      color: #ff6606;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+    .button__div {
+      width: 60%;
+    }
+    .button__text {
+      font-family: "HomepageBaukasten-Book";
+      font-size: 20px;
+      color: white;
+      background-color: #ff6606;
+      padding: 10px 10px 10px 10px;
+      border-radius: 10px;
+    }
+  }
+  .intnrest {
+    height: auto;
+    width: 450px;
+    background-color: white;
+    margin-top: -2050px !important;
+    z-index: 100;
+    position: absolute;
+    padding-bottom: 20px;
+    border: 1px solid #cecece;
+    padding-bottom: 20px;
+    .interest__header {
+      font-family: "Roboto";
+      font-size: 25px;
+      margin-top: 20px;
+    }
+    .image__div {
+      width: 250px;
+      height: 270px;
+      margin-top: 10px;
+    }
+    .hot__image {
+      width: 100%;
+      height: 100%;
+    }
+    .hot__name {
+      font-family: "HomepageBaukasten-Book";
+      margin-top: 20px;
+      font-size: 25px;
+      color: #616161;
+    }
+    .hot__price {
+      font-family: "RegencieLight";
+      font-size: 30px;
+      color: #222222;
+    }
+    .but__div {
+      width: 35%;
+    }
+    .but {
+      font-family: "Roboto";
+      color: white;
+      background-color: #ff6606;
+      font-size: 22px;
+      padding: 10px 10px 10px 10px;
+      padding-left: 7px;
+      padding-left: 20px;
+      border-radius: 10px;
+    }
+    .but__2 {
+      font-family: "Roboto";
+      font-size: 25px;
+      margin-top: 5px;
+      color: #ff6606;
+    }
+  }
+}
+.active {
+  display: block;
+}
+.shop {
+  margin-top: 100px;
+  &__banner {
+    height: 400px;
+    width: 100%;
+    margin-top: 70px;
+    display: grid;
+    place-items: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    > div {
+      width: 100%;
+      height: 148px;
+      background: rgba(34, 34, 34, 0.2);
+      backdrop-filter: blur(3px);
+      display: grid;
+      place-items: center;
+      > h2 {
+        font-size: 80px;
+
+        &::before {
+          content: "#";
+          color: $primary;
+        }
+      }
+    }
+  }
+  &__head {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    > h2 {
+      font-size: 40px;
+      color: #3a3a3a;
+    }
+    .cat {
+      color: #ff6606;
+      margin-left: 20px;
+    }
+  }
+  &__container {
+    padding: 0px 10%;
+    display: flex;
+    > h2 {
+      text-align: center;
+      font-size: 40px;
+      &::after {
+        content: " muebles";
+        color: $primary;
+      }
+    }
+  }
+}
+@media (max-width: "1299px") and (min-width: "768px") {
+  .lols {
+    .checkout_modal {
+      height: 900px;
+      width: 905px;
+      background-color: white;
+      margin-top: -2350px !important;
+      z-index: 100;
+      position: absolute;
+
+      .checout__title {
+        font-family: "HomepageBaukasten-Book";
+        color: #ff6606;
+        margin-top: 35px;
+        font-weight: bolder;
+        font-size: 30px;
+      }
+      .numberinng__div {
+        margin-top: 30px;
+        margin-left: 100px;
+        .numbering {
+          width: 28px;
+          height: 28px;
+          border-radius: 50%;
+          background-color: gray;
+          color: black;
+          font-size: 18px;
+          padding-left: 9px;
+          padding-top: -5px;
+        }
+        .number1 {
+          font-family: "HomepageBaukasten-Book";
+          font-size: 20px;
+          color: gray;
+          margin-left: 10px;
+          margin-top: 3px;
+        }
+        .activa {
+          color: black;
+        }
+        .activa2 {
+          background-color: #ff6606;
+          color: white;
+        }
+      }
+      .numberinng__div2 {
+        margin-top: 30px;
+        margin-left: 10px;
+        .numbering {
+          width: 28px;
+          height: 28px;
+          border-radius: 50%;
+          background-color: gray;
+          color: black;
+          font-size: 18px;
+          padding-left: 9px;
+          padding-top: -5px;
+        }
+        .number1 {
+          font-family: "HomepageBaukasten-Book";
+          font-size: 20px;
+          color: gray;
+          margin-left: 10px;
+          margin-top: 3px;
+        }
+        .activa {
+          color: black;
+        }
+        .activa2 {
+          background-color: #ff6606;
+          color: white;
+        }
+      }
+
+      .lines {
+        border-bottom: 2px solid #767474;
+        width: 40px;
+        height: 2px;
+        margin-top: 43px;
+        margin-left: 10px;
+      }
+      .contAINE {
+        margin-top: 6px;
+      }
+      .form__container {
+        margin-left: 100px;
+        width: 80%;
+
+        margin-top: 20px;
+        height: 580px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+          rgba(17, 17, 26, 0.05) 0px 8px 32px;
+      }
+      .form__title {
+        font-family: "HomepageBaukasten-Book";
+        font-weight: bold;
+        font-size: 23px;
+        margin-top: 40px;
+        margin-left: 40px;
+        position: absolute;
+        color: black;
+      }
+      .form_ok {
+        color: white;
+        background-color: #ff6606;
+        padding: 8px 25px 8px 25px;
+        position: absolute;
+        margin-left: 540px;
+        border-radius: 10px;
+        font-size: 20px;
+        margin-top: 32px;
+      }
+      .actual__form {
+        width: 300px;
+        margin-top: 110px;
+        margin-left: 40px;
+        .lablee {
+          font-family: "HomepageBaukasten-Book";
+          font-size: 17px;
+          margin-bottom: 3px;
+          color: black;
+        }
+        input {
+          margin-bottom: 40px;
+          background-color: #f4f5f7;
+          font-family: "RegencieLight";
+          color: black;
+        }
+      }
+      .emailo {
+        margin-left: 40px;
+        margin-right: 40px;
+        .lablee {
+          font-family: "HomepageBaukasten-Book";
+          font-size: 17px;
+          margin-bottom: 3px;
+        }
+        input {
+          margin-bottom: 40px;
+          background-color: #f4f5f7;
+          font-family: "RegencieLight";
+        }
+      }
+      .below__buttons {
+        width: 80%;
+        margin-left: 100px;
+        height: 100px;
+
+        display: flex;
+
+        .REGISTRARME {
+          font-family: "HomepageBaukasten-Book";
+          color: white;
+          background-color: #ff6606;
+          padding: 12px 40px 12px 40px;
+          border-radius: 10px;
+          position: absolute;
+          font-size: 20px;
+          margin-top: 20px;
+          margin-left: 100px;
+        }
+        .REGISTRARME2 {
+          font-family: "HomepageBaukasten-Book";
+          color: #ff6606;
+          background-color: white;
+          padding: 12px 40px 12px 40px;
+          border-radius: 10px;
+          position: absolute;
+          font-size: 20px;
+          margin-top: 20px;
+          margin-left: 250px;
+          border: 1px solid #ff6606;
+        }
+        .REGISTRARME3 {
+          font-family: "HomepageBaukasten-Book";
+          color: white;
+          background-color: #ff6606;
+          padding: 12px 40px 12px 40px;
+          border-radius: 10px;
+          position: absolute;
+          font-size: 20px;
+          margin-top: 20px;
+          margin-left: 250px;
+        }
+      }
+    }
+    .confirmation__model {
+      height: auto;
+      width: 250px;
+      background-color: white;
+      margin-top: -2250px !important;
+      z-index: 100;
+      position: absolute;
+      padding-bottom: 20px;
+      border: 1px solid #cecece;
+      padding-bottom: 20px;
+      .confirmed {
+        margin-top: 0px;
+        font-size: 50px;
+        color: #00ff38;
+      }
+      .text__div {
+        width: 70%;
+        height: auto;
+        font-family: "HomepageBaukasten-Book";
+        font-weight: bolder;
+      }
+      .ver {
+        font-family: "HomepageBaukasten-Book";
+        color: #ff6606;
+        font-size: 14px;
+        margin-top: 20px;
+      }
+      .button__div {
+        width: 60%;
+      }
+      .button__text {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 20px;
+        color: white;
+        background-color: #ff6606;
+        padding: 10px 10px 10px 10px;
+        border-radius: 10px;
+      }
+    }
+    .intnrest {
+      height: auto;
+      width: 450px;
+      background-color: white;
+      margin-top: -2250px !important;
+      z-index: 100;
+      position: absolute;
+      padding-bottom: 20px;
+      border: 1px solid #cecece;
+      padding-bottom: 20px;
+      .interest__header {
+        font-family: "Roboto";
+        font-size: 25px;
+        margin-top: 20px;
+      }
+      .image__div {
+        width: 250px;
+        height: 270px;
+        margin-top: 10px;
+      }
+      .hot__image {
+        width: 100%;
+        height: 100%;
+      }
+      .hot__name {
+        font-family: "HomepageBaukasten-Book";
+        margin-top: 20px;
+        font-size: 25px;
+        color: #616161;
+      }
+      .hot__price {
+        font-family: "RegencieLight";
+        font-size: 30px;
+        color: #222222;
+      }
+      .but__div {
+        width: 35%;
+      }
+      .but {
+        font-family: "Roboto";
+        color: white;
+        background-color: #ff6606;
+        font-size: 22px;
+        padding: 10px 10px 10px 10px;
+        padding-left: 20px;
+        border-radius: 10px;
+      }
+      .but__2 {
+        font-family: "Roboto";
+        font-size: 25px;
+        margin-top: 5px;
+        color: #ff6606;
+      }
+    }
+  }
+  .active {
+    display: block;
+  }
+  .SASSO {
+    margin-left: 50px !important;
+  }
+}
+@media (max-width: "767px") {
+  .SASSO {
+    margin-left: 35px !important;
+    position: sticky;
+    top: 0;
+  }
+  .shop__head {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    > h2 {
+      font-size: 25px;
+      color: #3a3a3a;
+    }
+    .cat {
+      color: #ff6606;
+      margin-left: 10px;
+    }
+  }
+  .shop__top__div__bottom {
+    width: 100%;
+    height: 70px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    > div:nth-child(1) {
+      display: flex;
+      margin-right: 10px;
+      > input {
+        border: 1px solid #ff6606;
+        border-radius: 5px 0px 0px 5px;
+        border-right: none;
+        height: 28px;
+      }
+      > input:focus {
+        outline: none;
+      }
+      > p {
+        border: 1px solid red;
+        color: #ff6606;
+        border-left: none;
+        border-radius: 0px 5px 5px 0px;
+      }
+    }
+    > div:nth-child(2) {
+      margin-top: -16px;
+      display: flex;
+      border: 1px solid #ff6606;
+      border-radius: 5px;
+      height: 30px;
+      width: 120px;
+      justify-content: space-around;
+      > p:nth-child(1) {
+        color: #ff6606;
+      }
+      > p:nth-child(2) {
+        color: #ff6606;
+        font-family: "Mulish";
+        font-weight: bold;
+      }
+    }
+  }
+  .shop {
+    margin-top: 70px;
+    &__banner {
+      height: 300px;
+      width: 100%;
+      margin-top: 70px;
+      display: grid;
+      place-items: center;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center center;
+      color: white;
+      transition: all 0.5s ease-in-out;
+      > div {
+        width: 200px;
+        height: 100px;
+        background: rgba(34, 34, 34, 0.2);
+        backdrop-filter: blur(3px);
+        display: grid;
+        place-items: center;
+        > h2 {
+          font-size: 50px;
+
+          &::before {
+            content: "#";
+            color: $primary;
+          }
+        }
+      }
+    }
+    &__head {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+      > h2 {
+        font-size: 30px;
+        color: #3a3a3a;
+      }
+      .cat {
+        color: #ff6606;
+        margin-left: 20px;
+      }
+    }
+    &__container {
+      padding: 0px 10%;
+      display: flex;
+      > h2 {
+        text-align: center;
+        font-size: 40px;
+        &::after {
+          content: " muebles";
+          color: $primary;
+        }
+      }
+    }
+  }
+}

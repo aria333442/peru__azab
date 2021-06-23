@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "RegencieLight";
+  src: url("../font/RegencieLight.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "HomepageBaukasten-Book";
+  src: url("../font/HomepageBaukasten-Book.ttf");
+  font-style: normal;
+}
+.confirmation__main {
+  width: 450px;
+  height: auto;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  margin-top: 200px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  .confirmation__header {
+    font-size: 25px;
+    font-family: "HomepageBaukasten-Book";
+    width: 80%;
+    font-weight: bolder;
+  }
+  .confiramtion__text {
+    font-family: "Roboto";
+    font-size: 20px;
+    width: 80%;
+  }
+  .inputaa {
+    width: 80%;
+    border: none;
+    background-color: #f4f5f7;
+    height: 40px;
+    margin-top: 30px;
+    padding: 10px;
+  }
+  .inputaa:focus {
+    outline: none;
+  }
+  .inputaa::placeholder {
+    font-family: "RegencieLight";
+  }
+  .confirmation__continue {
+    color: white;
+    background-color: #ff6606;
+    font-size: 20px;
+    font-family: "HomepageBaukasten-Book";
+    padding: 10px 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+  }
+}
+.welcome__main {
+  width: 300px;
+  height: auto;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  margin-top: 170px;
+  .welcome__text {
+    font-size: 60px;
+    color: #00ff38;
+  }
+  .welcome_text2 {
+    font-size: 20px;
+    width: 80%;
+    font-weight: bold;
+    font-family: "HomepageBaukasten-Book";
+  }
+  .welcome__link {
+    margin-top: 30px;
+    color: white;
+    background-color: #ff6606;
+    padding: 10px 20px;
+    font-family: "HomepageBaukasten-Book";
+    font-size: 20px;
+    border-radius: 10px;
+  }
+}

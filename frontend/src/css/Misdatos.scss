@@ -1,0 +1,645 @@
+@font-face {
+  font-family: "RegencieLight";
+  src: url("../font/RegencieLight.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "HomepageBaukasten-Book";
+  src: url("../font/HomepageBaukasten-Book.ttf");
+  font-style: normal;
+}
+.misdatos {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  border: none;
+  width: 80%;
+  height: 900px;
+  margin-top: 100px;
+  border: 1px solid #cecece;
+}
+.left___div__mis {
+  border: none;
+  width: 25%;
+  height: 100%;
+  background-color: #f4f5f7;
+}
+.upper {
+  background-color: white;
+  width: 100%;
+  height: 230px;
+}
+.ph {
+  width: 100%;
+  height: auto;
+  border: none;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+}
+.phc {
+  margin-top: 10px;
+  width: 130px;
+  height: 130px;
+  border: none;
+  border-radius: 50%;
+  border: 1px solid #ff6606;
+}
+.jon {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.doe {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.jonp {
+  font-size: 15px;
+  font-family: "RegencieLight";
+}
+.icoon {
+  display: flex;
+  border: none;
+  width: 100%;
+  height: 50px;
+}
+.icon {
+  font-size: 30px;
+  margin-left: 10px;
+  width: 20%;
+  color: #616161;
+}
+.compra {
+  border: none;
+  width: 75%;
+  font-size: 20px;
+  background: transparent;
+  color: #616161;
+  margin-top: 10px;
+  margin-left: 40px;
+  font-family: "RegencieLight";
+}
+.edit {
+  border: none;
+  width: 75%;
+  font-size: 20px;
+  background: transparent;
+  color: #616161;
+  margin-top: 10px;
+  margin-left: 40px;
+  font-family: "RegencieLight";
+}
+.right__div_mis {
+  border: none;
+  width: 75%;
+  height: auto;
+  box-shadow: none;
+  padding-left: 50px;
+}
+.hd {
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  margin-bottom: 25px;
+  font-family: "HomepageBaukasten-Book";
+}
+.rights {
+  width: 100%;
+  height: 40px;
+  border: none;
+  display: flex;
+  font-family: "HomepageBaukasten-Book";
+}
+.leftmi {
+  width: 50%;
+  height: 100%;
+  border: none;
+}
+.leftan {
+  width: 50%;
+  height: 100%;
+  border: none;
+}
+.usinput {
+  width: 100%;
+  border: none;
+  height: 40px;
+  display: flex;
+}
+.inright {
+  width: 50%;
+  border: none;
+  height: 100%;
+}
+.inleft {
+  width: 50%;
+  border: none;
+  height: 100%;
+}
+.righta {
+  width: 100%;
+  height: 40px;
+  border: none;
+}
+.rightb {
+  width: 100%;
+  height: 40px;
+  border: none;
+}
+.rightlasta {
+  width: 100%;
+  height: 30px;
+  border: none;
+  margin-top: 30px;
+}
+.rightlastb {
+  width: 100%;
+  height: 150px;
+  border: none;
+}
+.agr {
+  height: 100%;
+  width: 85%;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f4f5f7;
+}
+
+.agr::placeholder {
+  margin-top: 50px;
+}
+.para {
+  font-weight: normal;
+  font-size: 30px !important;
+  margin-left: 5px;
+}
+.ms {
+  margin-left: 10px;
+  font-size: 22px;
+  font-weight: normal;
+}
+.uss {
+  margin-left: 20px;
+  font-size: 18px;
+  font-family: "HomepageBaukasten-Book";
+}
+.anchor {
+  font-size: 18px;
+  background: transparent;
+  color: #ff6606;
+  margin-left: 300px;
+}
+.ema {
+  font-size: 18px;
+  font-weight: normal !important;
+  font-family: "HomepageBaukasten-Book";
+}
+.input {
+  margin-left: 20px;
+  background-color: #f4f5f7;
+  border: none;
+  width: 80%;
+  height: 30px;
+  font-size: 12px;
+  font-family: "RegencieLight";
+}
+.input::placeholder {
+  font-family: "RegencieLight";
+}
+.inputleft {
+  background-color: #f4f5f7;
+  border: none;
+  width: 80%;
+  font-size: 12px;
+  height: 30px !important;
+  font-family: "RegencieLight";
+}
+.inputr {
+  background-color: #f4f5f7;
+  border: none;
+  width: 40%;
+  font-size: 12px;
+  margin-left: 20px;
+  height: 30px;
+  font-family: "RegencieLight";
+}
+.inputr::placeholder {
+  font-family: "RegencieLight";
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .misdatos {
+    display: flex;
+    margin-top: 70px;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    border: none;
+    width: 100%;
+    height: 800px;
+    margin-top: 50px;
+    border: 1px solid #cecece;
+    margin-left: 0px;
+  }
+  .left {
+    border: none;
+    width: 30%;
+    height: 100%;
+    background-color: #f4f5f7;
+  }
+  .upper {
+    background-color: white;
+    width: 100%;
+    height: 230px;
+  }
+  .ph {
+    width: 100%;
+    height: auto;
+    border: none;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .phc {
+    margin-top: 10px;
+    width: 130px;
+    height: 130px;
+    border: none;
+    border: 1px solid #ff6606;
+    border-radius: 50%;
+  }
+  .jon {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .doe {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .jonp {
+    font-size: 15px;
+    font-family: "RegencieLight";
+  }
+
+  .icoon {
+    display: flex;
+    border: none;
+    width: 100%;
+    height: 30px;
+  }
+  .icon {
+    margin-top: -7px;
+    font-size: 25px;
+    margin-left: 10px;
+    width: 20%;
+  }
+
+  .compra {
+    border: none;
+    width: 75%;
+    font-size: 15px;
+  }
+  .edit {
+    border: none;
+    width: 75%;
+    font-size: 15px;
+  }
+  .right {
+    border: none;
+    width: 70%;
+    height: 100%;
+  }
+  .hd {
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    border: none;
+  }
+  .rights {
+    width: 100%;
+    height: 40px;
+    border: none;
+    display: flex;
+  }
+  .leftmi {
+    width: 50%;
+    height: 100%;
+    border: none;
+  }
+  .leftan {
+    width: 50%;
+    height: 100%;
+    border: none;
+  }
+  .usinput {
+    width: 100%;
+    border: none;
+    height: 40px;
+    display: flex;
+  }
+  .inright {
+    width: 50%;
+    border: none;
+    height: 100%;
+  }
+  .inleft {
+    width: 50%;
+    border: none;
+    height: 100%;
+  }
+  .righta {
+    width: 100%;
+    height: 40px;
+    border: none;
+  }
+  .rightb {
+    width: 100%;
+    height: 40px;
+    border: none;
+  }
+  .rightlasta {
+    width: 100%;
+    height: 30px;
+    border: none;
+  }
+  .rightlastb {
+    width: 100%;
+    height: 150px;
+    border: none;
+  }
+  .agr {
+    height: 100%;
+    width: 85%;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f4f5f7;
+  }
+  .para {
+    font-weight: normal;
+    font-size: 22px;
+    margin-left: 5px;
+  }
+  .ms {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  .uss {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .anchor {
+    font-size: 14px;
+    margin-left: 150px;
+  }
+  .ema {
+    font-size: 14px;
+    font-weight: normal !important;
+  }
+  .input {
+    margin-left: 20px;
+    background-color: #f4f5f7;
+    border: none;
+    width: 80%;
+    height: 75%;
+    font-size: 10px;
+  }
+  .inputleft {
+    background-color: #f4f5f7;
+    border: none;
+    width: 80%;
+    font-size: 10px;
+    height: 75% !important;
+  }
+  .inputr {
+    background-color: #f4f5f7;
+    border: none;
+    width: 40%;
+    font-size: 10px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .misdatos {
+    display: flex;
+  }
+  .main {
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    width: 100%;
+    height: 800px;
+    margin-top: 10px;
+    margin-top: 70px;
+  }
+  .left {
+    border: none;
+    width: 30%;
+    height: 100%;
+    background-color: #f4f5f7;
+  }
+  .upper {
+    background-color: white;
+    width: 100%;
+    height: 150px;
+  }
+  .ph {
+    width: 100%;
+    height: auto;
+    border: none;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .phc {
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 50%;
+    border: 1px solid #ff6606;
+  }
+  .jon {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .doe {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .jonp {
+    font-size: 10px;
+    font-family: "RegencieLight";
+  }
+
+  .icoon {
+    display: flex;
+    border: none;
+    width: 100%;
+    height: 30px;
+    border: none !important;
+  }
+  .icon {
+    margin-top: -2px;
+    font-size: 20px;
+    margin-left: 10px;
+    width: 20%;
+    border: none !important;
+  }
+
+  .compra {
+    border: none;
+    width: 75%;
+    font-size: 8px;
+    margin-top: 15px;
+  }
+  .edit {
+    border: none;
+    width: 75%;
+    font-size: 6px;
+    margin-top: 15px;
+  }
+  .right {
+    border: none;
+    width: 70%;
+    height: 100%;
+    padding-left: 5px;
+  }
+  .hd {
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    border: none;
+  }
+  .rights {
+    width: 100%;
+    height: 40px;
+    border: none;
+    display: flex;
+  }
+  .leftmi {
+    width: 50%;
+    height: 100%;
+    border: none;
+  }
+  .leftan {
+    width: 50%;
+    height: 100%;
+    border: none;
+  }
+  .usinput {
+    width: 100%;
+    border: none;
+    height: 40px;
+    display: flex;
+  }
+  .inright {
+    width: 50%;
+    border: none;
+    height: 100%;
+  }
+  .inleft {
+    width: 50%;
+    border: none;
+    height: 100%;
+  }
+  .righta {
+    width: 100%;
+    height: 30px;
+    border: none;
+  }
+  .rightb {
+    width: 100%;
+    height: 40px;
+    border: none;
+  }
+  .rightlasta {
+    width: 100%;
+    height: 30px;
+    border: none;
+  }
+  .rightlastb {
+    width: 100%;
+    height: 150px;
+    border: none;
+  }
+  .agr {
+    height: 100%;
+    width: 85%;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f4f5f7;
+    font-size: 10px;
+  }
+  .para {
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  .ms {
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: normal;
+  }
+  .uss {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 12px;
+  }
+  .anchor {
+    margin-top: -50px;
+    font-size: 10px;
+    margin-left: 65px;
+  }
+  .ema {
+    margin-top: 0px;
+    font-size: 12px !important;
+    font-weight: normal !important;
+  }
+  .input {
+    margin-left: 20px;
+    background-color: #f4f5f7;
+    border: none;
+    width: 80%;
+    height: 65% !important;
+    font-size: 10px;
+  }
+  .inputleft {
+    background-color: #f4f5f7;
+    border: none;
+    width: 80%;
+    font-size: 10px;
+    height: 64% !important;
+  }
+  .inputr {
+    background-color: #f4f5f7;
+    border: none;
+    width: 40%;
+    font-size: 10px;
+    margin-left: 20px;
+    height: 65%;
+  }
+}

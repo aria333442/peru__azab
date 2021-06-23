@@ -1,0 +1,764 @@
+@import "../css/variable";
+
+.highProduct {
+  margin-top: 210px;
+  margin-left: 30px;
+  margin-right: 30px;
+  > div:nth-child(1) {
+    width: 100%;
+    height: 100px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    > div:nth-child(1) {
+      height: 100%;
+      width: 15%;
+      border: none;
+      display: flex;
+      > div:nth-child(1) {
+        width: 30%;
+        height: 100%;
+        border: none;
+        > img {
+          width: 80%;
+          margin-top: 15px;
+        }
+      }
+      > div:nth-child(2) {
+        width: 70%;
+        height: 100%;
+        border: none;
+        > div:nth-child(1) {
+          width: 100%;
+          height: 50%;
+          border: none;
+          > p {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+            font-family: "HomepageBaukasten-Book";
+          }
+        }
+        > div:nth-child(2) {
+          width: 100%;
+          height: 50%;
+          border: none;
+          > p {
+            font-size: 16px;
+            font-family: "HomepageBaukasten-Book";
+            margin-top: -20px;
+          }
+        }
+      }
+    }
+    > div:nth-child(2) {
+      height: 100%;
+      width: 15%;
+      border: none;
+      display: flex;
+      > div:nth-child(1) {
+        width: 30%;
+        height: 100%;
+        border: none;
+        > img {
+          width: 80%;
+          margin-top: 15px;
+        }
+      }
+      > div:nth-child(2) {
+        width: 70%;
+        height: 100%;
+        border: none;
+        > div:nth-child(1) {
+          width: 100%;
+          height: 50%;
+          border: none;
+          > p {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+            font-family: "HomepageBaukasten-Book";
+          }
+        }
+        > div:nth-child(2) {
+          width: 100%;
+          height: 50%;
+          border: none;
+          > p {
+            font-size: 16px;
+            font-family: "HomepageBaukasten-Book";
+            margin-top: -20px;
+          }
+        }
+      }
+    }
+    > div:nth-child(3) {
+      height: 100%;
+      width: 15%;
+      border: none;
+      display: flex;
+      > div:nth-child(1) {
+        width: 30%;
+        height: 100%;
+        border: none;
+        > img {
+          width: 80%;
+          margin-top: 15px;
+        }
+      }
+      > div:nth-child(2) {
+        width: 70%;
+        height: 100%;
+        border: none;
+        > div:nth-child(1) {
+          width: 100%;
+          height: 50%;
+          border: none;
+          > p {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+            font-family: "HomepageBaukasten-Book";
+          }
+        }
+        > div:nth-child(2) {
+          width: 100%;
+          height: 50%;
+          border: none;
+          > p {
+            font-size: 16px;
+            font-family: "HomepageBaukasten-Book";
+            margin-top: -15px;
+          }
+        }
+      }
+    }
+    > div:nth-child(4) {
+      height: 100%;
+      width: 15%;
+      border: none;
+      display: flex;
+      > div:nth-child(1) {
+        width: 30%;
+        height: 100%;
+        border: none;
+        > img {
+          width: 80%;
+          margin-top: 15px;
+        }
+      }
+      > div:nth-child(2) {
+        width: 70%;
+        height: 100%;
+        border: none;
+        > div:nth-child(1) {
+          width: 100%;
+          height: 50%;
+          border: none;
+          > p {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+            font-family: "HomepageBaukasten-Book";
+          }
+        }
+        > div:nth-child(2) {
+          width: 100%;
+          height: 50%;
+          border: none;
+          > p {
+            font-size: 16px;
+            font-family: "HomepageBaukasten-Book";
+            margin-top: -15px;
+          }
+        }
+      }
+    }
+  }
+  &__top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5%;
+    > div {
+      display: flex;
+      margin-left: 40px;
+      .image {
+        width: 80px;
+        height: 70px;
+      }
+      > div {
+        margin-left: 20px;
+        > h3 {
+          font-size: 16px;
+        }
+        > p {
+          font-size: 14px;
+          color: #616161;
+
+          font-family: "Regencie";
+        }
+      }
+    }
+  }
+  &__slider {
+    > div {
+      text-align: center;
+
+      margin-top: 100px !important;
+      > h2 {
+        font-size: 40px;
+        &::after {
+          content: " calidad";
+          color: $primary;
+        }
+      }
+    }
+    .swiper__box {
+      background-color: none;
+      overflow: hidden;
+      width: 100%;
+      margin-left: -0px;
+    }
+    .slick-slide {
+      opacity: 0.4;
+      width: 10px;
+      padding-left: 50px;
+      width: 372px;
+      height: 486px;
+      > xor {
+        opacity: 1 !important;
+      }
+    }
+
+    .slick-center {
+      opacity: 1;
+      max-width: 10% !important;
+      max-height: 20% !important;
+    }
+
+    .slick-arrow {
+      background-color: $primary;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      box-shadow: 5px 5px 30px lightgray;
+      margin: 30px;
+      opacity: 2 !important;
+      margin-right: 30px;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+      color: white;
+      opacity: 1;
+    }
+    .slick-prev::after {
+      content: "A";
+    }
+    .btn {
+      background-color: $primary;
+      padding: 10px 50px;
+      color: white;
+      border-radius: 5px;
+      margin-top: -40px;
+    }
+  }
+}
+.ninos {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+}
+.ninos2 {
+  font-size: "21px";
+  opacity: 0.7;
+  margin-top: "-130px";
+  position: "absolute";
+  z-index: 12;
+  margin-left: "55px";
+  color: "black";
+}
+
+.new {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+  font-size: 50px;
+}
+.pro {
+  height: 530px;
+  width: 28%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: auto;
+  margin-left: 20px;
+}
+.pro__title {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+  font-size: 40px;
+  font-weight: 550;
+  margin-top: 250px;
+}
+.pro__desc {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+  font-size: 20px;
+  color: gray;
+}
+.pro__but1 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+  color: white;
+  background-color: $primary;
+  padding: 10px 40px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.pro__but1:hover {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+  color: $primary;
+  background-color: white;
+  border: 1px solid $primary;
+  padding: 10px 40px;
+  border-radius: 10px;
+  margin-top: 50px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.pro__but2 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+  color: $primary;
+  background-color: white;
+  border: 1px solid $primary;
+  padding: 10px 40px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 30px;
+  text-decoration: none;
+}
+.pro__but2:hover {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+  color: white;
+  background-color: $primary;
+  padding: 10px 40px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 30px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.sli {
+  height: 590px;
+  width: 68%;
+  padding-left: 30px;
+}
+.slick-arrow {
+  background-color: $primary;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 30px lightgray;
+  margin-left: 0px;
+  opacity: 2 !important;
+  margin-top: 20px;
+  z-index: 100;
+}
+@media (max-width: "1024px") and (min-width: "768px") {
+  .highProduct {
+    margin-top: 300px !important;
+    margin-left: 30px;
+    margin-right: 30px;
+    &__top {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 5%;
+
+      > div {
+        display: flex;
+        margin-left: 5px;
+        > img {
+          width: 60px !important;
+          height: 60px;
+        }
+        > div {
+          margin-left: 20px;
+          > h3 {
+            font-size: 14px;
+          }
+          > p {
+            font-size: 10px;
+            color: #616161;
+
+            font-family: "Regencie";
+          }
+        }
+      }
+    }
+    &__slider {
+      > div {
+        text-align: center;
+
+        margin-top: 100px !important;
+        > h2 {
+          font-size: 40px;
+          &::after {
+            content: " calidad";
+            color: $primary;
+          }
+        }
+      }
+      .swiper__box {
+        background-color: none;
+        overflow: hidden;
+        width: 100%;
+        margin-left: -0px;
+      }
+      .slick-slide {
+        opacity: 0.4;
+        width: 10px;
+        padding-left: 50px;
+        width: 372px;
+        height: 486px;
+        > xor {
+          opacity: 1 !important;
+        }
+      }
+
+      .slick-center {
+        opacity: 1;
+        max-width: 10% !important;
+        max-height: 20% !important;
+      }
+
+      .slick-arrow {
+        background-color: $primary;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        box-shadow: 5px 5px 30px lightgray;
+        margin: 30px;
+        opacity: 2 !important;
+        margin-right: 30px;
+      }
+      .slick-prev:before,
+      .slick-next:before {
+        color: white;
+        opacity: 1;
+      }
+      .slick-prev::after {
+        content: "A";
+      }
+      .btn {
+        background-color: $primary;
+        padding: 10px 50px;
+
+        border-radius: 5px;
+        margin-top: -40px;
+      }
+    }
+  }
+}
+@media (max-width: "1023px") and (min-width: "768px") {
+  .ipad {
+    margin-left: 0px;
+  }
+}
+@media (max-width: "1299px") and (min-width: "768px") {
+  .new {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+    font-size: 50px;
+  }
+  .pro {
+    height: 530px;
+    width: 38%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+    margin-left: 30px;
+  }
+  .pro__title {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+    font-size: 45px;
+    font-weight: 550;
+    margin-top: 250px;
+  }
+  .pro__desc {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+    font-size: 20px;
+    color: gray;
+  }
+  .pro__but1 {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+    color: white;
+    background-color: $primary;
+    padding: 5px 40px;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  .pro__but1:hover {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+    color: $primary;
+    background-color: white;
+    border: 1px solid $primary;
+    padding: 5px 40px;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-decoration: none;
+  }
+  .pro__but2 {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+    color: $primary;
+    background-color: white;
+    border: 1px solid $primary;
+    padding: 5px 40px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+    text-decoration: none;
+  }
+  .pro__but2:hover {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+    color: white;
+    background-color: $primary;
+    padding: 5px 40px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+    text-decoration: none;
+  }
+  .sli {
+    height: 590px;
+    width: 57%;
+    padding-left: 70px;
+  }
+  .slick-arrow {
+    background-color: $primary;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 30px lightgray;
+    margin-left: -25px;
+    margin-right: 25px;
+    opacity: 2 !important;
+    margin-top: -20px !important;
+    z-index: -1 !important;
+  }
+  .topa {
+    .slick-arrow {
+      background-color: $primary;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      box-shadow: 5px 5px 30px lightgray;
+      margin-left: -25px;
+      margin-right: 25px;
+      opacity: 2 !important;
+      margin-top: -20px !important;
+      z-index: -1 !important;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .highProduct {
+    margin-top: -50px;
+    width: 99%;
+    margin-right: 0px;
+    margin-left: 0px;
+    .top {
+      display: none;
+      justify-content: space-around;
+
+      margin: 0px;
+      padding: 0px;
+      gap: 5%;
+      > div {
+        display: flex;
+        > img {
+          width: 20px !important;
+          height: 20px;
+        }
+        > div {
+          > h3 {
+            font-size: 10px;
+            margin-left: 2px;
+          }
+          > p {
+            font-size: 8px;
+            color: #616161;
+            margin-top: -5px;
+            margin-left: 3px;
+            font-family: "Regencie";
+          }
+        }
+      }
+    }
+    &__slider {
+      > div {
+        text-align: center;
+        padding: 0px;
+        margin-top: 10px !important;
+        > h2 {
+          font-size: 25px;
+          &::after {
+            content: " calidad";
+            color: $primary;
+          }
+        }
+      }
+      .slidd {
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 20px !important;
+        .slick-list {
+          padding: 0px 20px 0px 0px !important;
+        }
+        .slick-slide {
+          opacity: 1;
+          height: 300px;
+          width: 100%;
+          padding-left: 10px;
+          padding-right: 20px;
+          > xor {
+            opacity: 1 !important;
+          }
+        }
+        .slick-arrow {
+          display: none;
+          background-color: $primary;
+          width: 38px;
+          height: 38px;
+          border-radius: 50%;
+          box-shadow: 5px 5px 30px lightgray;
+          opacity: 2 !important;
+          margin-right: -15px;
+          margin-top: 10px;
+          margin-left: -15px;
+        }
+      }
+      .slick-list {
+      }
+      .slick-next {
+        display: none !important;
+      }
+      .slick-prev {
+        margin-left: 100px;
+        z-index: 10;
+        display: block !important;
+      }
+      .slick-prev:before,
+      .slick-next:before {
+        color: white;
+        opacity: 1;
+        display: none;
+      }
+      .slick-prev::after {
+        content: "A";
+      }
+
+      .btn {
+        background-color: $primary;
+        padding: 10px 20px;
+
+        border-radius: 5px;
+        margin-top: 40px;
+      }
+    }
+  }
+
+  .mobile {
+    margin-left: 0px !important;
+    width: 200px !important;
+  }
+}
+@media (max-width: 767px) {
+  .new {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+    font-size: 25px;
+  }
+  .pro {
+    height: 200px;
+
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+  }
+  .pro__title {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+  .pro__desc {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+    font-size: 10px;
+    color: gray;
+    margin-left: 10px;
+  }
+  .pro__but1 {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+    color: white;
+    background-color: $primary;
+    padding: 2px 3px;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .pro__but1:hover {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+    color: $primary;
+    background-color: white;
+    border: 1px solid $primary;
+    padding: 2px 3px;
+    border-radius: 5px;
+    margin-top: 50px;
+    text-decoration: none;
+  }
+  .pro__but2 {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+    color: $primary;
+    background-color: white;
+    border: 1px solid $primary;
+    padding: 2px 3px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .pro__but2:hover {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+    color: white;
+    background-color: $primary;
+    padding: 2px 3px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 5px;
+    text-decoration: none;
+  }
+  .sli {
+    height: 200px;
+    width: 58%;
+    padding-left: 30px;
+  }
+  .slick-arrow {
+    background-color: $primary;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 30px lightgray;
+    opacity: 2 !important;
+    margin-top: 20px;
+    z-index: 1;
+  }
+  .slick-next {
+    margin-left: -40px !important;
+    margin-right: 40px;
+    z-index: -1;
+  }
+}
+.ninos3 {
+  font-size: 35px;
+  opacity: 1;
+  margin-top: "-110px";
+  position: "absolute";
+  z-index: 12;
+  margin-left: "55px";
+  color: "black";
+}

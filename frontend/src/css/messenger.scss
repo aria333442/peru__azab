@@ -1,0 +1,132 @@
+@import "../css/variable";
+.messenger {
+    width: 303px;
+    height: 431px;
+    position: fixed;
+    bottom: 20px !important;
+    right: 30px !important;
+    z-index: 1000;
+    overflow: hidden;
+    border-radius: 10px;
+    &__top {
+      background-color: $primary;
+      width: 303px;
+      height: 70px;
+      display: flex;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      > button {
+        color: white;
+      }
+      > div {
+        color: white;
+        flex: 1;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        > div {
+          > h3 {
+            margin-left: 10px;
+          }
+          > div {
+            display: flex;
+            align-items: center;
+            > div {
+              margin-left: 10px;
+              margin-right: 5px;
+              width: 10px;
+              height: 10px;
+              background: #00ff38;
+              border-radius: 50%;
+            }
+            > P {
+              font-size: 10px;
+              font-weight: lighter;
+            }
+          }
+        }
+      }
+    }
+    &__body {
+      background-color: white;
+      height: 290px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 10px 10px;
+      .message__ai {
+        background-color: #f4f5f7;
+        padding: 10px;
+        width: fit-content;
+        color: #616161;
+        border-radius: 10px;
+        margin-right: auto;
+        font-family: "Regencie";
+      }
+      .message__user {
+        border: 1px solid $primary;
+        padding: 10px;
+        width: fit-content;
+        color: $primary;
+        border-radius: 10px;
+  
+        margin-left: auto;
+        margin-top: 15px;
+        font-size: 14px;
+        font-family: "Regencie";
+      }
+    }
+    &__input {
+      background-color: white;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-top: 1px solid #dfdbdb;
+  
+      > div {
+        display: flex;
+        padding: 10px;
+        input {
+          flex: 0.8;
+          border: none;
+          background: none;
+          outline: none;
+          color: #616161;
+          font-size: 20px;
+        }
+        ::placeholder {
+          color: #616161;
+          font-size: 20px;
+        }
+        > button {
+          .MuiSvgIcon-root {
+            transform: rotate(-60deg);
+            color: $primary;
+            font-size: 40px;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+  .chat__Box {
+    background-color: $primary;
+    width: fit-content;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    bottom: 10px !important;
+    right: 10px !important;
+    z-index: 1000;
+    > div {
+      > button {
+        .MuiSvgIcon-root {
+          font-size: 35px !important;
+          color: white;
+        }
+      }
+    }
+  }
+  

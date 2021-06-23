@@ -1,0 +1,273 @@
+@import "./variable";
+@font-face {
+  font-family: "HomepageBaukasten-Book";
+  src: url("../font/HomepageBaukasten-Book.ttf");
+  font-style: normal;
+}
+.nav {
+  width: 100%;
+  height: 100px;
+  background-color: #ff6606;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+
+  .nav__left {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    width: 60%;
+    justify-content: space-around;
+    .linkaaa {
+      color: white;
+      font-family: "HomepageBaukasten-Book";
+    }
+  }
+  .nav__right {
+    display: flex;
+
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    .div__left {
+      margin-left: 100px;
+
+      width: 250px;
+      display: flex;
+
+      .loginss {
+        color: white;
+        font-family: "HomepageBaukasten-Book";
+        font-size: 17px;
+        margin-right: 50px;
+      }
+      .registers {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 17px;
+        margin-right: 50px;
+      }
+      .inputaaa {
+        color: white;
+        background: none;
+        border: none;
+        outline: none;
+        padding-bottom: 5px;
+        width: 100%;
+        font-size: 18px;
+        border-bottom: 1px solid white;
+      }
+    }
+    .div__right {
+      display: flex;
+      margin-right: 30px;
+      width: 100px;
+      .sassuu {
+        display: flex !important;
+      }
+      > button {
+        margin-top: 0px !important;
+      }
+    }
+  }
+}
+
+.make__ham {
+  display: none;
+  width: 40px;
+  height: 30px;
+  margin-top: 100px;
+  margin-right: 10px;
+  margin-left: 10px;
+  .line__1 {
+    border-bottom: 4px solid white;
+  }
+  .line__2 {
+    border-bottom: 4px solid white;
+    margin-top: -8px;
+  }
+  .line__3 {
+    border-bottom: 4px solid white;
+    margin-top: -8px;
+  }
+}
+.gggcss {
+  list-style: none !important;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: "HomepageBaukasten-Book";
+}
+.gggcsses {
+  margin-top: 100px;
+}
+.proffu {
+  width: 170px;
+  height: 50px;
+}
+.imaguu {
+  height: 100%;
+  width: 50px;
+  .imug {
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+}
+.imug {
+  width: 50px;
+  height: 100px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.nav__name {
+  color: white;
+  margin-top: 10px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .make__ham {
+    display: block;
+    width: 40px;
+    height: 30px;
+    margin-top: -10px;
+    margin-left: 100px;
+    .line__1 {
+      border-bottom: 4px solid white;
+    }
+    .line__2 {
+      border-bottom: 4px solid white;
+      margin-top: -8px;
+    }
+    .line__3 {
+      border-bottom: 4px solid white;
+      margin-top: -8px;
+    }
+  }
+  .gggcss {
+    list-style: none !important;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: "HomepageBaukasten-Book";
+  }
+  .gggcsses {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .nav {
+    width: 100%;
+    height: 70px;
+    background-color: #ff6606;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    .imgray {
+      width: 25px;
+    }
+    .nav__left {
+      width: 10%;
+    }
+
+    .nav__right {
+      width: 90%;
+
+      margin-left: 0px !important;
+      display: flex;
+      justify-content: flex-start;
+      .div__left {
+        margin-left: 0px;
+
+        width: 200px;
+        display: flex;
+
+        justify-content: space-around;
+
+        .loginss {
+          color: white;
+          font-family: "HomepageBaukasten-Book";
+          font-size: 14px;
+          margin-right: 10px;
+        }
+        .registers {
+          font-family: "HomepageBaukasten-Book";
+          font-size: 14px;
+          margin-right: 10px;
+        }
+        .inputaaa {
+          color: white;
+          background: none;
+          border: none;
+          outline: none;
+          padding-bottom: 5px;
+          width: 100%;
+          font-size: 18px;
+          border-bottom: 1px solid white;
+        }
+      }
+      .div__right {
+        display: flex !important;
+        margin-right: 30px;
+        width: 100px;
+
+        > button {
+          margin-top: 0px !important;
+        }
+      }
+    }
+  }
+
+  .make__ham {
+    display: block;
+    width: 25px;
+    height: 5px;
+    margin-top: -145px;
+    margin-left: 335px;
+    .line__1 {
+      border-bottom: 4px solid white;
+    }
+    .line__2 {
+      border-bottom: 4px solid white;
+      margin-top: -12px;
+    }
+    .line__3 {
+      border-bottom: 4px solid white;
+      margin-top: -12px;
+    }
+  }
+  .gggcss {
+    list-style: none !important;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: "HomepageBaukasten-Book";
+  }
+  .gggcsses {
+    margin-top: 100px;
+  }
+  .proffu {
+    width: 170px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  .imaguu {
+    height: 100%;
+    width: 40px;
+    .imug {
+      width: 100%;
+      height: 100%;
+      border: 1px solid white;
+      border-radius: 50%;
+    }
+  }
+  .nav__name {
+    color: white;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+}

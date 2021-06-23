@@ -1,0 +1,224 @@
+@font-face {
+  font-family: "RegencieLight";
+  src: url("../font/RegencieLight.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "HomepageBaukasten-Book";
+  src: url("../font/HomepageBaukasten-Book.ttf");
+  font-style: normal;
+}
+.POP {
+  display: none;
+  .poup__modal {
+    position: fixed;
+    width: 550px;
+    height: 320px;
+    margin-top: -4050px;
+    z-index: 100;
+    margin-left: 450px;
+    background-color: white;
+    border: 1px solid #cecece;
+    .close {
+      height: 50px;
+      width: 100%;
+      .close__icons {
+        margin-left: 95%;
+        margin-top: 20px;
+        font-weight: bolder;
+        font-size: 20px;
+        cursor: pointer;
+      }
+    }
+    .content {
+      margin-left: 30px;
+      width: 90%;
+      margin-top: 55px;
+      display: flex;
+      .poup__image {
+        height: 220px;
+        width: 35%;
+        .ima {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .desc {
+        width: 70%;
+
+        padding-left: 30px;
+        .pop__header {
+          font-family: "RegencieLight";
+          color: black;
+        }
+        .discount {
+          font-family: "HomepageBaukasten-Book";
+          color: #ff6606;
+          margin-top: -18px;
+          font-weight: bolder;
+          font-size: 30px;
+        }
+        .orig {
+          font-family: "Roboto";
+          font-size: 20px;
+          color: black;
+        }
+        .pop__button {
+          color: white;
+          background-color: #ff6606;
+          position: absolute;
+          padding: 6px 25px 6px 25px;
+          font-size: 20px;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
+.active {
+  display: block;
+}
+@media (min-width: 768px) and (max-width: 1299px) {
+  .POP {
+    display: none;
+    .poup__modal {
+      position: fixed;
+      width: 550px;
+      height: 320px;
+      margin-top: -4450px;
+      z-index: 100;
+      margin-left: 100px;
+      background-color: white;
+      border: 1px solid #cecece;
+      .close {
+        height: 50px;
+        width: 100%;
+        .close__icons {
+          margin-left: 95%;
+          margin-top: 20px;
+          font-weight: bolder;
+          font-size: 20px;
+          cursor: pointer;
+        }
+      }
+      .content {
+        margin-left: 30px;
+        width: 90%;
+        margin-top: 55px;
+        display: flex;
+        .poup__image {
+          height: 220px;
+          width: 35%;
+          .ima {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .desc {
+          width: 70%;
+
+          padding-left: 30px;
+          .pop__header {
+            font-family: "RegencieLight";
+            color: black;
+          }
+          .discount {
+            font-family: "HomepageBaukasten-Book";
+            color: #ff6606;
+            margin-top: -18px;
+            font-weight: bolder;
+            font-size: 30px;
+          }
+          .orig {
+            font-family: "Roboto";
+            font-size: 20px;
+            color: black;
+          }
+          .pop__button {
+            color: white;
+            background-color: #ff6606;
+            position: absolute;
+            padding: 6px 25px 6px 25px;
+            font-size: 20px;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+  .active {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .POP {
+    display: none;
+    .poup__modal {
+      position: fixed;
+      width: 90%;
+      height: 250px;
+      margin-top: -1400px;
+      z-index: 100;
+      margin-left: 20px;
+      background-color: white;
+      border: 1px solid #cecece;
+      .close {
+        height: 50px;
+        width: 100%;
+        .close__icons {
+          margin-left: 90%;
+          margin-top: 20px;
+          font-weight: bolder;
+          font-size: 20px;
+          cursor: pointer;
+        }
+      }
+      .content {
+        margin-left: 30px;
+        width: 90%;
+        margin-top: 55px;
+        display: flex;
+        .poup__image {
+          height: 140px;
+          width: 30%;
+          .ima {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .desc {
+          width: 70%;
+
+          padding-left: 30px;
+          .pop__header {
+            font-family: "RegencieLight";
+            color: black;
+          }
+          .discount {
+            font-family: "HomepageBaukasten-Book";
+            color: #ff6606;
+            margin-top: -18px;
+            font-weight: bolder;
+            font-size: 18px;
+          }
+          .orig {
+            font-family: "Roboto";
+            font-size: 14px;
+            color: black;
+          }
+          .pop__button {
+            color: white;
+            background-color: #ff6606;
+            position: absolute;
+            padding: 6px 25px 6px 25px;
+            font-size: 16px;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+  .active {
+    display: block;
+  }
+}

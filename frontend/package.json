@@ -1,0 +1,86 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^27.1.0",
+    "@ckeditor/ckeditor5-react": "^3.0.2",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "bootstrap-daterangepicker": "^3.1.0",
+    "chart.js": "^3.2.1",
+    "cloudinary-react": "^1.7.0",
+    "draft-js": "^0.11.7",
+    "gh-pages": "^3.1.0",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.1",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.2",
+    "react-alice-carousel": "^2.5.1",
+    "react-bootstrap": "^1.6.0",
+    "react-bootstrap-daterangepicker": "^7.0.0",
+    "react-chartjs-2": "^3.0.3",
+    "react-cloudinary-upload-widget": "^1.4.3",
+    "react-credit-card-input": "^1.1.5",
+    "react-date-picker": "^8.2.0",
+    "react-dom": "^17.0.2",
+    "react-donut-chart": "^1.1.8",
+    "react-draft-wysiwyg": "^1.14.7",
+    "react-dropzone": "^11.3.2",
+    "react-file-drop": "^3.1.2",
+    "react-google-invisible-recaptcha": "^0.2.11",
+    "react-google-recaptcha": "^2.1.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0",
+    "react-js-pagination": "^3.0.3",
+    "react-media": "^1.10.0",
+    "react-paginate": "^7.1.2",
+    "react-player": "^2.9.0",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-select": "^4.3.1",
+    "react-slick": "^0.28.1",
+    "react-spring": "^8.0.27",
+    "react-star-ratings": "^2.3.0",
+    "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.0",
+    "suneditor-react": "^2.16.5",
+    "swiper": "^6.6.2",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

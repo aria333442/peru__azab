@@ -1,0 +1,231 @@
+.cltmain {
+  background-color: #f7f8fc;
+  height: auto;
+  display: flex;
+  margin-left: 0px;
+  border: none;
+  margin-top: 0px;
+}
+.cltleft {
+  width: 20%;
+  height: auto;
+}
+
+.cltright {
+  margin-left: 50px;
+  display: block;
+  width: 70%;
+  height: 100%;
+}
+.clthead {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  margin-top: 10px;
+  border: none;
+}
+.clttab {
+  width: 75%;
+  height: 100%;
+  display: flex;
+}
+.cltta {
+  font-size: 30px;
+  font-weight: bold;
+  height: 100%;
+  width: 80%;
+  font-size: 35px;
+  font-family: "Roboto";
+}
+.icon {
+  font-size: 25px;
+  height: 100%;
+  width: 10%;
+}
+.iconr {
+  font-size: 25px;
+  height: 100%;
+  width: 10%;
+}
+.user {
+  display: flex;
+  width: 25%;
+  height: 100%;
+}
+.use {
+  text-align: center;
+  font-size: 18px;
+  width: 50%;
+  height: 100%;
+}
+.dp {
+  width: 50%;
+  height: 100%;
+}
+.seccltbb {
+  width: 100%;
+  height: 40px;
+
+  margin-left: 20px;
+  margin-top: 50px;
+  display: flex;
+}
+.seccltbbl {
+  font-size: 35px;
+  color: blue;
+  margin-top: -10px;
+  margin-right: 10px;
+  background: transparent;
+}
+
+.seccltbbr {
+  height: 100%;
+  width: 93%;
+  font-size: 27px;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+.cltsfirstmin {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 10px;
+  border: none;
+  margin-top: 30px;
+}
+.cltsfirstminsub {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cltsfirstleft {
+  width: 35%;
+  height: 100%;
+}
+
+.cltsfirstmid {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.cltsfirstright {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.secclttabl {
+  width: 97%;
+  height: 90%;
+  margin-top: 10px;
+}
+.secclttabtd {
+  font-weight: bold;
+  width: 40%;
+  height: 30px;
+  font-size: 14px;
+  text-align: center;
+}
+.secclttabtdl {
+  width: 60%;
+  height: 30px;
+  font-size: 14px;
+  text-align: center;
+}
+.secclttabr {
+  width: 97%;
+  height: 61%;
+  margin-top: 10px;
+}
+.seccltrtabtd {
+  font-weight: bold;
+  width: 40%;
+  height: 30px;
+  font-size: 14px;
+  text-align: center;
+}
+.seccltrtabtdl {
+  width: 60%;
+  height: 30px;
+  font-size: 14px;
+  text-align: center;
+}
+.seclthdiv {
+  width: 100%;
+  height: 40px;
+
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.seccltordrdiv {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  border: none;
+  margin-left: 0px;
+}
+.seccltordrdivsub {
+  width: 95%;
+  height: 96%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.seccltordtab {
+  margin-top: 20px;
+  width: 96%;
+  height: 75%;
+}
+.seccltordtabtd {
+  height: 100px;
+  width: 20%;
+
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+.yehloo {
+  border-bottom: 1px solid #cecece;
+}
+.seccltordtabtdc {
+  height: 30px;
+  width: 20%;
+
+  font-size: 14px;
+  text-align: center;
+}
+.seccltordtabtdf {
+  height: 30px;
+  width: 20%;
+
+  font-size: 14px;
+  text-align: center;
+}
+.seccltordtabtdn {
+  height: 30px;
+  width: 20%;
+
+  font-size: 14px;
+  text-align: center;
+}
+.seccltordtabtde {
+  height: 30px;
+  width: 20%;
+
+  font-size: 14px;
+  text-align: center;
+}

@@ -1,0 +1,267 @@
+.nprmain {
+  background-color: #f7f8fc;
+  height: 1200px;
+  display: flex;
+  margin-left: 0px;
+  border: none;
+  margin-top: 0px;
+}
+.nprleft {
+  width: 20%;
+  height: 100%;
+  background-color: #363740;
+}
+
+.nprright {
+  margin-left: 50px;
+  display: block;
+  width: 70%;
+  height: 100%;
+}
+.nprhead {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  margin-top: 10px;
+  border: none;
+}
+.nprtab {
+  width: 75%;
+  height: 100%;
+
+  display: flex;
+}
+.nprta {
+  font-size: 30px;
+  font-weight: bold;
+  height: 100%;
+  width: 80%;
+  font-family: "Roboto";
+}
+.icon {
+  font-size: 25px;
+  height: 100%;
+  width: 10%;
+}
+.iconr {
+  font-size: 25px;
+  height: 100%;
+  width: 10%;
+}
+.user {
+  display: flex;
+  width: 25%;
+  height: 100%;
+}
+.use {
+  text-align: center;
+  font-size: 18px;
+  width: 50%;
+  height: 100%;
+}
+.dp {
+  width: 50%;
+  height: 100%;
+}
+.nprnue {
+  margin-top: 50px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+.nprsnueleft {
+  margin-left: auto;
+  width: 10%;
+  height: 100%;
+}
+.nprsnueright {
+  font-size: 24px;
+  font-weight: bold;
+  width: 90%;
+  height: 100%;
+}
+.nprti {
+  width: 100%;
+  height: 30px;
+  display: flex;
+}
+.nprtisub {
+  width: 90%;
+  height: 100%;
+
+  margin-left: auto;
+  font-size: 18px;
+}
+.nprin {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+.nprinsub {
+  width: 90%;
+  height: 100%;
+  margin-left: auto;
+}
+.nprtituin {
+  width: 40%;
+  height: 90%;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+}
+.nprfoto {
+  margin-top: 20px;
+  width: 100%;
+  height: 30px;
+  display: flex;
+}
+.nprfotosub {
+  width: 90%;
+  height: 100%;
+
+  margin-left: auto;
+  font-size: 18px;
+}
+.nprdes {
+  margin-top: 20px;
+  width: 100%;
+  height: 30px;
+  display: flex;
+}
+.nprdessub {
+  width: 90%;
+  height: 100%;
+
+  margin-left: auto;
+  font-size: 18px;
+}
+.nprdesin {
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+}
+.nprdesinsld {
+  width: 90%;
+  height: 80%;
+  margin-left: auto;
+}
+.nprdesinslddd {
+  width: 40%;
+  height: 90%;
+  border: none;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+  border-radius: 10px;
+}
+.elnce {
+  width: 100%;
+  height: 30px;
+  display: flex;
+}
+.elnceurl {
+  width: 40%;
+  height: 100%;
+  font-size: 12px;
+
+  margin-left: auto;
+}
+.botn {
+  width: 40%;
+  height: 100%;
+  font-size: 12px;
+}
+.elncein {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+.elnceurld {
+  width: 90%;
+  height: 90%;
+  font-size: 24px;
+  border: none;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+  border-radius: 5px;
+}
+.nprprec {
+  height: 50px;
+  width: 100%;
+  display: flex;
+}
+.nprpreecsb {
+  height: 100%;
+  width: 90%;
+
+  margin-left: auto;
+}
+.nprprecin {
+  width: 40%;
+  height: 90%;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+}
+.nprbtn {
+  margin-top: 100px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.nprbttn {
+  height: 90%;
+  width: 15%;
+  border: none;
+  box-shadow: 0px 1px 3px 0px #00000033;
+}
+.nprpub {
+  font-size: 24px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: green;
+}
+.nprfupload {
+  width: 90%;
+  height: 200px;
+
+  margin-left: auto;
+  margin-top: 10px;
+  display: flex;
+}
+.lambo {
+  margin-left: 10px;
+  width: 150px;
+  height: 100%;
+  border: 1px solid #cecece;
+  > img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.nprfuploadsub {
+  width: 28%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+}
+.newprdctagrigar {
+  width: 90%;
+  height: 50px;
+  margin-top: 10px;
+
+  margin-left: auto;
+}
+.newprdctagrigarrr {
+  width: 28%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: green;
+  color: white;
+}

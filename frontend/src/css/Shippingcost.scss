@@ -1,0 +1,45 @@
+._shipcost {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 90px;
+  margin-top: 20px;
+  > div {
+    width: 62%;
+    height: auto;
+  }
+}
+._shipcosttr {
+  width: 100%;
+  height: auto;
+}
+._shipcosttd1 {
+  width: 550px;
+  height: 10px;
+  color: black;
+
+  text-align: right;
+  padding-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+._shipcosttd2 {
+  width: 100px;
+  height: 10px;
+  font-size: 18px;
+  color: black;
+}
+._shipcosttd3 {
+  width: 100px;
+  height: 10px;
+  font-size: 18px;
+  color: black;
+}
+._shipcosttd4 {
+  width: 100px;
+  height: 10px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}

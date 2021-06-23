@@ -1,0 +1,517 @@
+.eanpmain {
+  background-color: #f7f8fc;
+  height: 1800px;
+  display: flex;
+  margin-left: 0px;
+  border: none;
+  margin-top: 0px;
+}
+.eanpleft {
+  width: 20%;
+  height: 100%;
+  background-color: #363740;
+}
+
+.eanpright {
+  margin-left: 50px;
+  display: block;
+  width: 70%;
+  height: 100%;
+}
+.eanphead {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  margin-top: 10px;
+  border: none;
+}
+.eanptab {
+  width: 75%;
+  height: 100%;
+
+  display: flex;
+}
+.eanpta {
+  font-size: 30px;
+  font-weight: bold;
+  height: 100%;
+  width: 80%;
+  font-family: "Roboto";
+}
+.icon {
+  font-size: 25px;
+  height: 100%;
+  width: 10%;
+}
+.iconr {
+  font-size: 25px;
+  height: 100%;
+  width: 10%;
+}
+.user {
+  display: flex;
+  width: 25%;
+  height: 100%;
+}
+.use {
+  text-align: center;
+  font-size: 18px;
+  width: 50%;
+  height: 100%;
+}
+.dp {
+  width: 50%;
+  height: 100%;
+}
+.eanpnuevo {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  margin-top: 50px;
+}
+.eanpnuevol {
+  width: 10%;
+  height: 100px;
+
+  margin-top: -20px;
+}
+.eanpnuevolbut {
+  width: 90%;
+  height: 80%;
+  margin-left: 150px;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 2px;
+  padding-bottom: 40px;
+  padding-right: 10px;
+  border-radius: 50%;
+  background-color: blue;
+  color: white;
+}
+.eanpnuevor {
+  width: 80%;
+  height: 100%;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: bold;
+}
+.eanpminidiv {
+  width: 100%;
+  height: 1600px;
+  display: flex;
+}
+.eanpminidivsub {
+  width: 90%;
+  height: 100%;
+  margin-left: auto;
+}
+.eanpminf {
+  margin-top: 40px;
+  width: 100%;
+  height: 30px;
+  display: flex;
+}
+.sub__header {
+  > p {
+    font-family: "Roboto";
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 50px;
+  }
+}
+.eanpminfnom {
+  width: 60%;
+  height: 100%;
+  font-family: "Roboto";
+  font-size: 17px;
+  font-weight: bold;
+}
+.eanpminfnom2 {
+  width: 60%;
+  height: 100%;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 50px;
+
+  display: flex;
+  justify-content: center;
+}
+.gallery {
+  margin-top: 10px;
+  display: flex;
+  width: 600px;
+  height: 150px;
+
+  margin-left: 20px;
+}
+.lullalo {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  > button {
+    background-color: green;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+}
+.vido__but {
+  background-color: green;
+  color: white;
+  margin-top: 10px;
+  border: none;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+}
+.thisis {
+  border: 1px solid #cecece;
+  width: 130px;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.eanpminfcat {
+  width: 17%;
+  height: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+.eanpnomin {
+  margin-top: 0px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+.subs {
+  list-style: none;
+  font-family: "Roboto";
+  font-size: 18px;
+}
+.eanpnominl {
+  width: 60%;
+  height: 100%;
+
+  font-weight: bold;
+}
+.eanpnominr {
+  width: 17%;
+  height: 100%;
+}
+.eaddnprdin {
+  width: 80%;
+  height: 90%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+  font-size: 20px;
+}
+.eanpcatbut {
+  width: 50%;
+  height: 80%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+}
+.eanpnominll {
+  width: 60%;
+  height: 100%;
+
+  font-weight: bold;
+}
+.eanpnominrr {
+  width: 17%;
+  height: 100%;
+}
+.eaddnprdinn {
+  width: 80%;
+  height: 90%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+  font-size: 20px;
+}
+.eanpcatbutt {
+  width: 50%;
+  height: 80%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+}
+.eanpnominfoto {
+  margin-top: 0px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+.eanpnominfotol {
+  width: 20%;
+  height: 100%;
+
+  font-weight: bold;
+}
+.eanpfotoinput {
+  width: 100%;
+  height: 70%;
+  border: 1px solid #cecece;
+}
+.eanpfotoinputbut {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-around;
+
+  margin-top: 10px;
+}
+.eanpfotoagg {
+  width: 100%;
+  height: 90%;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  color: white;
+  background-color: green;
+}
+.eanpnominfotor {
+  width: 70%;
+  height: 100%;
+
+  font-weight: bold;
+}
+.eanpvid {
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 40px;
+  font-family: "Roboto";
+}
+.eanpvideoin {
+  width: 100%;
+  height: 170px;
+  display: flex;
+}
+.eanpvideoinl {
+  width: 18%;
+  height: 100%;
+  border: 1px solid #cecece;
+}
+.eanpvideoinr {
+  width: 80%;
+  height: 100%;
+}
+.eanpcheck {
+  margin-top: 90px;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+.color__container {
+  margin-top: 10px;
+  height: 150px;
+  width: 100%;
+
+  display: flex;
+  > div:nth-child(1) {
+    width: 150px;
+
+    margin-right: 20px;
+    > p:nth-child(1) {
+      font-family: "Robto";
+      font-size: 18px;
+    }
+  }
+}
+.seo {
+  width: 100%;
+  height: 240px;
+
+  margin-top: 20px;
+  margin-left: 40px;
+  .shusha {
+    margin-top: 0px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 70%;
+    border-radius: 4px;
+  }
+  .shusha::placeholder {
+    font-size: 20px;
+  }
+  > p {
+    font-size: 18px;
+    font-family: "Robto";
+  }
+  > div {
+    > p {
+      font-size: 18px;
+      font-family: "Robto";
+    }
+  }
+}
+.lss {
+  transform: scale(1.2);
+  margin-right: 20px;
+}
+.coloro {
+  background-color: green;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.sossa {
+  width: 150px;
+  margin-right: 10px;
+
+  > p {
+    font-family: "Roboto";
+    font-size: 18px;
+  }
+}
+.eanpprice {
+  width: 50%;
+  height: 30px;
+  display: flex;
+  margin-top: 30px;
+}
+.eanppricel {
+  width: 50%;
+  height: 50%;
+  font-size: 15px;
+  font-weight: bold;
+}
+.eanppricer {
+  width: 50%;
+  height: 50%;
+  font-size: 12px;
+  font-weight: bold;
+}
+.eanppricein {
+  width: 50%;
+  height: 50px;
+  display: flex;
+}
+.eanppricelin {
+  width: 50%;
+  height: 100%;
+}
+.eanppricerin {
+  width: 50%;
+  height: 100%;
+}
+.eanpprecioact {
+  width: 90%;
+  height: 90%;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+}
+.eanppreciocio {
+  width: 90%;
+  height: 90%;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+}
+.eanpdescr {
+  width: 100%;
+  height: 30px;
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+.eanpdescrin {
+  width: 100%;
+  height: 250px;
+
+  display: flex;
+}
+.eanpdescrinl {
+  width: 50%;
+  height: 100%;
+  margin-top: 20px;
+}
+.eanpdescrinr {
+  width: 50%;
+  height: 100%;
+
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+.eanpdescrinlinput {
+  width: 96%;
+  height: 98%;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.eanpeti {
+  width: 100%;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Roboto";
+  margin-top: 50px;
+}
+.eanpmueb {
+  width: 100%;
+  height: 50px;
+}
+.eanpmuebinp {
+  width: 48%;
+  height: 90%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+  font-size: 20px;
+}
+.eanpagreg {
+  margin-top: 50px;
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  justify-content: space-around;
+}
+.eanpagregbut {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  position: absolute;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.susuu {
+  font-size: 50px;
+  color: blue;
+  margin-top: -20px;
+  margin-left: 30px;
+}
+.eanpagregbut:hover {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  position: absolute;
+  margin-top: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}

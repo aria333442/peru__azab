@@ -1,0 +1,451 @@
+@font-face {
+  font-family: "RegencieLight";
+  src: url("../font/RegencieLight.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "HomepageBaukasten-Book";
+  src: url("../font/HomepageBaukasten-Book.ttf");
+  font-style: normal;
+}
+.contact__main {
+  .div__image_contact {
+    width: 100%;
+    margin-top: 50px;
+    > img {
+      width: 100%;
+      height: 280px;
+    }
+  }
+  .contact_left {
+    width: 45%;
+    height: auto;
+
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 10px;
+    .left__header {
+      font-family: "HomepageBaukasten-Book";
+      font-weight: bolder;
+    }
+    > p:nth-child(2) {
+      font-family: "HomepageBaukasten-Book";
+      font-size: 28px;
+    }
+    .contact__mail {
+      color: #ff6606;
+      font-size: 20px;
+    }
+    .mail__infront {
+      font-family: "RegencieLight";
+      margin-left: 45px;
+      margin-top: 6px;
+    }
+    .contact__from {
+      margin-top: 50px;
+      width: 100%;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.05) 0px 8px 32px;
+      height: auto;
+      .lablee {
+        font-family: "RegencieLight";
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+      .span {
+        color: #ff6606;
+      }
+      .name__contact {
+        width: 45%;
+        .form-control {
+          margin-left: 10px;
+          border: none;
+          background-color: #f4f5f7;
+          border-radius: 13px;
+        }
+        .form-control::placeholder {
+          font-family: "RegencieLight";
+        }
+      }
+      .surname__contact {
+        width: 45%;
+        .form-control {
+          margin-left: 10px;
+          border: none;
+          background-color: #f4f5f7;
+          border-radius: 13px;
+        }
+        .form-control::placeholder {
+          font-family: "RegencieLight";
+        }
+      }
+      .email__contact {
+        padding-right: 20px;
+        padding: 10px;
+        .form-control {
+          margin-left: 10px;
+          border: none;
+          background-color: #f4f5f7;
+          border-radius: 13px;
+          width: 95%;
+        }
+        .form-control::placeholder {
+          font-family: "RegencieLight";
+        }
+      }
+      .messaje {
+        .email__contact {
+          padding-right: 20px;
+          padding: 10px;
+          .form-control {
+            margin-left: 10px;
+            border: none;
+            background-color: #f4f5f7;
+            border-radius: 13px;
+            width: 95%;
+            height: 150px;
+          }
+          .form-control::placeholder {
+            font-family: "RegencieLight";
+          }
+        }
+      }
+      .contact__button {
+        margin-top: 20px;
+        color: white;
+        background-color: #ff6606;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-family: "HomepageBaukasten-Book";
+      }
+    }
+  }
+  .contact__right {
+    width: 55%;
+    height: auto;
+
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    > h3 {
+      font-family: "HomepageBaukasten-Book";
+      font-weight: bolder;
+    }
+    .span {
+      color: #ff6606;
+      margin-left: -2px;
+    }
+    > p:nth-child(2) {
+      font-family: "RegencieLight";
+      margin-top: 20px;
+    }
+    .question {
+      &__header {
+        font-family: "HomepageBaukasten-Book";
+        color: #ff6606;
+        font-size: 20px;
+        margin-top: 35px;
+      }
+      &__text {
+        font-family: "RegencieLight";
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1299px) {
+  .contact__main {
+    .div__image_contact {
+      width: 100%;
+      margin-top: 50px;
+      > img {
+        width: 100%;
+        height: 280px;
+      }
+    }
+    .contact_left {
+      width: 45%;
+      height: auto;
+
+      padding-top: 50px;
+      padding-left: 10px;
+      padding-right: 10px;
+      .left__header {
+        font-family: "HomepageBaukasten-Book";
+        font-weight: bolder;
+      }
+      > p:nth-child(2) {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 28px;
+      }
+      .contact__mail {
+        color: #ff6606;
+        font-size: 20px;
+      }
+      .mail__infront {
+        font-family: "RegencieLight";
+        margin-left: 45px;
+        margin-top: 6px;
+      }
+      .contact__from {
+        margin-top: 50px;
+        width: 100%;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+          rgba(17, 17, 26, 0.05) 0px 8px 32px;
+        height: auto;
+        .lablee {
+          font-family: "RegencieLight";
+          font-size: 20px;
+          margin-bottom: 15px;
+        }
+        .span {
+          color: #ff6606;
+        }
+        .name__contact {
+          width: 45%;
+          .form-control {
+            margin-left: 10px;
+            border: none;
+            background-color: #f4f5f7;
+            border-radius: 13px;
+          }
+          .form-control::placeholder {
+            font-family: "RegencieLight";
+          }
+        }
+        .surname__contact {
+          width: 45%;
+          .form-control {
+            margin-left: 10px;
+            border: none;
+            background-color: #f4f5f7;
+            border-radius: 13px;
+          }
+          .form-control::placeholder {
+            font-family: "RegencieLight";
+          }
+        }
+        .email__contact {
+          padding-right: 20px;
+          padding: 10px;
+          .form-control {
+            margin-left: 10px;
+            border: none;
+            background-color: #f4f5f7;
+            border-radius: 13px;
+            width: 95%;
+          }
+          .form-control::placeholder {
+            font-family: "RegencieLight";
+          }
+        }
+        .messaje {
+          .email__contact {
+            padding-right: 20px;
+            padding: 10px;
+            .form-control {
+              margin-left: 10px;
+              border: none;
+              background-color: #f4f5f7;
+              border-radius: 13px;
+              width: 95%;
+              height: 150px;
+            }
+            .form-control::placeholder {
+              font-family: "RegencieLight";
+            }
+          }
+        }
+        .contact__button {
+          margin-top: 20px;
+          color: white;
+          background-color: #ff6606;
+          padding: 10px 20px;
+          border-radius: 10px;
+          font-family: "HomepageBaukasten-Book";
+        }
+      }
+    }
+    .contact__right {
+      width: 55%;
+      height: auto;
+
+      padding-top: 20px;
+      padding-left: 30px;
+      padding-right: 40px;
+      > h3 {
+        font-family: "HomepageBaukasten-Book";
+        font-weight: bolder;
+      }
+      .span {
+        color: #ff6606;
+        margin-left: -2px;
+      }
+      > p:nth-child(2) {
+        font-family: "RegencieLight";
+        margin-top: 20px;
+      }
+      .question {
+        &__header {
+          font-family: "HomepageBaukasten-Book";
+          color: #ff6606;
+          font-size: 20px;
+          margin-top: 35px;
+        }
+        &__text {
+          font-family: "RegencieLight";
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .contact__main {
+    .div__image_contact {
+      width: 100%;
+      margin-top: 50px;
+      > img {
+        width: 100%;
+        height: 280px;
+      }
+    }
+    .contact_left {
+      width: 60%;
+      height: auto;
+
+      padding-top: 50px;
+      padding-left: 0px;
+      padding-right: 10px;
+      .left__header {
+        font-family: "HomepageBaukasten-Book";
+        font-weight: bolder;
+        font-size: 25px;
+      }
+      > p:nth-child(2) {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 12px;
+      }
+      .contact__mail {
+        color: #ff6606;
+        font-size: 16px;
+      }
+      .mail__infront {
+        font-family: "RegencieLight";
+        margin-left: 15px;
+        margin-top: 6px;
+        font-size: 10px;
+      }
+      .contact__from {
+        margin-top: 50px;
+        width: 100%;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+          rgba(17, 17, 26, 0.05) 0px 8px 32px;
+        height: auto;
+        .lablee {
+          font-family: "RegencieLight";
+          font-size: 14px;
+          margin-bottom: 15px;
+        }
+        .span {
+          color: #ff6606;
+        }
+        .name__contact {
+          width: 47%;
+          .form-control {
+            margin-left: 0px;
+            border: none;
+            background-color: #f4f5f7;
+            border-radius: 13px;
+          }
+          .form-control::placeholder {
+            font-family: "RegencieLight";
+          }
+        }
+        .surname__contact {
+          width: 47%;
+          .form-control {
+            margin-left: 0px;
+            border: none;
+            background-color: #f4f5f7;
+            border-radius: 13px;
+          }
+          .form-control::placeholder {
+            font-family: "RegencieLight";
+          }
+        }
+        .email__contact {
+          padding-right: 20px;
+          padding: 10px;
+          .form-control {
+            margin-left: 10px;
+            border: none;
+            background-color: #f4f5f7;
+            border-radius: 13px;
+            width: 95%;
+          }
+          .form-control::placeholder {
+            font-family: "RegencieLight";
+          }
+        }
+        .messaje {
+          .email__contact {
+            padding-right: 20px;
+            padding: 10px;
+            .form-control {
+              margin-left: 10px;
+              border: none;
+              background-color: #f4f5f7;
+              border-radius: 13px;
+              width: 95%;
+              height: 150px;
+            }
+            .form-control::placeholder {
+              font-family: "RegencieLight";
+            }
+          }
+        }
+        .contact__button {
+          margin-top: 20px;
+          color: white;
+          background-color: #ff6606;
+          padding: 10px 20px;
+          border-radius: 10px;
+          font-family: "HomepageBaukasten-Book";
+        }
+      }
+    }
+    .contact__right {
+      width: 40%;
+      height: auto;
+
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 0px;
+      > h3 {
+        font-family: "HomepageBaukasten-Book";
+        font-weight: bolder;
+        font-size: 12px;
+      }
+      .span {
+        color: #ff6606;
+        margin-left: -2px;
+      }
+      > p:nth-child(2) {
+        font-family: "RegencieLight";
+        margin-top: 20px;
+        font-size: 8px;
+      }
+      .question {
+        &__header {
+          font-family: "HomepageBaukasten-Book";
+          color: #ff6606;
+          font-size: 12px;
+          margin-top: 35px;
+        }
+        &__text {
+          font-family: "RegencieLight";
+          font-size: 8px;
+        }
+      }
+    }
+  }
+}

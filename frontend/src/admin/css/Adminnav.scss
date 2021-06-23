@@ -1,0 +1,52 @@
+.aminnav__main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  margin-top: 20px;
+  align-items: center;
+  > div:nth-child(1) {
+    > h3 {
+      font-family: "Mulish";
+      font-weight: bold;
+    }
+  }
+  > div:nth-child(2) {
+    display: flex;
+    > div:nth-child(1) {
+      display: flex;
+      > p:nth-child(1) {
+        font-size: 20px;
+        margin-right: 7px;
+      }
+      > p:nth-child(2) {
+        font-size: 20px;
+        margin-right: 10px;
+        margin-top: -1px;
+      }
+    }
+    > div:nth-child(2) {
+      border-left: 1px solid black;
+      width: 1px;
+      height: 20px;
+      margin-top: 7px;
+    }
+  }
+}
+.cred__div {
+  width: 200px;
+
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  > h6 {
+    font-size: 20px;
+    font-family: "mulish";
+    font-weight: bold;
+    margin-top: 4px;
+    margin-right: 10px;
+  }
+  > div {
+    margin-top: -10px;
+  }
+}

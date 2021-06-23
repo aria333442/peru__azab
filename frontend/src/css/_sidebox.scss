@@ -1,0 +1,320 @@
+@import "../css/variable";
+.sideBox {
+  border-right: 1px solid rgba(255, 102, 6, 0.3);
+  min-width: 240px;
+  overflow-y: auto;
+  min-height: 80vh;
+  margin-left: 20px;
+  &__top {
+    margin-bottom: 20px;
+    > h2 {
+      font-size: 18px;
+      color: $primary;
+    }
+    > div {
+      border: 1px solid rgba(97, 97, 97, 0.14);
+      display: flex;
+      max-width: 180px;
+      padding: 1px 2px;
+      border-radius: 2px;
+      > input {
+        flex: 1;
+        max-width: 150px;
+        outline: none;
+        border: none;
+        padding-left: 2px;
+      }
+      .MuiSvgIcon-root {
+        color: $primary;
+      }
+    }
+  }
+  &__range {
+    > h2 {
+      font-size: 18px;
+      color: $primary;
+    }
+    > div {
+      display: flex;
+      justify-content: space-between;
+      max-width: 190px;
+      > div {
+        display: flex;
+        flex-direction: column;
+        max-width: 190px;
+        justify-content: space-between;
+        > P {
+          font-size: 14px;
+        }
+        > div {
+          display: flex;
+          border: 1px solid rgba(97, 97, 97, 0.14);
+          justify-content: center;
+          padding: 2px;
+          > input {
+            outline: none;
+            border: none;
+            width: 70px;
+          }
+          > p {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  .MuiTreeItem-content {
+    flex-direction: row-reverse;
+    width: 190px;
+    margin: 10px 0px;
+    color: #222222;
+    border-bottom: 1px solid rgba(97, 97, 97, 0.14);
+  }
+  .Mui-checked {
+    color: $primary !important;
+  }
+  .MuiTreeItem-group {
+    margin-left: 0px;
+  }
+  .MuiTreeItem-root.Mui-selected > .MuiTreeItem-content .MuiTreeItem-label {
+    background-color: white;
+    &:hover {
+      background-color: white;
+    }
+  }
+
+  .MuiTreeItem-root.Mui-selected
+    > .MuiTreeItem-content
+    .MuiTreeItem-label:hover,
+  .MuiTreeItem-root.Mui-selected:focus
+    > .MuiTreeItem-content
+    .MuiTreeItem-label {
+    background: none !important;
+  }
+  .MuiTreeItem-root:focus > .MuiTreeItem-content .MuiTreeItem-label {
+    background: none !important;
+  }
+  .checkBox__container {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    .MuiIconButton-label {
+      position: absolute;
+      left: 0px;
+    }
+    .MuiSvgIcon-root {
+      fill: #c5c2c2;
+    }
+    > p {
+      color: #616161;
+      font-size: 14px;
+      margin-left: 7px;
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+  }
+  ::placeholder {
+    color: #cec8c8;
+    font-size: 14px !important;
+  }
+  .h2 {
+    margin-top: 20px;
+    color: $primary;
+    font-size: 18px;
+  }
+  &__colorCheck {
+    max-width: 190px;
+    .colos {
+      width: 27px;
+      height: 27px;
+      border: 1px solid #ff6606;
+      border-radius: 50%;
+      margin-top: -40px;
+      margin-left: -3px;
+      position: absolute;
+      cursor: pointer;
+      display: none;
+    }
+    .colo {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      z-index: 10;
+      cursor: pointer;
+    }
+    .colos2 {
+      width: 27px;
+      height: 27px;
+      border: 1px solid #ff6606;
+      border-radius: 50%;
+      margin-top: -40px;
+      margin-left: -3px;
+      position: absolute;
+      cursor: pointer;
+    }
+  }
+}
+@media (max-width: "1299px") and (min-width: "768px") {
+  .sideBox {
+    min-width: 220px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .sideBox {
+    border-right: 1px solid rgba(255, 102, 6, 0.3);
+    min-width: 130px;
+    overflow-y: auto;
+    min-height: 80vh;
+    margin-left: 20px;
+    z-index: 1;
+    &__top {
+      margin-bottom: 20px;
+      > h2 {
+        font-size: 15px;
+        color: $primary;
+      }
+      > div {
+        border: 1px solid rgba(97, 97, 97, 0.14);
+        display: flex;
+        max-width: 120px;
+        padding: 1px 2px;
+        border-radius: 2px;
+        > input {
+          flex: 1;
+          max-width: 90px;
+          outline: none;
+          border: none;
+          padding-left: 2px;
+        }
+        .MuiSvgIcon-root {
+          color: $primary;
+        }
+      }
+    }
+    &__range {
+      > h2 {
+        font-size: 15px;
+        color: $primary;
+      }
+      > div {
+        display: flex;
+        justify-content: space-between;
+        max-width: 120px;
+        > div {
+          display: flex;
+          flex-direction: column;
+          max-width: 190px;
+          justify-content: space-between;
+          > P {
+            font-size: 12px;
+          }
+          > div {
+            display: flex;
+            border: 1px solid rgba(97, 97, 97, 0.14);
+            justify-content: center;
+            padding: 2px;
+            > input {
+              outline: none;
+              border: none;
+              width: 40px;
+            }
+            > p {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+    .MuiTreeItem-content {
+      flex-direction: row-reverse;
+      width: 120px;
+      margin: 10px 0px;
+      color: #222222;
+      border-bottom: 1px solid rgba(97, 97, 97, 0.14);
+    }
+    .Mui-checked {
+      color: $primary !important;
+    }
+    .MuiTreeItem-group {
+      margin-left: 0px;
+    }
+    .MuiTreeItem-root.Mui-selected > .MuiTreeItem-content .MuiTreeItem-label {
+      background-color: white;
+      &:hover {
+        background-color: white;
+      }
+    }
+
+    .MuiTreeItem-root.Mui-selected
+      > .MuiTreeItem-content
+      .MuiTreeItem-label:hover,
+    .MuiTreeItem-root.Mui-selected:focus
+      > .MuiTreeItem-content
+      .MuiTreeItem-label {
+      background: none !important;
+    }
+    .MuiTreeItem-root:focus > .MuiTreeItem-content .MuiTreeItem-label {
+      background: none !important;
+    }
+    .checkBox__container {
+      display: flex;
+      justify-content: flex-start;
+      position: relative;
+      .MuiIconButton-label {
+        position: absolute;
+        left: 0px;
+      }
+      .MuiSvgIcon-root {
+        fill: #c5c2c2;
+      }
+      > p {
+        color: #616161;
+        font-size: 14px;
+        margin-left: 7px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+      }
+    }
+    ::placeholder {
+      color: #cec8c8;
+      font-size: 14px !important;
+    }
+    .h2 {
+      margin-top: 20px;
+      color: $primary;
+      font-size: 18px;
+    }
+    &__colorCheck {
+      max-width: 190px;
+      .colos {
+        width: 27px;
+        height: 27px;
+        border: 1px solid #ff6606;
+        border-radius: 50%;
+        margin-top: -40px;
+        margin-left: -3px;
+        position: absolute;
+        cursor: pointer;
+        display: none;
+      }
+      .colo {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        z-index: 10;
+        cursor: pointer;
+      }
+      .colos2 {
+        width: 27px;
+        height: 27px;
+        border: 1px solid #ff6606;
+        border-radius: 50%;
+        margin-top: -40px;
+        margin-left: -3px;
+        position: absolute;
+        cursor: pointer;
+      }
+    }
+  }
+}

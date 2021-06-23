@@ -1,0 +1,183 @@
+.sltmain {
+  background-color: #f7f8fc;
+  height: 1000px;
+  display: flex;
+  margin-left: 0px;
+  border: none;
+  margin-top: 0px;
+}
+.sltleft {
+  width: 20%;
+  height: 100%;
+  background-color: #363740;
+}
+
+.sltright {
+  margin-left: 50px;
+  display: block;
+  width: 70%;
+  height: 100%;
+}
+.slthead {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  margin-top: 10px;
+  border: none;
+}
+.slttab {
+  width: 75%;
+  height: 100%;
+
+  display: flex;
+}
+.sltta {
+  font-size: 30px;
+  font-weight: bold;
+  height: 100%;
+  width: 80%;
+}
+.icon {
+  font-size: 25px;
+  height: 100%;
+  width: 10%;
+}
+.iconr {
+  font-size: 25px;
+  height: 100%;
+  width: 10%;
+}
+.user {
+  display: flex;
+  width: 25%;
+  height: 100%;
+}
+.use {
+  text-align: center;
+  font-size: 18px;
+  width: 50%;
+  height: 100%;
+}
+.dp {
+  width: 50%;
+  height: 100%;
+}
+.sltfm {
+  width: 95%;
+  height: 70px;
+  margin-top: 50px;
+  margin-left: auto;
+}
+.sltfmsub {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.sltfmsubl {
+  width: 30%;
+  height: 100%;
+}
+.sltapp {
+  width: 100%;
+  height: 50%;
+
+  font-size: 14px;
+}
+.sltelmin {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.sltelminl {
+  width: 60%;
+  height: 100%;
+}
+.sltelminr {
+  width: 40%;
+  height: 100%;
+}
+.sltfmsubr {
+  width: 25%;
+  height: 100%;
+
+  display: flex;
+}
+.sltfmsubrf {
+  width: 30%;
+  height: 100%;
+}
+.sltfmsubrs {
+  width: 80%;
+  height: 100%;
+
+  font-size: 16px;
+  font-weight: bold;
+}
+.sltfmsubrsp {
+  margin-top: 15px;
+}
+.sltbus {
+  width: 100%;
+  height: 50px;
+
+  margin-top: 20px;
+}
+.sltbusin {
+  width: 35%;
+  height: 98%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+}
+.slttabdiv {
+  width: 100%;
+  height: 500px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 10px;
+  background-color: white;
+}
+.haiga {
+  color: red;
+  font-size: 30px;
+  margin-top: 5px;
+}
+.slttable {
+  width: 100%;
+  height: 85%;
+}
+.slttrf {
+  height: 20px;
+}
+.sltcheck {
+  width: 5%;
+  height: 20px;
+}
+.sltstd {
+  width: 25%;
+  height: 20px;
+  font-size: 14px;
+}
+.sltttd {
+  width: 25%;
+  height: 20px;
+  font-size: 14px;
+
+  text-align: center;
+}
+.sltfftd {
+  width: 25%;
+  height: 20px;
+  font-size: 14px;
+
+  text-align: center;
+}
+.sltffftd {
+  width: 25%;
+  height: 20px;
+  font-size: 14px;
+
+  text-align: center;
+}

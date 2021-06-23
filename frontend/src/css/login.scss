@@ -1,0 +1,136 @@
+.register {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  .form-box {
+    width: 450px;
+    height: auto;
+    border: 1px solid #cecece;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-bottom: 100px;
+    .form-title {
+      font-size: 25px;
+      font-weight: 900;
+      margin-top: 50px;
+      margin-left: 50px;
+      margin-right: 90px;
+    }
+    .form-container {
+      margin-top: 50px;
+      padding-left: 50px;
+      padding-right: 60px;
+      margin-bottom: 100px;
+      .email-label {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+          "Helvetica Neue" !important;
+        font-size: 20px !important;
+        color: gray !important;
+        margin-bottom: 10px;
+      }
+      .form-control {
+        height: 40px;
+        background-color: whitesmoke;
+      }
+      .pass-label {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+          "Helvetica Neue" !important;
+        font-size: 20px !important;
+        color: gray !important;
+        margin-bottom: 15px;
+        margin-top: 20px;
+      }
+      .form-button {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+          "Helvetica Neue" !important;
+        border: none;
+        color: white;
+        background-color: #ff6606;
+        font-size: 30px;
+        border-radius: 10px;
+        padding: 5px 50px 10px 50px;
+        margin-left: 70px;
+        margin-top: 30px;
+      }
+      .register-link {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+          "Helvetica Neue" !important;
+        font-size: 21px;
+        color: #ff6606;
+        margin-top: 20px !important;
+        position: absolute;
+        margin-left: 90px;
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .register {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    .form-box {
+      width: 450px;
+      height: auto;
+      border: 1px solid #cecece;
+      margin-top: 50px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      margin-bottom: 100px;
+      .form-title {
+        font-size: 25px;
+        font-weight: 900;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 90px;
+      }
+      .form-container {
+        margin-top: 50px;
+        padding-left: 50px;
+        padding-right: 60px;
+        margin-bottom: 100px;
+        .email-label {
+          font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+            "Helvetica Neue" !important;
+          font-size: 20px !important;
+          color: gray !important;
+          margin-bottom: 10px;
+        }
+        .form-control {
+          height: 40px;
+          background-color: whitesmoke;
+        }
+        .pass-label {
+          font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+            "Helvetica Neue" !important;
+          font-size: 20px !important;
+          color: gray !important;
+          margin-bottom: 15px;
+          margin-top: 20px;
+        }
+        .form-button {
+          font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+            "Helvetica Neue" !important;
+          border: none;
+          color: white;
+          background-color: #ff6606;
+          font-size: 30px;
+          border-radius: 10px;
+          padding: 5px 50px 10px 50px;
+          margin-left: 30px;
+          margin-top: 30px;
+        }
+        .register-link {
+          font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+            "Helvetica Neue" !important;
+          font-size: 21px;
+          color: #ff6606;
+          margin-top: 20px !important;
+          position: absolute;
+          margin-left: 50px;
+        }
+      }
+    }
+  }
+}

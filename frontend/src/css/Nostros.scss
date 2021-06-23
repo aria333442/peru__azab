@@ -1,0 +1,587 @@
+@font-face {
+  font-family: "RegencieLight";
+  src: url("../font/RegencieLight.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "HomepageBaukasten-Book";
+  src: url("../font/HomepageBaukasten-Book.ttf");
+  font-style: normal;
+}
+.nostros {
+  background-color: #fff5ee;
+  padding: 50px;
+}
+.breadcrumbs {
+  margin-left: 50px;
+  margin-top: 40px;
+  background: transparent;
+  height: 30px;
+  .inc {
+    font-family: "HomepageBaukasten-Book";
+    font-size: 25px;
+    color: black;
+    background-color: #fff5ee;
+  }
+  > p:nth-child(2) {
+    font-family: "HomepageBaukasten-Book";
+    font-size: 25px;
+    margin-left: 10px;
+    color: #ff6606;
+  }
+  > p:nth-child(3) {
+    font-family: "HomepageBaukasten-Book";
+    font-size: 25px;
+    margin-left: 10px;
+    color: #ff6606;
+  }
+}
+.photo {
+  padding-left: 50px;
+  font-weight: bolder;
+  width: 65%;
+  height: 300px;
+  border: none;
+}
+.misi {
+  margin-left: 40px;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-top: 90px;
+  font-family: "Roboto";
+}
+.nospara {
+  margin-top: 30px;
+  font-size: 45px;
+  font-family: "Roboto";
+  font-weight: bolder;
+}
+.nosmain1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.nosmain2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.nosmain3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.nosmainleft {
+  height: 550px;
+  width: 50%;
+  border: none;
+}
+.nosmainright {
+  height: 550px;
+  width: 50%;
+  border: none;
+}
+.nosvision {
+  height: 550px;
+  width: 50%;
+  border: none;
+}
+.clrchg {
+  color: #ff6606;
+  font-family: "HomepageBaukasten-Book";
+}
+.ul {
+  font-family: "HomepageBaukasten-Book";
+}
+.visio {
+  font-weight: bolder;
+  font-size: 26px;
+  margin-left: 10px;
+  margin-top: 50px;
+  font-family: "Roboto";
+}
+.ul {
+  margin-top: -5px;
+  font-size: 30px;
+  font-weight: bolder;
+  list-style: none;
+  margin-top: 40px;
+}
+.paraa {
+  margin-top: 60px;
+  font-size: 20px;
+  font-family: "Roboto";
+
+  margin-left: 30px;
+}
+.paraaa {
+  margin-top: -12px;
+  font-size: 20px;
+  margin-left: 10px;
+  font-family: "Roboto";
+}
+
+.li {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-size: 20px;
+  list-style: none;
+}
+.li::after {
+  line-height: 0.9em;
+}
+.li::before {
+  content: "\2022";
+  color: #ff6606;
+  display: inline-block;
+  width: 30px;
+  font-size: 30px;
+  line-height: 1.1em;
+}
+.jpg {
+  width: 90%;
+  height: 90%;
+}
+.nosmainright {
+  display: flex;
+  justify-content: center;
+}
+.nosrightph {
+  margin-top: 30px;
+  width: 90%;
+  height: 90%;
+  margin-left: 30px;
+}
+.nosicondiv {
+  height: 140px;
+  display: flex;
+  justify-content: space-around;
+  width: 95%;
+}
+.iconph {
+  height: 50px;
+  width: 50px;
+  margin-top: 7px;
+}
+.nosicons {
+  margin-top: 10px;
+}
+.nosiconsub {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.iconparanoshead {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 20px;
+  margin-top: 5px;
+  font-family: "HomepageBaukasten-Book";
+}
+.iconparanosheadsm {
+  font-size: 18px;
+  margin-top: -10px;
+  margin-left: 20px;
+  font-family: "RegencieLight";
+}
+.noslast {
+  height: 450px;
+  width: 50%;
+  border: none;
+}
+.nosrightphl {
+  width: 90%;
+  height: 90%;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.noslastright {
+  height: 450px;
+  width: 50%;
+  border: none;
+}
+
+@media (max-width: "1025px") and (min-width: "768px") {
+  .nostros {
+    background-color: #fff5ee;
+    padding: 10px;
+  }
+  .breadcrumbs {
+    margin-left: 10px;
+    margin-top: 80px;
+    .inc {
+      font-family: "HomepageBaukasten-Book";
+      font-size: 20px;
+      color: black;
+    }
+    > p:nth-child(2) {
+      font-family: "HomepageBaukasten-Book";
+      font-size: 20px;
+      margin-left: 10px;
+      color: #ff6606;
+    }
+    > p:nth-child(3) {
+      font-family: "HomepageBaukasten-Book";
+      font-size: 20px;
+      margin-left: 10px;
+      color: #ff6606;
+    }
+  }
+  .nosmain1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .nosmain2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .nosmain3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+  }
+
+  .iconph {
+    height: 30px;
+    width: 30px;
+    margin-top: 7px;
+  }
+
+  .photo {
+    font-weight: bold;
+    width: 60%;
+    height: 150px;
+    border: none;
+  }
+  .nospara {
+    margin-left: -40px;
+    font-size: 22px;
+  }
+  .paraa {
+    margin-top: 10px;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .paraaa {
+    margin-top: -10px;
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  .misi {
+    margin-top: 60px;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .jpg {
+    width: 90%;
+    height: 230px;
+    margin-top: 10px;
+  }
+  .nosmainleft {
+    border: none;
+    height: 250px;
+  }
+  .nosmainright {
+    border: none;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nosrightph {
+    width: 90%;
+    height: 220px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .nosvision {
+    height: 250px;
+    width: 50%;
+    border: none;
+  }
+  .ul {
+    margin-top: -1px !important;
+    font-size: 10px;
+    font-weight: bolder;
+    list-style: none;
+    margin-top: 40px;
+  }
+  .li {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: "Roboto";
+    font-size: 10px;
+    list-style: none;
+  }
+  .li::after {
+    line-height: 0.9em;
+  }
+  .li::before {
+    content: "\2022";
+    color: #ff6606;
+    display: inline-block;
+    width: 30px;
+    font-size: 15px;
+    line-height: 1.1em;
+  }
+  .nosicons {
+    margin-left: 10px;
+    margin-top: -1px;
+  }
+  .nosiconsub {
+    display: flex;
+    margin-left: 5px;
+    margin-top: -15px;
+  }
+  .iconparanoshead {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bolder;
+  }
+  .iconparanosheadsm {
+    font-size: 9px;
+    margin-left: 10px;
+    margin-top: -15px;
+  }
+  .nosicondiv {
+    margin-top: -270px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .visio {
+    font-weight: bolder;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .noslastright {
+    border: none;
+    width: 50%;
+    margin-top: -280px;
+    height: 250px;
+  }
+  .noslast {
+    height: 250px;
+    border: none;
+    width: 50%;
+    margin-top: -280px;
+  }
+  .nosrightphl {
+    margin-left: 10px;
+    width: 90%;
+    height: 90%;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: "767px") {
+  .nostros {
+    padding: 0px;
+  }
+  .lallu {
+    margin-top: -20px !important;
+  }
+  .breadcrumbs {
+    margin-left: 10px;
+    margin-top: -30px;
+    margin-bottom: 100px;
+    height: 0px;
+    .inc {
+      font-family: "HomepageBaukasten-Book";
+      font-size: 15px;
+      color: black;
+      margin-top: 50px;
+    }
+    > p:nth-child(2) {
+      font-family: "HomepageBaukasten-Book";
+      font-size: 15px;
+      margin-left: 10px;
+      color: #ff6606;
+      margin-top: 50px;
+    }
+    > p:nth-child(3) {
+      font-family: "HomepageBaukasten-Book";
+      font-size: 15px;
+      margin-left: 10px;
+      color: #ff6606;
+      margin-top: 50px;
+    }
+  }
+  .nosmain1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .nosmain2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .nosmain3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+  }
+  .iconph {
+    height: 20px;
+    width: 22px;
+    margin-top: 14px;
+  }
+
+  .photo {
+    font-weight: bold;
+    width: 100%;
+    height: 80px;
+    border: none;
+  }
+  .nospara {
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: "Roboto";
+  }
+  .paraa {
+    margin-top: 10px;
+    font-size: 8px;
+    margin-left: 10px;
+  }
+
+  .paraaa {
+    margin-top: -10px;
+    font-size: 8px;
+    margin-left: 10px;
+  }
+  .misi {
+    margin-top: 40px;
+    font-weight: bolder;
+    font-size: 12px;
+    margin-left: 10px;
+    font-family: "Roboto";
+  }
+  .jpg {
+    width: 90%;
+    height: 200px !important;
+    margin-top: 10px;
+  }
+  .nosmainleft {
+    border: none;
+    height: 200px;
+  }
+  .nosmainright {
+    border: none;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nosrightph {
+    width: 90%;
+    height: 210px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .nosvision {
+    height: 200px;
+    width: 50%;
+    border: none;
+  }
+  .ul {
+    margin-top: -1px !important;
+    font-size: 8px;
+    font-weight: bolder;
+    list-style: none;
+    margin-top: 40px;
+  }
+  .li {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 8px;
+    font-family: "Roboto";
+
+    list-style: none;
+  }
+  .li::after {
+    line-height: 0.9em;
+  }
+  .li::before {
+    content: "\2022";
+    color: #ff6606;
+    display: inline-block;
+    width: 30px;
+    font-size: 10px;
+    line-height: 1.1em;
+  }
+  .nosicons {
+    margin-top: -1px;
+  }
+  .nosiconsub {
+    display: flex;
+    margin-left: 5px;
+    margin-top: -15px;
+  }
+
+  .iconparanoshead {
+    font-size: 6px;
+    margin-left: 10px;
+    margin-top: 12px;
+    font-weight: bolder;
+  }
+  .iconparanosheadsm {
+    font-size: 4px;
+    margin-left: 12px;
+    margin-top: -15px;
+  }
+  .nosicondiv {
+    margin-top: -120px;
+    height: 60px;
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .visio {
+    font-weight: bolder;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .noslastright {
+    border: none;
+    width: 50%;
+    margin-top: -150px;
+    height: 200px;
+  }
+  .noslast {
+    height: 200px;
+    border: none;
+    width: 50%;
+    margin-top: -150px;
+  }
+  .nosrightphl {
+    width: 90%;
+    height: 80%;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}

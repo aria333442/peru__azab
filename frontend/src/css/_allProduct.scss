@@ -1,0 +1,67 @@
+@import "../css/variable";
+.allProduct {
+  width: 90%;
+  margin-left: 50px;
+  &__pagination {
+    margin: 45px auto;
+    display: flex;
+    justify-content: center;
+    .MuiPaginationItem-root {
+      background-color: white;
+      border-radius: 3px;
+    }
+
+    .MuiPaginationItem-page.Mui-selected {
+      background-color: $primary;
+      color: white;
+    }
+  }
+}
+@media (min-width: 1300px) {
+  .allProduct {
+    flex: 1;
+    &__container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 30px;
+      justify-content: center;
+      align-items: center;
+      padding-left: 10%;
+    }
+    &__pagination {
+      margin: 45px auto;
+      display: flex;
+      justify-content: center;
+      .MuiPaginationItem-root {
+        background-color: white;
+        border-radius: 3px;
+      }
+
+      .MuiPaginationItem-page.Mui-selected {
+        background-color: $primary;
+        color: white;
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .allProduct {
+    width: 100%;
+    overflow-x: hidden;
+    margin-left: 0px;
+    &__pagination {
+      margin: 45px auto;
+      display: flex;
+      justify-content: center;
+      .MuiPaginationItem-root {
+        background-color: white;
+        border-radius: 3px;
+      }
+
+      .MuiPaginationItem-page.Mui-selected {
+        background-color: $primary;
+        color: white;
+      }
+    }
+  }
+}

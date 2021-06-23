@@ -1,0 +1,217 @@
+@font-face {
+  font-family: "RegencieLight";
+  src: url("../font/RegencieLight.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "HomepageBaukasten-Book";
+  src: url("../font/HomepageBaukasten-Book.ttf");
+  font-style: normal;
+}
+.mainaa {
+  background-color: #fff5ee;
+  padding: 100px;
+  .link__above {
+    margin-top: 100px;
+    display: flex;
+    .linka {
+      background: transparent;
+      color: black;
+      font-family: "HomepageBaukasten-Book";
+      font-size: 25px;
+    }
+    > p:nth-child(2) {
+      font-size: 25px;
+      margin-left: 20px;
+    }
+    > p:nth-child(3) {
+      font-family: "HomepageBaukasten-Book";
+      font-size: 25px;
+      margin-left: 20px;
+      color: #ff6606;
+    }
+  }
+  .zones___header {
+    font-family: "HomepageBaukasten-Book";
+    font-size: 45px;
+    > span {
+      color: #ff6606;
+    }
+  }
+  .actualaa {
+    font-family: "Roboto";
+    font-size: 20px;
+  }
+  .tablaaa {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: 80%;
+    margin-top: 80px;
+    height: auto;
+    .table__header__row {
+      width: 100%;
+      background-color: white;
+      height: 50px;
+      border-bottom: 1px solid #cecece;
+
+      > th:nth-child(1) {
+        width: 250px;
+        font-weight: normal !important;
+        padding-left: 15px;
+        font-family: "Roboto";
+        font-size: 20px;
+      }
+      > th:nth-child(2) {
+        width: 250px;
+        font-weight: normal !important;
+        font-family: "Roboto";
+        font-size: 20px;
+      }
+      > th:nth-child(3) {
+        width: 415px;
+        font-weight: normal !important;
+        font-family: "Roboto";
+        font-size: 20px;
+      }
+    }
+    .table_bottom_row {
+      width: 100%;
+      background-color: #f6f6f6;
+      > td {
+        font-family: "roboto";
+        padding-left: 15px;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1299px) {
+  .tablaaa {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: 100%;
+    margin-top: 80px;
+    height: auto;
+    .table__header__row {
+      width: 100%;
+      background-color: white;
+      height: 50px;
+      border-bottom: 1px solid #cecece;
+
+      > th:nth-child(1) {
+        width: 250px;
+        font-weight: normal !important;
+        padding-left: 15px;
+        font-family: "Roboto";
+        font-size: 20px;
+      }
+      > th:nth-child(2) {
+        width: 250px;
+        font-weight: normal !important;
+        font-family: "Roboto";
+        font-size: 20px;
+      }
+      > th:nth-child(3) {
+        width: 415px;
+        font-weight: normal !important;
+        font-family: "Roboto";
+        font-size: 20px;
+      }
+    }
+    .table_bottom_row {
+      width: 100%;
+      background-color: #f6f6f6;
+      > td {
+        font-family: "roboto";
+        padding-left: 15px;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .mainaa {
+    background-color: #fff5ee;
+    padding: 0px;
+    .link__above {
+      margin-top: 70px;
+      display: flex;
+      .linka {
+        background: transparent;
+        color: black;
+        font-family: "HomepageBaukasten-Book";
+        font-size: 18px;
+      }
+      > p:nth-child(2) {
+        font-size: 18px;
+        margin-left: 25px;
+      }
+      > p:nth-child(3) {
+        font-family: "HomepageBaukasten-Book";
+        font-size: 18px;
+        margin-left: 20px;
+        color: #ff6606;
+      }
+    }
+    .zones___header {
+      font-family: "HomepageBaukasten-Book";
+      font-size: 25px;
+      > span {
+        color: #ff6606;
+      }
+    }
+    .actualaa {
+      font-family: "Roboto";
+      font-size: 17px;
+    }
+    .tablaaa {
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.05) 0px 8px 32px;
+      width: 100%;
+      margin-top: 80px;
+      height: auto;
+      .table__header__row {
+        width: 100%;
+        background-color: white;
+        height: 50px;
+        border-bottom: 1px solid #cecece;
+
+        > th:nth-child(1) {
+          width: 200px;
+          font-weight: normal !important;
+          padding-left: 15px;
+          font-family: "Roboto";
+          font-size: 16px;
+        }
+        > th:nth-child(2) {
+          width: 200px;
+          font-weight: normal !important;
+          font-family: "Roboto";
+          font-size: 16px;
+        }
+        > th:nth-child(3) {
+          width: 455px;
+          font-weight: normal !important;
+          font-family: "Roboto";
+          font-size: 16px;
+        }
+      }
+      .table_bottom_row {
+        width: 100%;
+        background-color: #f6f6f6;
+        > td {
+          font-family: "roboto";
+          padding-left: 15px;
+          height: auto;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,310 @@
+.eslidermain {
+  background-color: #f7f8fc;
+  height: 1500px;
+  display: flex;
+  margin-left: 0px;
+  border: none;
+  margin-top: 0px;
+}
+.esldrleft {
+  width: 20%;
+  height: 100%;
+  background-color: #363740;
+}
+
+.esldrright {
+  margin-left: 50px;
+  display: block;
+  width: 70%;
+  height: 100%;
+}
+.esldrhead {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  margin-top: 10px;
+  border: none;
+}
+.esldrtab {
+  width: 75%;
+  height: 100%;
+  font-size: 30px;
+  display: flex;
+  font-family: "Roboto";
+}
+.esldrta {
+  font-size: 30px;
+  font-weight: bold;
+  height: 100%;
+  width: 80%;
+}
+.icon {
+  font-size: 25px;
+  height: 100%;
+  width: 10%;
+}
+.iconr {
+  font-size: 25px;
+  height: 100%;
+  width: 10%;
+}
+.user {
+  display: flex;
+  width: 25%;
+  height: 100%;
+}
+.use {
+  text-align: center;
+  font-size: 18px;
+  width: 50%;
+  height: 100%;
+}
+.dp {
+  width: 50%;
+  height: 100%;
+}
+.esldrnue {
+  margin-top: 50px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+.esnueleft {
+  margin-left: auto;
+  width: 10%;
+  height: 100%;
+}
+.esnueright {
+  font-size: 24px;
+  font-weight: bold;
+  width: 90%;
+  height: 100%;
+  font-family: "Roboto";
+}
+.esldrti {
+  width: 100%;
+  height: 25px;
+  display: flex;
+}
+.esldrtisub {
+  width: 90%;
+  height: 100%;
+
+  margin-left: auto;
+  font-size: 16px;
+  font-family: "Roboto";
+  margin-bottom: 20px;
+}
+.esldrin {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+.esldrinsub {
+  width: 90%;
+  height: 100%;
+  margin-left: auto;
+}
+.esldrtituin {
+  width: 40%;
+  height: 90%;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+}
+.esldrfoto {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+.esldrfotosub {
+  width: 90%;
+  height: 100%;
+
+  margin-left: auto;
+  font-size: 16px;
+  font-family: "Roboto";
+}
+.foto__div {
+  width: 90%;
+  height: 250px;
+
+  margin-left: 95px;
+  > div:nth-child(1) {
+    width: 200px;
+
+    height: 100%;
+
+    > p {
+      font-family: "Roboto";
+      font-size: 17px;
+    }
+    > img {
+      border: 1px solid #cecece;
+      width: 80%;
+      height: 60%;
+    }
+    > button {
+      width: 80%;
+      background-color: green;
+      height: 40px;
+      color: white;
+      border: none;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+  }
+
+  > div:nth-child(2) {
+    margin-left: 20px;
+    width: 200px;
+
+    > p {
+      font-family: "Roboto";
+      font-size: 17px;
+    }
+    > img {
+      border: 1px solid #cecece;
+      width: 80%;
+      height: 60%;
+    }
+    > button {
+      width: 80%;
+      background-color: green;
+      height: 40px;
+      color: white;
+      border: none;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+  }
+}
+.esldrdes {
+  margin-top: 20px;
+  width: 100%;
+  height: 25px;
+  display: flex;
+}
+.esldrdessub {
+  width: 90%;
+  height: 100%;
+
+  margin-left: auto;
+  font-size: 17px;
+  font-family: "Roboto";
+}
+.esldrdesin {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+}
+.edesinsld {
+  width: 90%;
+  height: 80%;
+  margin-left: auto;
+}
+.edesinslddd {
+  width: 40%;
+  height: 90%;
+  border: none;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+  border-radius: 10px;
+}
+.eelnce {
+  width: 100%;
+  height: 30px;
+  display: flex;
+}
+.eelnceurl {
+  width: 45%;
+  height: 100%;
+  font-size: 18px;
+  margin-left: 100px;
+  font-family: "Roboto";
+}
+.utl__selector__div {
+  margin-left: 100px;
+
+  width: 90%;
+  height: 100px;
+  display: flex;
+  margin-top: 20px;
+  > div:nth-child(1) {
+    width: 150px;
+
+    > p {
+      font-size: 18px;
+      font-family: "Roboto";
+    }
+  }
+  > div:nth-child(2) {
+    margin-left: 20px;
+
+    width: 150px;
+    > p {
+      font-size: 18px;
+      font-family: "Roboto";
+    }
+  }
+  > div:nth-child(3) {
+    margin-left: 20px;
+
+    width: 150px;
+    > p {
+      font-size: 18px;
+      font-family: "Roboto";
+    }
+  }
+}
+.ebotn {
+  width: 45%;
+  height: 100%;
+  font-size: 12px;
+}
+.eelncein {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+.eelnceurld {
+  width: 90%;
+  height: 90%;
+  font-size: 24px;
+  border: none;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+  border-radius: 5px;
+}
+.esldrprec {
+  height: 50px;
+  width: 100%;
+  display: flex;
+}
+.esldrpreecsb {
+  height: 100%;
+  width: 90%;
+  margin-left: auto;
+}
+.eprecin {
+  width: 40%;
+  height: 90%;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+}
+.esldrbtn {
+  margin-top: 100px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.esldrpub {
+  background-color: green;
+  font-size: 17px;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}

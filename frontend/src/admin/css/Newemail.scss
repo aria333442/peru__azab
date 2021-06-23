@@ -1,0 +1,223 @@
+.nmailmain {
+  background-color: #f7f8fc;
+  height: 1500px;
+  display: flex;
+  margin-left: 0px;
+  border: none;
+  margin-top: 0px;
+}
+.nmailleft {
+  width: 20%;
+  height: 100%;
+  background-color: #363740;
+}
+
+.nmailright {
+  margin-left: 50px;
+  display: block;
+  width: 70%;
+  height: 100%;
+}
+.nmailhead {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  margin-top: 10px;
+  border: none;
+}
+.nmailtab {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  font-family: "Robto";
+}
+.slqwe {
+  margin-top: 60px;
+  justify-content: center;
+  > p {
+    background-color: green;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+  }
+}
+.nmailta {
+  font-size: 30px;
+  font-weight: bold;
+  height: 100%;
+  width: 80%;
+}
+.icon {
+  font-size: 25px;
+  height: 100%;
+  width: 10%;
+}
+.iconr {
+  font-size: 25px;
+  height: 100%;
+  width: 10%;
+}
+.user {
+  display: flex;
+  width: 25%;
+  height: 100%;
+}
+.use {
+  text-align: center;
+  font-size: 18px;
+  width: 50%;
+  height: 100%;
+}
+.dp {
+  width: 50%;
+  height: 100%;
+}
+.nmailnue {
+  margin-top: 60px;
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+}
+.nmailsnueleft {
+  margin-left: auto;
+  width: 10%;
+  height: 100%;
+}
+.nmailsnueright {
+  font-size: 24px;
+  font-weight: bold;
+  width: 90%;
+  height: 100%;
+}
+.nmailti {
+  width: 90%;
+  height: 25px;
+  display: flex;
+  margin-left: auto;
+  margin-top: 10px;
+}
+.nmailtisub {
+  width: 25%;
+  height: 100%;
+
+  font-size: 16px;
+  font-family: "Roboto";
+}
+.nmailtisubr {
+  width: 90%;
+  height: 100%;
+
+  font-size: 12px;
+}
+.nmailin {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+.nmailinsub {
+  width: 90%;
+  height: 100%;
+  margin-left: auto;
+}
+.nmailtituin {
+  width: 50%;
+  height: 100%;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+}
+.nmailfoto {
+  margin-top: 20px;
+  width: 100%;
+  height: 25px;
+  display: flex;
+}
+.nmailfotosub {
+  width: 90%;
+  height: 100%;
+
+  margin-left: auto;
+  font-size: 16px;
+  font-family: "Roboto";
+}
+.nmaildessub {
+  width: 90%;
+  height: 100%;
+
+  margin-left: auto;
+  font-size: 16px;
+  margin-top: 10px;
+  font-family: "Roboto";
+}
+.nmaildesin {
+  width: 100%;
+  height: 200px;
+}
+.nmaildesinsld {
+  width: 90%;
+  height: 100%;
+  margin-left: auto;
+}
+.nmaildesinslddd {
+  width: 60%;
+  height: 100%;
+  border: none;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+  border-radius: 10px;
+}
+.nmailprec {
+  height: 50px;
+  width: 100%;
+  display: flex;
+}
+.nmailpreecsb {
+  height: 100%;
+  width: 90%;
+
+  margin-left: auto;
+}
+.nmailprecin {
+  width: 50%;
+  height: 100%;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+}
+.nmailbtn {
+  margin-top: 10px;
+  width: 90%;
+  height: 50px;
+  margin-left: auto;
+}
+.nmailbttn {
+  height: 100%;
+  width: 25%;
+  border: none;
+}
+.nmailpub {
+  font-family: "Roboto";
+  font-size: 24px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: gray;
+}
+.nmailass {
+  width: 90%;
+  height: 50px;
+
+  margin-left: auto;
+}
+.nmailassin {
+  width: 50%;
+  height: 100%;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  box-shadow: 0px 1px 3px 0px #3f3f4426;
+}
